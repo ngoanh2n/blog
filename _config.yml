@@ -18,14 +18,14 @@ minimal_mistakes_skin    : "plum" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-US"
 title                    : "ngoanh2n's blog"
 title_separator          : "|"
-subtitle                 : "Try to automate!" # site tagline that appears below site title in masthead
+subtitle                 : # "Try to automate!"
 name                     : "Ho Huu Ngoan"
 description              : "Sharing Test Automation knowledge"
-url                      : "https://ngoanh2n.github.io/blog" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/blog" # the subpath of your site, e.g. "/blog"
-repository               : "ngoanh2n/blog" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+url                      : "https://ngoanh2n.github.io/blog"
+baseurl                  : "/blog"
+repository               : "ngoanh2n/blog"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/logo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -283,7 +283,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
   # _pages
