@@ -508,7 +508,7 @@
   .nav__title {
     color: #fff;
     font-size: $type-size-6;
-    background: $primary-color;
+    background: mix(#000, #56176F, 15%);
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
   }

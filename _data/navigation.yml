@@ -1,10 +1,16 @@
 # main links
 main:
+  - title: "Tags"
+    url: /tags/
+  - title: "Categories"
+    url: /categories/
+  - title: "Posts"
+    url: /year-archive/
+  - title: "Collections"
+    url: /collection-archive/
   - title: "About"
-    url: https://ngoanh2n.github.io
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+    url: https://ngoanh2n.github.io/
+  # - title: "Pages"
+  #   url: /page-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
