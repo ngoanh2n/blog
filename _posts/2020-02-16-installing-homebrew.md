@@ -20,11 +20,10 @@ The simplest way to install Homebrew is through ruby and curl, accomplished with
 - Copy and paste below command into the terminal window.
 > `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-<!-- <figure>
+<figure class='half_center'>
 	<a href="{{ site.baseurl }}/images/20200216/install-homebrew.png"><img src="{{ site.baseurl }}/images/20200216/install-homebrew.png"></a>
 	<figcaption>What you can see after runned command.</figcaption>
-</figure> -->
-![]({{ site.baseurl }}/images/20200216/install-homebrew.png)
+</figure>
 
 **To check the version type by the following command:**<br/>
 Ngoans-Mac:~ ngoanh2n$ `brew -v`<br/>
