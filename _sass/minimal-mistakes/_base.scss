@@ -107,10 +107,10 @@ abbr[data-original-title] {
 /* blockquotes */
 
 blockquote {
-  margin: 2em 1em 2em 0;
+  margin: 1em 1em 1em 0;
   padding-left: 1em;
   padding-right: 1em;
-  font-style: italic;
+  // font-style: italic;
   border-left: 0.25em solid $primary-color;
 
   cite {
@@ -170,6 +170,11 @@ td > code {
   font-size: 0.8em;
   background: $code-background-color;
   border-radius: $border-radius;
+  // Prevent automatic line breaks in a <code> tag
+  white-space:pre;
+  white-space:pre-wrap;
+  word-break:break-all;
+  word-wrap:break-word;
 
   &:before,
   &:after {
@@ -213,7 +218,7 @@ figure {
   -webkit-box-align: start;
   align-items: flex-start;
   flex-wrap: wrap;
-  margin: 2em 0;
+  margin: 1em 0;
 
   img,
   iframe,
@@ -242,6 +247,25 @@ figure {
 
     figcaption {
       width: 100%;
+      text-align: center;
+    }
+  }
+
+  &.half_center {
+    // Align center
+    display: flex;
+    justify-content: center;
+
+    > a,
+    > img {
+      @include breakpoint($small) {
+        width: calc(50% - 0.5em);
+      }
+    }
+
+    figcaption {
+      width: 100%;
+      text-align: center;
     }
   }
 
