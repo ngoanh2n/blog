@@ -9,4 +9,7 @@ Using [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes) for [Jek
 1. Install Jekyll Ruby by [instructions](https://jekyllrb.com/docs/installation/)
 2. `$ bundle install`
 3. `$ bundle exec jekyll serve`
-4. Open browser to `http://localhost:4000`
+4. Open browser to `http://localhost:4000/blog`
+
+## Indexing to Algolia
+`ALGOLIA_API_KEY={ADMIN-API-KEY} bundle exec jekyll algolia`
