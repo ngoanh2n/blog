@@ -1,11 +1,12 @@
 ---
-title:  "Installing IntelliJ IDEA (Not yet)"
-modified: 2020-02-16T20:14:43-04:00
+title:  "Install IntelliJ IDEA (Not yet)"
+modified: 2020-02-18T21:00:00+07:00
+permalink: /how-to/install-intellij-idea
 categories: 
-  - Setup Environment
+  - Setup-Environment
+  - How-To
 tags:
   - IntelliJ IDEA
-  - Setup
 ---
 
 IntelliJ IDEA is an integrated development environment (IDE) written in Java for developing computer software. It is developed by JetBrains, and there are Ultimate and Community editions available. In this post, I'll use `Community edition` - *version 2019.3.3*.

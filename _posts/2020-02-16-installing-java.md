@@ -1,11 +1,12 @@
 ---
-title:  "Installing Java (Not yet)"
-modified: 2020-02-16T16:31:12-04:00
+title:  "Install Java (Not yet)"
+modified: 2020-02-18T21:00:00+07:00
+permalink: /how-to/install-java
 categories: 
-  - Setup Environment
+  - Setup-Environment
+  - How-To
 tags:
   - Java
-  - Setup
 ---
 
 Java is a programming language and computing platform first released by Sun Microsystems in 1995. There are lots of applications and websites that will not work unless you have Java installed, and more are created every day. Java is fast, secure, and reliable. From laptops to datacenters, game consoles to scientific supercomputers, cell phones to the Internet, Java is everywhere!

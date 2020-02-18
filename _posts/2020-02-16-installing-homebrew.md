@@ -1,11 +1,12 @@
 ---
-title:  "Installing Homebrew on macOS"
-modified: 2020-02-16T16:11:22-04:00
+title:  "Install Homebrew on macOS"
+modified: 2020-02-18T21:00:00+07:00
+permalink: /how-to/install-homebrew-on-macos
 categories: 
-  - Setup Environment
+  - Setup-Environment
+  - How-To
 tags:
   - Homebrew
-  - Setup
 ---
 
 Homebrew is a free and open-source software package management system that simplifies the installation of software on Apple's macOS operating system and Linux.
