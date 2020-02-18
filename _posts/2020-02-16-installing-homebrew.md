@@ -3,8 +3,8 @@ title:  "Install Homebrew on macOS"
 modified: 2020-02-18T21:00:00+07:00
 permalink: /how-to/install-homebrew-on-macos
 categories: 
-  - Setup-Environment
-  - How-To
+  - Setup Environment
+  - How To
 tags:
   - Homebrew
 ---

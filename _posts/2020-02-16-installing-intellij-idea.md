@@ -3,8 +3,8 @@ title:  "Install IntelliJ IDEA (Not yet)"
 modified: 2020-02-18T21:00:00+07:00
 permalink: /how-to/install-intellij-idea
 categories: 
-  - Setup-Environment
-  - How-To
+  - Setup Environment
+  - How To
 tags:
   - IntelliJ IDEA
 ---
