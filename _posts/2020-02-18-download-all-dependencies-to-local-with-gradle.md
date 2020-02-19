@@ -126,13 +126,13 @@ task libsTest(type: Sync) {
 
 <figure class='half_center'>
 	<a href="{{ site.baseurl }}/images/20200218/intelli-gradle-window-tasks-other.png"><img src="{{ site.baseurl }}/images/20200218/intelli-gradle-window-tasks-other.png"></a>
-	<figcaption>Now you can see tasks: libsProdand and libsTest</figcaption>
+	<figcaption>Now you can see tasks: libsPro and libsTest</figcaption>
 </figure>
 
 ### Using command line (terminal)
 - cd `blog-demonstrations/download-dependencies-with-gradle`
 - `./gradlew libsProd` for implementation dependencies
-- `./gradlew libsTest` for implementation testImplementation
+- `./gradlew libsTest` for testImplementation dependencies
 
 **If your machine's OS is Windows:**<br/>
 Use `gradlew libsProd` instead.
