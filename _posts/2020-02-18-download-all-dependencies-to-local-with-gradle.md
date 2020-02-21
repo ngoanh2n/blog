@@ -1,6 +1,6 @@
 ---
 title:  "Download all dependencies to local with Gradle"
-modified: 2020-02-18T23:00:00+07:00
+modified: 2020-02-21T23:00:00+07:00
 permalink: /how-to/download-all-dependencies-to-local-with-gradle
 categories: 
   - How To
@@ -12,10 +12,17 @@ tags:
 {% include toc title="Getting Started" %}
 
 ## Assumption
+> **Gradle version:**
+> *This demo is using Gradle 6.2*<br/>
+> You can change version by (*See [https://gradle.org/releases](https://gradle.org/releases)*):<br/>
+> 1. Run on command line (terminal): `./gradle wrapper --gradle-version 6.2`<br/>
+> 2. Edit `gradle-wrapper.properties` in `gradle/wrapper` folder<br/>
+{: .notice--info}
+
 ### Structure
-You have a gradle project with structure.
+I have a gradle project with structure.
 ```
-blog-demonstrations/download-dependencies-with-gradle
+download-dependencies-with-gradle
 ├── gradle
 │   └── wrapper
 │       ├── gradle-wrapper.jar
@@ -39,11 +46,9 @@ blog-demonstrations/download-dependencies-with-gradle
 ```
 
 ### build.gradle
-For example, I'm using 4 dependencies:
+For example, I'm using 2 dependencies:
 - `com.codeborne:selenide:x.x.x`
 - `org.junit.jupiter:junit-jupiter-api:x.x.x`
-- `org.slf4j:slf4j-api:x.x.x`
-- `org.slf4j:slf4j-log4j12:x.x.x`
 
 ```gradle
 import java.nio.charset.StandardCharsets
@@ -81,10 +86,7 @@ repositories {
 
 dependencies {
     implementation('com.codeborne:selenide:5.6.1')
-    implementation('org.slf4j:slf4j-api:1.7.30')
-
     testImplementation('org.junit.jupiter:junit-jupiter-api:5.6.0')
-    testImplementation('org.slf4j:slf4j-log4j12:1.7.30')
 }
 
 buildscript {
@@ -100,25 +102,72 @@ buildscript {
 }
 ```
 
-## Add task for downloading
-1. Task to download all dependencies with declaration `implementation`
+## Tasks for downloading
+### Dependencies of source set main
+Task to download dependencies with `implementation`, `compileOnly`, `runtimeOnly` declarations
 ```gradle
-task libsProd(type: Sync) {
+task libsMain(type: Sync) {
     from configurations.compileClasspath
-    into "$buildDir/lib-prod"
+    from configurations.runtimeClasspath
+    into "$buildDir/libs-main"
 }
 ```
+Run task from command line (terminal)
+- cd `download-dependencies-with-gradle`
+- `./gradlew libsMain`
 
-2. Task to download all dependencies with declaration `testImplementation`
+### Dependencies of source set test
+Task to download dependencies with `testImplementation`, `testCompileOnly`, `testRuntimeOnly` declarations
 ```gradle
 task libsTest(type: Sync) {
-    from configurations.testRuntimeClasspath - configurations.compileClasspath
-    into "$buildDir/lib-test"
+    from configurations.testCompileClasspath - configurations.compileClasspath
+    from configurations.testRuntimeClasspath - configurations.runtimeClasspath
+    into "$buildDir/libs-test"
 }
 ```
+Run task from command line (terminal)
+- cd `download-dependencies-with-gradle`
+- `./gradlew libsTest`
 
-## Run tasks
-### Using IntelliJ IDEA
+### All dependencies
+Task to download all dependencies with `implementation`, `compileOnly`, `runtimeOnly`, `testImplementation`, `testCompileOnly`, `testRuntimeOnly` declarations
+```gradle
+task libsAll(type: Sync){
+    from configurations.testCompileClasspath
+    from configurations.testRuntimeClasspath
+    into "$buildDir/libs-all"
+}
+```
+Run task from command line (terminal)
+- cd `download-dependencies-with-gradle`
+- `./gradlew libsAll`
+
+### Download dependencies with configurations
+Task to download dependencies with `implementation`, `testImplementation` configurations
+```gradle
+configurations {
+    implementation
+    testImplementation
+}
+
+configurations.implementation.setCanBeResolved(true)
+configurations.testImplementation.setCanBeResolved(true)
+
+task libsConfigurations(type: Sync){
+    from configurations.implementation
+    from configurations.testImplementation
+    into "$buildDir/libs-configurations"
+}
+```
+Run task from command line (terminal)
+- cd `download-dependencies-with-gradle`
+- `./gradlew libsConfigurations`
+
+**If your machine's OS is Windows:**<br/>
+Use `gradlew [taskName]` instead.
+{: .notice--info}
+
+## Run tasks using IntelliJ IDEA
 - Open this in IntelliJ IDEA
 - Navigate **View > Tool Windows > Gradle**
 - Expand **Taks > other**
@@ -126,20 +175,15 @@ task libsTest(type: Sync) {
 
 <figure class='half_center'>
 	<a href="{{ site.baseurl }}/images/20200218/intelli-gradle-window-tasks-other.png"><img src="{{ site.baseurl }}/images/20200218/intelli-gradle-window-tasks-other.png"></a>
-	<figcaption>Now you can see tasks: libsPro and libsTest</figcaption>
+	<figcaption>Now you can see tasks: libsProd and libsTest</figcaption>
 </figure>
 
-### Using command line (terminal)
-- cd `blog-demonstrations/download-dependencies-with-gradle`
-- `./gradlew libsProd` for implementation dependencies
-- `./gradlew libsTest` for testImplementation dependencies
-
-**If your machine's OS is Windows:**<br/>
-Use `gradlew libsProd` instead.
-{: .notice--info}
-
 ## Output
-So, your downloaded jars (from dependencies) available at `blog-demonstrations/download-dependencies-with-gradle/build` by 2 subfolders named `lib-prod` and `lib-test`.
-This means, it also downloads *dependencies tree* - dependencies of 4 dependencies above.
+So, your downloaded jars (from dependencies) available at `download-dependencies-with-gradle/build` by 2 subfolders named `libs-main`, `libs-test`, `libs-all`, `libs-configurations`
+This means, it also downloads *dependencies tree* - dependencies of 2 dependencies above.
+
+**Show dependencies tree:**<br/>
+Run `gradlew :dependencies`
+{: .notice--info}
 
 Demonstration project [here](https://github.com/ngoanh2n/blog-demonstrations/tree/master/download-dependencies-with-gradle)
