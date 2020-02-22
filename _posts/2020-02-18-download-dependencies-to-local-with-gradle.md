@@ -20,8 +20,9 @@ tags:
 > **IntelliJ IDEA**: 2019.3.1 (Community Edition)<br/>
 
 > **[TIP]** Gradle version:<br/>
-> You can change target version by 2 ways (*See [https://gradle.org/releases](https://gradle.org/releases)*):<br/>
-> 1. Run on command line (terminal): `./gradlew wrapper --gradle-version=6.2`<br/>
+> You can change target version by 2 ways (*See [https://gradle.org/releases](https://gradle.org/releases)*):
+> 1. Run on command line (terminal):<br/>
+> `./gradlew wrapper --gradle-version=6.2`<br/>
 > 2. Edit [`gradle-wrapper.properties`](https://github.com/ngoanh2n/blog-demonstrations/blob/master/download-dependencies-with-gradle/gradle/wrapper/gradle-wrapper.properties) in `gradle/wrapper` folder<br/>
 {: .notice--info}
 
@@ -119,8 +120,8 @@ task libsMain(type: Sync) {
 }
 ```
 Run task from command line (terminal)
-- cd `download-dependencies-with-gradle`
-- `./gradlew libsMain`
+> `cd download-dependencies-with-gradle`<br/>
+> `./gradlew libsMain`<br/>
 
 ### Dependencies of source set test
 Task to download dependencies with `testImplementation`, `testCompileOnly`, `testRuntimeOnly` declarations
@@ -132,8 +133,8 @@ task libsTest(type: Sync) {
 }
 ```
 Run task from command line (terminal)
-- cd `download-dependencies-with-gradle`
-- `./gradlew libsTest`
+> `cd download-dependencies-with-gradle`<br/>
+> `./gradlew libsTest`<br/>
 
 ### All dependencies
 Task to download all dependencies with `implementation`, `compileOnly`, `runtimeOnly`, `testImplementation`, `testCompileOnly`, `testRuntimeOnly` declarations
@@ -145,8 +146,8 @@ task libsAll(type: Sync){
 }
 ```
 Run task from command line (terminal)
-- cd `download-dependencies-with-gradle`
-- `./gradlew libsAll`
+> `cd download-dependencies-with-gradle`<br/>
+> `./gradlew libsAll`<br/>
 
 ### Download dependencies with configurations
 Task to download dependencies with `implementation`, `testImplementation` configurations
@@ -166,8 +167,8 @@ task libsConfigurations(type: Sync){
 }
 ```
 Run task from command line (terminal)
-- cd `download-dependencies-with-gradle`
-- `./gradlew libsConfigurations`
+> `cd download-dependencies-with-gradle`<br/>
+> `./gradlew libsConfigurations`<br/>
 
 **[TIP]** If your machine's OS is Windows:<br/>
 Use `gradlew [taskName]` instead.
