@@ -166,7 +166,7 @@ Run task from command line (terminal)
 - `./gradlew libsConfigurations`
 
 **[TIP]** If your machine's OS is Windows:<br/>
-Use `./gradlew [taskName]` instead.
+Use `gradlew [taskName]` instead.
 {: .notice--success}
 
 ## Run tasks using IntelliJ IDEA
