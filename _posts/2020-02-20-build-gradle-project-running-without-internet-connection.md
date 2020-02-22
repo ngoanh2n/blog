@@ -116,10 +116,10 @@ task download(dependsOn: ['libsImplementation', 'libsTestImplementation', 'libsA
 ```
 
 ### Run task and download
-`./gradlew download`<br/>
-This task calls tasks `libsImplementation`, `libsTestImplementation`, `libsAnnotationProcessor`.
+> `./gradlew download`<br/>
+- This task calls tasks `libsImplementation`, `libsTestImplementation`, `libsAnnotationProcessor`.
 You don't need to run above 3 tasks in sequence.<br/>
-Your dependencies as JAR files appear in `libs` directory by subfolders
+- Your dependencies as JAR files appear in `libs` directory by subfolders
 named `libs-implementation`, `libs-test-implementation` and `libs-annotation-processor`.
 
 ### Switch to local mode
@@ -129,27 +129,31 @@ named `libs-implementation`, `libs-test-implementation` and `libs-annotation-pro
 3. Move downloaded `gradle-6.2-bin.zip` file to `gradle/wrapper` folder
 4. Open [`gradle/wrapper/gradle-wrapper.properties`](https://github.com/ngoanh2n/blog-demonstrations/tree/master/build-gradle-without-internet-conection/gradle/wrapper/gradle-wrapper.properties) file
 5. Change value of `distributionUrl` property to `gradle-6.2-bin.zip`
-```yml
-distributionBase=GRADLE_USER_HOME
-distributionPath=wrapper/dists
-distributionUrl=gradle-6.2-bin.zip
-zipStoreBase=GRADLE_USER_HOME
-zipStorePath=wrapper/dists
-```
+
+    ```yml
+    distributionBase=GRADLE_USER_HOME
+    distributionPath=wrapper/dists
+    distributionUrl=gradle-6.2-bin.zip
+    zipStoreBase=GRADLE_USER_HOME
+    zipStorePath=wrapper/dists
+    ```
 
 #### Build Configuration
 Replace old blocks in build.gradle file to:
 
-1. `repositories` block
-```gradle
-repositories {
+- `repositories` block
+    <p/>
+    ```gradle
+    repositories {
         flatDir { dirs 'libs' }
-}
-```
+    }
+    ```
+    <p/>
 
-2. `dependencies` block
-```gradle
-dependencies {
+- `dependencies` block
+    <p/>
+    ```gradle
+    dependencies {
         implementation fileTree(dir: 'libs/libs-implementation', include: ['*.jar'])
         testImplementation fileTree(dir: 'libs/libs-test-implementation', include: ['*.jar'])
 
@@ -158,27 +162,28 @@ dependencies {
 
         testCompileOnly files('libs/libs-annotation-processor/lombok-1.18.12.jar')
         testAnnotationProcessor files('libs/libs-annotation-processor/lombok-1.18.12.jar')
-}
-```
+    }
+    ```
+    <p/>
 
-3. `buildscript` block
-```gradle
-buildscript {
+- `buildscript` block
+    <p/>
+    ```gradle
+    buildscript {
         repositories {
             flatDir { dirs 'libs' }
         }
         dependencies {
             classpath files('libs/libs-implementation/allure-gradle:2.8.1.jar')
         }
-}
-```
+    }
+    ```
+    <p/>
 
 ### Try to test
 Now, you have to build to assure that succeeded.
-`./gradlew build`
+> `./gradlew build`
 
 Full build.gradle file with online and offline modes:
 - [online.gradle](https://github.com/ngoanh2n/blog-demonstrations/tree/master/build-gradle-without-internet-conection/gradle/online.gradle)
 - [offline.gradle](https://github.com/ngoanh2n/blog-demonstrations/tree/master/build-gradle-without-internet-conection/gradle/offline.gradle)
-
-Cheers!
