@@ -19,14 +19,13 @@ tags:
 > **Gradle**: 6.2<br/>
 > **IntelliJ IDEA**: 2019.3.1 (Community Edition)<br/>
 
-## Assumptions
-> **Gradle version:**
-> *This demo is using Gradle 6.2*<br/>
-> You can change version by 2 ways (*See [https://gradle.org/releases](https://gradle.org/releases)*):<br/>
+> **[TIP]** Gradle version:<br/>
+> You can change target version by 2 ways (*See [https://gradle.org/releases](https://gradle.org/releases)*):<br/>
 > 1. Run on command line (terminal): `./gradlew wrapper --gradle-version=6.2`<br/>
 > 2. Edit [`gradle-wrapper.properties`](https://github.com/ngoanh2n/blog-demonstrations/blob/master/download-dependencies-with-gradle/gradle/wrapper/gradle-wrapper.properties) in `gradle/wrapper` folder<br/>
 {: .notice--info}
 
+## Assumptions
 ### Structure
 I have a gradle project with structure.
 ```
