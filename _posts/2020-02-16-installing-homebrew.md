@@ -40,8 +40,8 @@ Homebrew/homebrew-cask (git revision c718d; last commit 2020-02-16)<br/>
 ## Install Software Packages through Homebrew
 Install packages with Homebrew by the following command:
 > `brew install [package name]`<br/>
-> E.g. `brew install wget`
+> e.g. `brew install wget`
 
-## Remove Homebrew
+## Uninstall Homebrew
 Uninstall Homebrew is through ruby and curl with a single command.
 > `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"`
