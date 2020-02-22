@@ -6,6 +6,8 @@ categories:
   - How To
 tags:
   - Gradle
+  - Build Tool
+  - IntelliJ IDEA
 ---
 
 {% include base_path %}
