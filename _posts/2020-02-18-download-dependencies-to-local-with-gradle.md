@@ -11,7 +11,7 @@ tags:
 ---
 
 {% include base_path %}
-{% include toc title="Getting Started" %}
+{% include toc title="Table of Contents" %}
 
 ## Assumptions
 > **Gradle version:**
