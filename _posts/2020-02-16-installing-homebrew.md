@@ -12,7 +12,7 @@ tags:
 Homebrew is a free and open-source software package management system that simplifies the installation of software on Apple's macOS operating system and Linux.
 
 {% include base_path %}
-{% include toc title="Getting Started" %}
+{% include toc title="Table of Contents" %}
 
 ## Install Homebrew
 The simplest way to install Homebrew is through ruby and curl, accomplished with a single command.
@@ -44,4 +44,4 @@ Install packages with Homebrew by the following command:
 
 ## Remove Homebrew
 Uninstall Homebrew is through ruby and curl with a single command.
-> `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"`
+> `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"`
