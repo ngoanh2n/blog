@@ -1,7 +1,7 @@
 ---
-title:  "Download all dependencies to local with Gradle"
+title:  "Download dependencies to local with Gradle"
 modified: 2020-02-21T23:00:00+07:00
-permalink: /how-to/download-all-dependencies-to-local-with-gradle
+permalink: /how-to/download-dependencies-to-local-with-gradle
 categories: 
   - How To
 tags:
@@ -13,12 +13,12 @@ tags:
 {% include base_path %}
 {% include toc title="Getting Started" %}
 
-## Assumption
+## Assumptions
 > **Gradle version:**
 > *This demo is using Gradle 6.2*<br/>
-> You can change version by (*See [https://gradle.org/releases](https://gradle.org/releases)*):<br/>
-> 1. Run on command line (terminal): `./gradle wrapper --gradle-version 6.2`<br/>
-> 2. Edit `gradle-wrapper.properties` in `gradle/wrapper` folder<br/>
+> You can change version by 2 ways (*See [https://gradle.org/releases](https://gradle.org/releases)*):<br/>
+> 1. Run on command line (terminal): `./gradlew wrapper --gradle-version=6.2`<br/>
+> 2. Edit [`gradle-wrapper.properties`](https://github.com/ngoanh2n/blog-demonstrations/blob/master/download-dependencies-with-gradle/gradle/wrapper/gradle-wrapper.properties) in `gradle/wrapper` folder<br/>
 {: .notice--info}
 
 ### Structure
@@ -165,27 +165,27 @@ Run task from command line (terminal)
 - cd `download-dependencies-with-gradle`
 - `./gradlew libsConfigurations`
 
-**If your machine's OS is Windows:**<br/>
-Use `gradlew [taskName]` instead.
-{: .notice--info}
+**[TIP]** If your machine's OS is Windows:<br/>
+Use `./gradlew [taskName]` instead.
+{: .notice--success}
 
 ## Run tasks using IntelliJ IDEA
 - Open this in IntelliJ IDEA
-- Navigate **View > Tool Windows > Gradle**
+- Navigate by the following **View > Tool Windows > Gradle**
 - Expand **Taks > other**
 - Double click on the task which you want to execute
 
 <figure class='half_center'>
 	<a href="{{ site.baseurl }}/images/20200218/intelli-gradle-window-tasks-other.png"><img src="{{ site.baseurl }}/images/20200218/intelli-gradle-window-tasks-other.png"></a>
-	<figcaption>Now you can see tasks: libsProd and libsTest</figcaption>
+	<figcaption>Now you can see tasks: libsMain, libsTest, libsAll and libsConfigurations</figcaption>
 </figure>
 
 ## Output
-So, your downloaded jars (from dependencies) available at `download-dependencies-with-gradle/build` by 2 subfolders named `libs-main`, `libs-test`, `libs-all`, `libs-configurations`
+So, your downloaded jars (from dependencies) available at `download-dependencies-with-gradle/build` by 4 subfolders named `libs-main`, `libs-test`, `libs-all`, `libs-configurations`
 This means, it also downloads *dependencies tree* - dependencies of 2 dependencies above.
 
-**Show dependencies tree:**<br/>
-Run `gradlew :dependencies`
-{: .notice--info}
+**[TIP]** Show dependencies tree:<br/>
+Use `./gradlew :dependencies`
+{: .notice--success}
 
 Demonstration project [here](https://github.com/ngoanh2n/blog-demonstrations/tree/master/download-dependencies-with-gradle)
