@@ -34,14 +34,13 @@ download-dependencies-with-gradle
 │   └── wrapper
 │       ├── gradle-wrapper.jar
 │       └── gradle-wrapper.properties
-├── src/test
-│   ├── java/com/github/ngoanh2n/blog-demonstration
-│   │   ├── pkg1
-│   │   │   ├── Class1.java
-│   │   │   └── Class2.java
-│   │   ├── pkg2
-│   │   │   └── Class3.java
-│   └── resources
+├── src
+│   ├── main
+│   │   ├── java
+│   │   └── resources
+│   └── test
+│       ├── java
+│       └── resources
 ├── .gitignore
 ├── LICENSE
 ├── README.md
