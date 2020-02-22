@@ -13,6 +13,12 @@ tags:
 {% include base_path %}
 {% include toc title="Table of Contents" %}
 
+## What using in demonstration
+> **OS**: macOS 10.14.5<br/>
+> **Java**: 1.8.0_211<br/>
+> **Gradle**: 6.2<br/>
+> **IntelliJ IDEA**: 2019.3.1 (Community Edition)<br/>
+
 ## Assumptions
 > **Gradle version:**
 > *This demo is using Gradle 6.2*<br/>
