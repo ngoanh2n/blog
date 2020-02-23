@@ -1,7 +1,7 @@
 ---
-title:  "Build Gradle project running without internet connection"
+title:  "Build Gradle project without an internet connection"
 modified: 2020-02-22T23:00:00+07:00
-permalink: /how-to/build-gradle-project-running-without-internet-connection
+permalink: /how-to/build-gradle-project-without-an-internet-connection
 categories: 
   - How To
 tags:
