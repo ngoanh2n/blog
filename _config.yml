@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Ho Huu Ngoan"
   avatar           : "/assets/images/ngoanh2n.jpg"
-  bio              : "Don't talk, just do it!"
+  bio              : "Everything is new to me!"
   location         : "HCMC, Vietnam"
   # email            : "ngoanh2n@gmail.com"
   links:
@@ -144,9 +144,6 @@ footer:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/ngoanh2n"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/ngoanh2n"
     - label: "Stackoverflow"
       icon: "fab fa-fw fa-stack-overflow"
       url: "https://stackoverflow.com/users/3419571/ho-huu-ngoan"
