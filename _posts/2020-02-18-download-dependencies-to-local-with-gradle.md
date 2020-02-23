@@ -110,6 +110,11 @@ buildscript {
 ```
 
 ## Tasks for downloading
+Type the following command in your command line or terminal.
+```console
+cd download-dependencies-with-gradle
+```
+
 ### Dependencies of source set main
 Task to download dependencies with `implementation`, `compileOnly`, `runtimeOnly` declarations
 ```gradle
@@ -119,9 +124,10 @@ task libsMain(type: Sync) {
     into "$buildDir/libs-main"
 }
 ```
-Run task from command line (terminal)
-> `cd download-dependencies-with-gradle`<br/>
-> `./gradlew libsMain`<br/>
+Type the following command in your command line or terminal.
+```bat
+./gradlew libsMain
+```
 
 ### Dependencies of source set test
 Task to download dependencies with `testImplementation`, `testCompileOnly`, `testRuntimeOnly` declarations
@@ -132,9 +138,10 @@ task libsTest(type: Sync) {
     into "$buildDir/libs-test"
 }
 ```
-Run task from command line (terminal)
-> `cd download-dependencies-with-gradle`<br/>
-> `./gradlew libsTest`<br/>
+Type the following command in your command line or terminal.
+```bat
+./gradlew libsTest
+```
 
 ### All dependencies
 Task to download all dependencies with `implementation`, `compileOnly`, `runtimeOnly`, `testImplementation`, `testCompileOnly`, `testRuntimeOnly` declarations
@@ -145,9 +152,10 @@ task libsAll(type: Sync){
     into "$buildDir/libs-all"
 }
 ```
-Run task from command line (terminal)
-> `cd download-dependencies-with-gradle`<br/>
-> `./gradlew libsAll`<br/>
+Type the following command in your command line or terminal.
+```bat
+./gradlew libsAll
+```
 
 ### Download dependencies with configurations
 Task to download dependencies with `implementation`, `testImplementation` configurations
@@ -166,9 +174,10 @@ task libsConfigurations(type: Sync){
     into "$buildDir/libs-configurations"
 }
 ```
-Run task from command line (terminal)
-> `cd download-dependencies-with-gradle`<br/>
-> `./gradlew libsConfigurations`<br/>
+Type the following command in your command line or terminal.
+```bat
+./gradlew libsConfigurations
+```
 
 **[TIP]** If your machine's OS is Windows:<br/>
 Use `gradlew [taskName]` instead.
@@ -190,7 +199,7 @@ So, your downloaded jars (from dependencies) available at `download-dependencies
 This means, it also downloads *dependencies tree* - dependencies of 2 dependencies above.
 
 **[TIP]** Show dependencies tree:<br/>
-Use `./gradlew :dependencies`
+Use ```bat./gradlew :dependencies```
 {: .notice--success}
 
 Demonstration project [here](https://github.com/ngoanh2n/blog-demonstrations/tree/master/download-dependencies-with-gradle)
