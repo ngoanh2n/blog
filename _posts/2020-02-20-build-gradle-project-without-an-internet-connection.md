@@ -116,7 +116,9 @@ task download(dependsOn: ['libsImplementation', 'libsTestImplementation', 'libsA
 ```
 
 ### Run task and download
-> `./gradlew download`<br/>
+```bat
+./gradlew download
+```
 - This task calls tasks `libsImplementation`, `libsTestImplementation`, `libsAnnotationProcessor`.
 You don't need to run above 3 tasks in sequence.<br/>
 - Your dependencies as JAR files appear in `libs` directory by subfolders
@@ -182,7 +184,9 @@ Replace old blocks in build.gradle file to:
 
 ### Try to test
 Now, you have to build to assure that succeeded.
-> `./gradlew build`
+```bat
+./gradlew build
+```
 
 Full build.gradle file with online and offline modes:
 - [online.gradle](https://github.com/ngoanh2n/blog-demonstrations/tree/master/build-gradle-without-internet-conection/gradle/online.gradle)
