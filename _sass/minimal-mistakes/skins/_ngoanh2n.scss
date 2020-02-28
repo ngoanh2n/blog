@@ -20,6 +20,8 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 // Highlight searching
 $search-match-title: #1faaaa !default;
 $search-match-excerpt: mix(#FFF, $search-match-title, 10%) !default;
+// Pagination
+$pagination-background-color: mix(#000, $background-color, 15%) !default;
 
 /* plum syntax highlighting (base16) */
 $base00: #ffffff !default;
