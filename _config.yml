@@ -22,10 +22,10 @@ subtitle                 : # "Try to automate!"
 name                     : "Ho Huu Ngoan"
 description              : "Test Automation Knowledge"
 url                      : "https://ngoanh2n.github.io/blog"
-baseurl                  : "/blog"
+baseurl                  : # "/blog"
 repository               : "ngoanh2n/blog"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # "/assets/images/logo.png"
+logo                     : "/assets/images/logo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
