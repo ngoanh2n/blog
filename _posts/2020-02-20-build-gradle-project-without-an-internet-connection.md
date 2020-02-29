@@ -6,8 +6,10 @@ categories:
   - How To
 tags:
   - Gradle
-  - Gradle Local
+  - Gradle Local Dependencies
+  - Gradle Build
   - Build Tool
+  - Java
 ---
 
 Most companies usually have a firewall that filters or restricts some domains and hosts. 
@@ -141,9 +143,9 @@ named `libs-implementation`, `libs-test-implementation` and `libs-annotation-pro
     ```
 
 #### Build Configuration
-Replace old blocks in build.gradle file to:
+Replace below scripts in build.gradle file to:
 
-- `repositories` block
+- `repositories {}` script
     <p/>
     ```gradle
     repositories {
@@ -152,7 +154,7 @@ Replace old blocks in build.gradle file to:
     ```
     <p/>
 
-- `dependencies` block
+- `dependencies {}` script
     <p/>
     ```gradle
     dependencies {
@@ -168,7 +170,7 @@ Replace old blocks in build.gradle file to:
     ```
     <p/>
 
-- `buildscript` block
+- `buildscript {}` script
     <p/>
     ```gradle
     buildscript {
