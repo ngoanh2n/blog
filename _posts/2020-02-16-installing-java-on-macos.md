@@ -121,3 +121,5 @@ Copy and paste into editing `.bash_profile` window
     Java(TM) SE Runtime Environment (build 1.8.0_211-b12)
     Java HotSpot(TM) 64-Bit Server VM (build 25.211-b12, mixed mode)
     ```
+
+References: [Stackoverflow Question 52524112](https://stackoverflow.com/questions/52524112/how-do-i-install-java-on-mac-osx-allowing-version-switching)
