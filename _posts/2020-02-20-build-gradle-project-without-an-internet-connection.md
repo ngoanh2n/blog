@@ -6,9 +6,8 @@ categories:
   - How To
 tags:
   - Gradle
-  - Gradle Local Dependencies
   - Gradle Build
-  - Build Tool
+  - Gradle Local Dependencies
   - Java
 ---
 
