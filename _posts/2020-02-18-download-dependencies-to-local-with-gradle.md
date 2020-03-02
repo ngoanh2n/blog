@@ -6,7 +6,7 @@ categories:
   - How To
 tags:
   - Gradle
-  - Build Tool
+  - Gradle Build
   - Gradle Local Dependencies
   - IntelliJ IDEA
   - Java
