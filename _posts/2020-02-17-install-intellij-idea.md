@@ -7,8 +7,8 @@ categories:
   - How To
 tags:
   - IntelliJ IDEA
-  - macOS
   - IntelliJ IDEA Configuration
+  - macOS
 ---
 
 IntelliJ IDEA is an integrated development environment (IDE) written in Java for developing computer software. It is developed by JetBrains, and there are Ultimate and Community editions available. In this post, I'll use `Community edition` - *version 2019.3.3*.
