@@ -1,17 +1,16 @@
 ---
-title:  "Declare multi versions of a dependency in Gradle"
+title:  "Declare multiple versions of a dependency in Gradle"
 modified: 2020-02-28T23:00:00+07:00
-permalink: /how-to/declare-multi-versions-of-a-dependency-in-gradle
+permalink: /how-to/declare-multiple-versions-of-a-dependency-in-gradle
 categories: 
   - How To
 tags:
   - Gradle
-  - Dependency Management
   - Gradle Build
-  - Build Tool
+  - Dependency Multiple Versions
+  - Dependency Management
   - TestNG
   - Allure
-  - Gradle Multi Versions
   - Java
 ---
 
