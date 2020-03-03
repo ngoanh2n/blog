@@ -139,12 +139,9 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Github"
+    - label: "Source"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/ngoanh2n"
-    - label: "Stackoverflow"
-      icon: "fab fa-fw fa-stack-overflow"
-      url: "https://stackoverflow.com/users/3419571/ho-huu-ngoan"
+      url: "https://github.com/ngoanh2n/blog"
 
 # Reading Files
 include:
