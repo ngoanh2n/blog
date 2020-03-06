@@ -92,10 +92,8 @@
 
       &.current,
       &.current.disabled {
-        // color: #fff;
         color: $text-color;
-        // background: $primary-color;
-        background: $pagination-background-color;
+        background: $border-color;
       }
 
       &.disabled {
@@ -504,17 +502,16 @@
 .toc {
   font-family: $sans-serif-narrow;
   color: $gray;
-  background-color: $background-color;
+  background-color: $toc-title-background-color;
   border: 1px solid $border-color;
   border-radius: $border-radius;
   -webkit-box-shadow: $box-shadow;
   box-shadow: $box-shadow;
 
   .nav__title {
-    color: #fff;
+    color: $text-color;
     font-size: $type-size-6;
-    // background: $primary-color;
-    background: mix(#000, #56176F, 15%);
+    background: $toc-menu-background-color;
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
   }
@@ -539,13 +536,17 @@
   a {
     display: block;
     padding: 0.25rem 0.75rem;
-    color: $muted-text-color;
+    color: $text-color;
     // font-weight: bold;
     line-height: 1.5;
     border-bottom: 1px solid $border-color;
 
     &:hover {
-      color: $text-color;
+      color: $link-color-hover;
+    }
+
+    &:visited {
+      color: $link-color-visited;
     }
   }
 
