@@ -14,7 +14,7 @@
   height: $nav-toggle-height;
   border: 0;
   outline: none;
-  color: $primary-color;
+  color: $secondary-color;
   background-color: transparent;
   cursor: pointer;
   -webkit-transition: 0.2s;
@@ -122,13 +122,13 @@
 }
 
 .archive__item-title .ais-Highlight {
-  color: $search-match-title;
+  color: $primary-color;
   font-style: normal;
   text-decoration: underline;
 }
 
 .archive__item-excerpt .ais-Highlight {
-  color: $search-match-excerpt;
+  color: $primary-color;
   font-style: normal;
   font-weight: bold;
 }
