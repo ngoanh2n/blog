@@ -154,7 +154,7 @@ configurations {
 }
 ```
 
-### Donwload both versions
+### Download both versions
 ```gradle
 /*
 * Download dependencies through configurations 'implementationTestNG6' 
