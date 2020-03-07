@@ -5,9 +5,9 @@ main:
   - title: "Categories"
     url: /categories/
   - title: "Posts"
-    url: /year-archive/
-  - title: "Collections"
-    url: /collection-archive/
+    url: /posts/
+  # - title: "Collections"
+  #   url: /collections/
   - title: "About"
     url: https://ngoanh2n.github.io/
   # - title: "Pages"
