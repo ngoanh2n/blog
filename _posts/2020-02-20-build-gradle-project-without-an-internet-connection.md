@@ -127,10 +127,10 @@ named `libs-implementation`, `libs-test-implementation` and `libs-annotation-pro
 
 ### Switch to local mode
 #### Distribution Url
-1. Access [https://gradle.org/releases/](https://gradle.org/releases/)
+1. Access [https://gradle.org/releases/](https://gradle.org/releases/){:target="_blank"}
 2. Select target version and click `binary-only` link to download (E.g. I select version 6.2)
 3. Move downloaded `gradle-6.2-bin.zip` file to `gradle/wrapper` folder
-4. Open [gradle/wrapper/gradle-wrapper.properties](https://github.com/ngoanh2n/blog-demonstrations/tree/master/build-gradle-without-internet-conection/gradle/wrapper/gradle-wrapper.properties) file
+4. Open [gradle/wrapper/gradle-wrapper.properties](https://github.com/ngoanh2n/blog-demonstrations/tree/master/build-gradle-without-internet-conection/gradle/wrapper/gradle-wrapper.properties){:target="_blank"} file
 5. Change value of `distributionUrl` property to `gradle-6.2-bin.zip`
 
     ```yml
@@ -190,5 +190,5 @@ Now, you have to build to assure that succeeded.
 ```
 
 Full build.gradle file with online and offline modes:
-- [online.gradle](https://github.com/ngoanh2n/blog-demonstrations/tree/master/build-gradle-without-internet-conection/gradle/online.gradle)
-- [offline.gradle](https://github.com/ngoanh2n/blog-demonstrations/tree/master/build-gradle-without-internet-conection/gradle/offline.gradle)
+- [online.gradle](https://github.com/ngoanh2n/blog-demonstrations/tree/master/build-gradle-without-internet-conection/gradle/online.gradle){:target="_blank"}
+- [offline.gradle](https://github.com/ngoanh2n/blog-demonstrations/tree/master/build-gradle-without-internet-conection/gradle/offline.gradle){:target="_blank"}

@@ -61,7 +61,7 @@ public class DemonstrationTest {
 ```
 
 **[SOURCE]** Source code illustrates the conflict between dependencies on Github:<br/>
-See or clone [declare-multi-versions-of-a-dependency-in-gradle_conflict](https://github.com/ngoanh2n/blog-demonstrations/tree/master/declare-multi-versions-of-a-dependency-in-gradle_conflict)
+See or clone [declare-multi-versions-of-a-dependency-in-gradle_conflict](https://github.com/ngoanh2n/blog-demonstrations/tree/master/declare-multi-versions-of-a-dependency-in-gradle_conflict){:target="_blank"}
 {: .notice--success}
 
 <!-- ## Why the error occurred -->
@@ -106,8 +106,8 @@ Let check dependencies tree by following command:
 ./gradlew :dependencies
 ```
 
-> **[TIP]** You can also check on [Maven Repository](https://mvnrepository.com):<br/>
-> Access [io.qameta.allure:allure-testng:2.13.1](https://mvnrepository.com/artifact/io.qameta.allure/allure-testng/2.13.1)<br/>
+> **[TIP]** You can also check on [Maven Repository](https://mvnrepository.com){:target="_blank"}:<br/>
+> Access [io.qameta.allure:allure-testng:2.13.1](https://mvnrepository.com/artifact/io.qameta.allure/allure-testng/2.13.1){:target="_blank"}<br/>
 > Scroll to `Runtime Dependencies` to see denpendencies version and check it's up to date or not.
 {: .notice--info}
 
@@ -188,7 +188,9 @@ Now try to run test method `DemonstrationTest.test` again
 ```
 
 **[SOURCE]** Source code illustrates how to resolve on Github:<br/>
-See or clone [declare-multi-versions-of-a-dependency-in-gradle_conflict-resolved](https://github.com/ngoanh2n/blog-demonstrations/tree/master/declare-multi-versions-of-a-dependency-in-gradle_conflict-resolved)
+See or clone [declare-multi-versions-of-a-dependency-in-gradle_conflict-resolved](https://github.com/ngoanh2n/blog-demonstrations/tree/master/declare-multi-versions-of-a-dependency-in-gradle_conflict-resolved){:target="_blank"}
 {: .notice--success}
 
-References: [Gradle Docs](https://docs.gradle.org)
+**[REFERENCES]** Gradle Docs:<br/>
+[https://docs.gradle.org](https://docs.gradle.org){:target="_blank"}
+{: .notice--info}
