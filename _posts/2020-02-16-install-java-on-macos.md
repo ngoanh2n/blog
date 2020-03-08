@@ -122,4 +122,6 @@ Copy and paste into editing `.bash_profile` window
     Java HotSpot(TM) 64-Bit Server VM (build 25.211-b12, mixed mode)
     ```
 
-References: [Stackoverflow Question 52524112](https://stackoverflow.com/questions/52524112/how-do-i-install-java-on-mac-osx-allowing-version-switching)
+**[REFERENCES]** Stackoverflow:<br/>
+[Question 52524112](https://stackoverflow.com/questions/52524112/how-do-i-install-java-on-mac-osx-allowing-version-switching){:target="_blank"}
+{: .notice--info}
