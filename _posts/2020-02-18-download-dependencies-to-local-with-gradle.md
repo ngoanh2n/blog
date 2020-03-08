@@ -22,10 +22,10 @@ tags:
 > **IntelliJ IDEA**: 2019.3.1 (Community Edition)<br/>
 
 > **[TIP]** Gradle version:<br/>
-You can change target version by 2 ways (*See [https://gradle.org/releases](https://gradle.org/releases)*):
+You can change target version by 2 ways (*See [https://gradle.org/releases](https://gradle.org/releases){:target="_blank"}*):
 1. Run on command line (terminal):<br/>
 `./gradlew wrapper --gradle-version=6.2`<br/>
-2. Edit [`gradle-wrapper.properties`](https://github.com/ngoanh2n/blog-demonstrations/blob/master/download-dependencies-with-gradle/gradle/wrapper/gradle-wrapper.properties) in `gradle/wrapper` folder<br/>
+2. Edit [`gradle-wrapper.properties`](https://github.com/ngoanh2n/blog-demonstrations/blob/master/download-dependencies-with-gradle/gradle/wrapper/gradle-wrapper.properties){:target="_blank"} in `gradle/wrapper` folder<br/>
 {: .notice--info}
 
 ## Assumptions
@@ -205,5 +205,5 @@ Use ```./gradlew :dependencies```
 {: .notice--success}
 
 **[SOURCE]** Source code illustrates on Github:<br/>
-See or clone [download-dependencies-with-gradle](hhttps://github.com/ngoanh2n/blog-demonstrations/tree/master/download-dependencies-with-gradle)
+See or clone [download-dependencies-with-gradle](https://github.com/ngoanh2n/blog-demonstrations/tree/master/download-dependencies-with-gradle){:target="_blank"}
 {: .notice--success}
