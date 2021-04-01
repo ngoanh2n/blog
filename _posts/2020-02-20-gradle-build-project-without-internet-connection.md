@@ -22,16 +22,11 @@ So how to compile your project with dependencies declared. Let try :D
 > **OS**: macOS 10.14.5<br/>
 > **Java**: 1.8.0_211<br/>
 > **Gradle**: 6.2<br/>
-> **IntelliJ IDEA**: 2019.3.1 (Community Edition)<br/>
 
 ## Assumptions
 I have a build.gradle file by below.
 ```gradle
 import java.nio.charset.StandardCharsets
-
-/**
- * @author ngoanh2n@gmail.com (Ho Huu Ngoan)
- */
 
 group group
 version version
@@ -130,7 +125,7 @@ named `libs-implementation`, `libs-test-implementation` and `libs-annotation-pro
 1. Access [https://gradle.org/releases/](https://gradle.org/releases/){:target="_blank"}
 2. Select target version and click `binary-only` link to download (E.g. I select version 6.2)
 3. Move downloaded `gradle-6.2-bin.zip` file to `gradle/wrapper` folder
-4. Open [gradle/wrapper/gradle-wrapper.properties](https://github.com/ngoanh2n/blog-demonstrations/tree/master/build-gradle-without-internet-conection/gradle/wrapper/gradle-wrapper.properties){:target="_blank"} file
+4. Open [gradle/wrapper/gradle-wrapper.properties](https://github.com/ngoanh2n/blog-demo/tree/master/gradle-build-project-without-internet-connection/gradle/wrapper/gradle-wrapper.properties){:target="_blank"} file
 5. Change value of `distributionUrl` property to `gradle-6.2-bin.zip`
 
     ```yml
@@ -190,5 +185,5 @@ Now, you have to build to assure that succeeded.
 ```
 
 Full build.gradle file with online and offline modes:
-- [online.gradle](https://github.com/ngoanh2n/blog-demonstrations/tree/master/build-gradle-without-internet-conection/gradle/online.gradle){:target="_blank"}
-- [offline.gradle](https://github.com/ngoanh2n/blog-demonstrations/tree/master/build-gradle-without-internet-conection/gradle/offline.gradle){:target="_blank"}
+- [online.gradle](https://github.com/ngoanh2n/blog-demo/tree/master/gradle-build-project-without-internet-connection/gradle/online.gradle){:target="_blank"}
+- [offline.gradle](https://github.com/ngoanh2n/blog-demo/tree/master/gradle-build-project-without-internet-connection/gradle/offline.gradle){:target="_blank"}

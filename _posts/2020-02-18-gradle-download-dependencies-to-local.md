@@ -19,13 +19,12 @@ tags:
 > **OS**: macOS 10.14.5<br/>
 > **Java**: 1.8.0_211<br/>
 > **Gradle**: 6.2<br/>
-> **IntelliJ IDEA**: 2019.3.1 (Community Edition)<br/>
 
 > **[TIP]** Gradle version:<br/>
 You can change target version by 2 ways (*See [https://gradle.org/releases](https://gradle.org/releases){:target="_blank"}*):
 1. Run on command line (terminal):<br/>
 `./gradlew wrapper --gradle-version=6.2`<br/>
-2. Edit [`gradle-wrapper.properties`](https://github.com/ngoanh2n/blog-demonstrations/blob/master/download-dependencies-with-gradle/gradle/wrapper/gradle-wrapper.properties){:target="_blank"} in `gradle/wrapper` folder<br/>
+2. Edit [`gradle-wrapper.properties`](https://github.com/ngoanh2n/blog-demo/blob/master/download-dependencies-with-gradle/gradle/wrapper/gradle-wrapper.properties){:target="_blank"} in `gradle/wrapper` folder<br/>
 {: .notice--info}
 
 ## Assumptions
@@ -61,10 +60,6 @@ For example, I'm using 2 dependencies:
 
 ```gradle
 import java.nio.charset.StandardCharsets
-
-/**
- * @author ngoanh2n@gmail.com (Ho Huu Ngoan)
- */
 
 group group
 version version
@@ -114,7 +109,7 @@ buildscript {
 ## Tasks for downloading
 Type the following command in your command line or terminal.
 ```console
-cd download-dependencies-with-gradle
+cd gradle-download-dependencies-to-local
 ```
 
 ### Dependencies of source set main
@@ -205,5 +200,5 @@ Use ```./gradlew :dependencies```
 {: .notice--success}
 
 **[SOURCE]** Source code illustrates on Github:<br/>
-See or clone [download-dependencies-with-gradle](https://github.com/ngoanh2n/blog-demonstrations/tree/master/download-dependencies-with-gradle){:target="_blank"}
+See or clone [gradle-download-dependencies-to-local](https://github.com/ngoanh2n/blog-demo/tree/master/gradle-download-dependencies-to-local){:target="_blank"}
 {: .notice--success}

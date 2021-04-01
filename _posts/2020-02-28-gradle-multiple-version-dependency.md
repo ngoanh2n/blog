@@ -1,7 +1,7 @@
 ---
-title:  "Declare multiple versions of a dependency in Gradle"
+title:  "Declare multiple versions dependency in Gradle"
 modified: 2020-02-28T23:00:00+07:00
-permalink: /how-to/declare-multiple-versions-of-a-dependency-in-gradle
+permalink: /how-to/declare-multiple-versions-denpendency-in-gradle
 categories: 
   - How To
 tags:
@@ -24,7 +24,6 @@ So, what if I want to use the latest version while there is already a dependency
 > **OS**: macOS 10.14.5<br/>
 > **Java**: 1.8.0_211<br/>
 > **Gradle**: 6.2.1<br/>
-> **IntelliJ IDEA**: 2019.3.1 (Community Edition)<br/>
 
 ## Assumptions
 I have a build.gradle file with `dependencies {}` script.
@@ -40,14 +39,10 @@ dependencies {
 
 And, a test method using above 2 libraries.
 ```java
-package com.github.ngoanh2n;
+package io.github.ngoanh2n;
 
 import io.qameta.allure.Allure;
 import org.testng.annotations.Test;
-
-/**
- * @author ngoanh2n@gmail.com (Ho Huu Ngoan)
- */
 
 public class DemonstrationTest {
 
@@ -60,8 +55,8 @@ public class DemonstrationTest {
 }
 ```
 
-**[SOURCE]** Source code illustrates the conflict between dependencies on Github:<br/>
-See or clone [declare-multi-versions-of-a-dependency-in-gradle_conflict](https://github.com/ngoanh2n/blog-demonstrations/tree/master/declare-multi-versions-of-a-dependency-in-gradle_conflict){:target="_blank"}
+**[SOURCE]** Source code illustrates on Github:<br/>
+[gradle-multiple-version-dependency-conflict](https://github.com/ngoanh2n/blog-demo/tree/master/gradle-multiple-version-dependency-conflict){:target="_blank"}
 {: .notice--success}
 
 <!-- ## Why the error occurred -->
@@ -71,7 +66,7 @@ Let's see the error and solve it!
 1. Navigate to the root of this demonstration
 
     ```console
-    cd declare-multi-versions-of-a-dependency-in-gradle_conflict
+    cd gradle-multiple-version-dependency-conflict
     ```
 
 2. Try to run test method `DemonstrationTest.test`
@@ -187,8 +182,8 @@ Now try to run test method `DemonstrationTest.test` again
 ./gradlew clean test --tests *DemonstrationTest.test
 ```
 
-**[SOURCE]** Source code illustrates how to resolve on Github:<br/>
-See or clone [declare-multi-versions-of-a-dependency-in-gradle_conflict-resolved](https://github.com/ngoanh2n/blog-demonstrations/tree/master/declare-multi-versions-of-a-dependency-in-gradle_conflict-resolved){:target="_blank"}
+**[SOURCE]** Source code illustrates on Github:<br/>
+[gradle-multiple-version-dependency-conflict-resolved](https://github.com/ngoanh2n/blog-demo/tree/master/gradle-multiple-version-dependency-conflict-resolved){:target="_blank"}
 {: .notice--success}
 
 **[REFERENCES]** Gradle Docs:<br/>

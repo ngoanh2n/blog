@@ -25,9 +25,8 @@ This post is dedicated to explaining how Gradle handles differing requirements b
 > **OS**: macOS 10.14.5<br/>
 > **Java**: 1.8.0_211<br/>
 > **Gradle**: 6.2.2<br/>
-> **JUnit5 - Jupiter**: 5.6.0<br/>
 > **TestNG**: 7.1.0<br/>
-> **IntelliJ IDEA**: 2019.3.3 (Community Edition)<br/>
+> **JUnit5**: 5.6.0 (Jupiter API, Jupiter Engine)<br/>
 
 ## Declaration
 Declare your testing framework at `dependencies {}` script block with `test` scope in `build.gradle` file.
@@ -171,13 +170,13 @@ Has apostrophes or not are also OK
 1. Test package
 
     Execute a specific test package (recursively)
-    + Package: `com.github.ngoanh2n.scenarios`
-    + Class: all test classes in package `com.github.ngoanh2n.scenarios`
+    + Package: `io.github.ngoanh2n.scenarios`
+    + Class: all test classes in package `io.github.ngoanh2n.scenarios`
     + Method: `any`
     ```bat
-    ./gradlew test --tests 'com.github.ngoanh2n.scenarios*'
+    ./gradlew test --tests 'io.github.ngoanh2n.scenarios*'
     ### OR ###
-    ./gradlew test --tests 'com.github.ngoanh2n.scenarios.*'
+    ./gradlew test --tests 'io.github.ngoanh2n.scenarios.*'
     ```
 
 2. Test class
@@ -200,18 +199,18 @@ Has apostrophes or not are also OK
         ./gradlew test --tests *TestClassName*
         ```
     - Execute a test class with the specific class name at specific test package, with scope:
-        + Package: `com.github.ngoanh2n.scenarios.childPackage01`
+        + Package: `io.github.ngoanh2n.scenarios.childPackage01`
         + Class: `TestClassName01`
         + Method: `any`
         ```bat
-        ./gradlew test --tests 'com.github.ngoanh2n.scenarios.childPackage01.TestClassName01'
+        ./gradlew test --tests 'io.github.ngoanh2n.scenarios.childPackage01.TestClassName01'
         ```
     - Execute a test class with the containing class name at specific test package, with scope:
-        + Package: `com.github.ngoanh2n.scenarios.childPackage02`
+        + Package: `io.github.ngoanh2n.scenarios.childPackage02`
         + Class: `TestClassName01`
         + Method: `any`
         ```bat
-        ./gradlew test --tests 'com.github.ngoanh2n.scenarios.childPackage02.TestClassName*'
+        ./gradlew test --tests 'io.github.ngoanh2n.scenarios.childPackage02.TestClassName*'
         ```
 
 3. Test method
@@ -221,7 +220,7 @@ Has apostrophes or not are also OK
         ./gradlew test --tests TestClassName01.*
 
         ### Specific package ###
-        ./gradlew test --tests 'com.github.ngoanh2n.scenarios.childPackage02.TestClassName01.*'
+        ./gradlew test --tests 'io.github.ngoanh2n.scenarios.childPackage02.TestClassName01.*'
         ```
     - Execute a specific method name in the specific test class
         ```bat
@@ -229,7 +228,7 @@ Has apostrophes or not are also OK
         ./gradlew test --tests TestClassName01.method01
 
         ### Specific package ###
-        ./gradlew test --tests 'com.github.ngoanh2n.scenarios.childPackage02.TestClassName01.method01'
+        ./gradlew test --tests 'io.github.ngoanh2n.scenarios.childPackage02.TestClassName01.method01'
         ```
     - Execute the second iteration of the specific test class
         ```bat
@@ -362,8 +361,8 @@ tasks.withType(Test) {
 ```
 
 **[SOURCE]** Source code illustrates on Github:<br/>
-JUnit5 with Gradle: See or clone [run-junit5-tests-with-gradle](https://github.com/ngoanh2n/blog-demonstrations/tree/master/run-junit5-tests-with-gradle){:target="_blank"}<br/>
-TestNG with Gradle: See or clone [run-testng-tests-with-gradle](https://github.com/ngoanh2n/blog-demonstrations/tree/master/run-testng-tests-with-gradle){:target="_blank"}
+[gradle-test-execution-junit5](https://github.com/ngoanh2n/blog-demo/tree/master/gradle-test-execution-junit5){:target="_blank"}<br/>
+[gradle-test-execution-testng](https://github.com/ngoanh2n/blog-demo/tree/master/gradle-test-execution-testng){:target="_blank"}
 {: .notice--success}
 
 **[REFERENCES]** Testing in Java & JVM projects:<br/>
