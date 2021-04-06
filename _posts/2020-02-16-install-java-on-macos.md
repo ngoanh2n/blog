@@ -1,4 +1,5 @@
 ---
+published: false
 title:  "Install Java on macOS"
 modified: 2020-02-18T21:00:00+07:00
 permalink: /how-to/install-java-on-macos
