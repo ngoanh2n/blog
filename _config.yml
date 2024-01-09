@@ -1,5 +1,8 @@
-title: ngoanh2n's blog
-description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
-
-url: https://ngoanh2n.github.io/blog
+title: ngoanh2n's blog
+# logo: "/assets/favicon.ico"
+permalink: pretty
+baseurl: "/blog"
+repository: ngoanh2n/blog
+favicon_ico: "/assets/favicon.ico"
+url: "https://ngoanh2n.github.io/blog"
