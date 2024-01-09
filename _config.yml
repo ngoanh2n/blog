@@ -1,8 +1,9 @@
 theme: just-the-docs
-title: ngoanh2n's blog
+color_scheme: purple
 # logo: "/assets/favicon.ico"
-permalink: pretty
 baseurl: "/blog"
+permalink: pretty
+title: ngoanh2n's blog
 repository: ngoanh2n/blog
 favicon_ico: "/assets/favicon.ico"
 url: "https://ngoanh2n.github.io/blog"
