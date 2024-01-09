@@ -1,13 +1,7 @@
-source "https://rubygems.org"
-gemspec
+source 'https://rubygems.org'
 
-group :jekyll_plugins do
-    gem "jekyll-feed"
-    gem "jekyll-seo-tag"
-    gem "jekyll-sitemap"
-    gem "jekyll-paginate"
-    gem "jekyll-include-cache"
-    gem "jekyll-algolia"
-    gem "jekyll-archives"
-    gem 'jekyll-regex-replace'
-end
+gem "jekyll", "~> 4.3.3" # installed by `gem jekyll`
+# gem "webrick"        # required when using Ruby >= 3 and Jekyll <= 4.2.2
+
+gem "just-the-docs", "0.7.0" # pinned to the current release
+# gem "just-the-docs"        # always download the latest release
