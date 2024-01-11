@@ -1,0 +1,21 @@
+{% assign crYear = site.time | date: '%Y' %}
+{% assign crTitle = site.name | default: site.title %}
+
+{% assign smUrl = site.baseurl | append: "/sitemap.xml" %}
+{% if site.atom_feed.path %}
+    {% assign feedUrl = site.atom_feed.path %}
+{% else %}
+    {% assign feedUrl = '/feed.xml' | relative_url %}
+{% endif %}
+
+<script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+<footer class="site-footer" style="padding-top: 0rem; padding-bottom: 0rem; border-top: 1px solid #eeebee;">
+    <p>&copy; {{ crYear }} {{ crTitle }}</p>
+    <p>
+        <a href="{{ feedUrl }}">
+            <i class="fa fa-rss-square" aria-hidden="true"></i>
+            Feed
+        </a>
+    </p>
+</footer>
