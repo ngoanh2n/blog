@@ -37,10 +37,13 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
+    jekyll-paginate (1.1.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
     jekyll-seo-tag (2.8.0)
       jekyll (>= 3.8, < 5.0)
+    jekyll-sitemap (1.4.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     just-the-docs (0.7.0)
@@ -86,6 +89,8 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.3.3)
   jekyll-feed (~> 0.6)
+  jekyll-paginate
+  jekyll-sitemap
   just-the-docs
 
 BUNDLED WITH
