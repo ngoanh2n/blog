@@ -1,0 +1,72 @@
+{% if paginator.total_pages > 1 %}
+    <nav class="pagination">
+        {% comment %} Link for previous page {% endcomment %}
+        {% if paginator.previous_page %}
+            {% if paginator.previous_page == 1 %}
+                <a href="{{ base_path }}/">{{ site.data.ui-text[site.locale].pagination_previous | default: "&laquo; Prev" }}</a>
+            {% else %}
+                <a href="{{ base_path }}/posts/page{{ paginator.previous_page }}/">{{ site.data.ui-text[site.locale].pagination_previous | default: "&laquo; Prev" }}</a>
+            {% endif %}
+        {% else %}
+            <a href="#" class="disabled">
+                <span aria-hidden="true">{{ site.data.ui-text[site.locale].pagination_previous | default: "&laquo; Prev" }}</span>
+            </a>
+        {% endif %}
+
+        {% comment %} First page {% endcomment %}
+        {% if paginator.page == 1 %}
+            <a href="#" class="current">1</a>
+        {% else %}
+            <a href="{{ base_path }}/">1</a>
+        {% endif %}
+
+        {% assign page_start = 2 %}
+            {% if paginator.page > 4 %}
+            {% assign page_start = paginator.page | minus: 2 %}
+            {% comment %} Ellipsis for truncated links {% endcomment %}
+            <a href="#" class="disabled">&hellip;</a>
+        {% endif %}
+
+        {% assign page_end = paginator.total_pages | minus: 1 %}
+        {% assign pages_to_end = paginator.total_pages | minus: paginator.page %}
+
+        {% if pages_to_end > 4 %}
+            {% assign page_end = paginator.page | plus: 2 %}
+        {% endif %}
+
+        {% for index in (page_start..page_end) %}
+            {% if index == paginator.page %}
+                <a href="{{ base_path }}/posts/page{{ index }}/" class="current">{{ index }}</a>
+            {% else %}
+                {% comment %} Distance from current page and this link {% endcomment %}
+                {% assign dist = paginator.page | minus: index %}
+
+                {% if dist < 0 %}
+                    {% comment %} Distance must be a positive value {% endcomment %}
+                    {% assign dist = 0 | minus: dist %}
+                {% endif %}
+                <a href="{{ base_path }}/posts/page{{ index }}/">{{ index }}</a>
+            {% endif %}
+        {% endfor %}
+
+        {% comment %} Ellipsis for truncated links {% endcomment %}
+        {% if pages_to_end > 3 %}
+            <a href="#" class="disabled">&hellip;</a>
+        {% endif %}
+
+        {% if paginator.page == paginator.total_pages %}
+            <a href="#" class="current">{{ paginator.page }}</a>
+        {% else %}
+            <a href="{{ base_path }}/posts/page{{ paginator.total_pages }}/">{{ paginator.total_pages }}</a>
+        {% endif %}
+
+        {% comment %} Link next page {% endcomment %}
+        {% if paginator.next_page %}
+            <a href="{{ base_path }}/posts/page{{ paginator.next_page }}/">{{ site.data.ui-text[site.locale].pagination_next | default: "Next &raquo;" }}</a>
+        {% else %}
+            <a href="#" class="disabled">
+                <span aria-hidden="true">{{ site.data.ui-text[site.locale].pagination_next | default: "Next &raquo;" }}</span>
+            </a>
+        {% endif %}
+    </nav>
+{% endif %}
