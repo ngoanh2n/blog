@@ -1,0 +1,10 @@
+---
+layout: posts
+---
+<h1 style="padding-top: 0rem; padding-bottom: 0rem; border-bottom: 1px solid #eeebee;">Recent Posts</h1>
+
+{% for post in site.posts %}
+    {% if post.published == true %}
+        {% include post-single.html %}
+    {% endif %}
+{% endfor %}

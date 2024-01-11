@@ -1,0 +1,22 @@
+{% if post.id %}
+    {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+    {% assign title = post.title %}
+{% endif %}
+
+<div>
+    <article>
+        <h3>
+            <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+        </h3>
+
+        <p class="post_time">
+            <i class="far fa-clock" aria-hidden="true"></i>
+            {% include post-time.html %}
+        </p>
+
+        {% if post.excerpt %}
+            <p>{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>
+        {% endif %}
+    </article>
+</div>
