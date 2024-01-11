@@ -1,1 +1,47 @@
-$link-color: #56176F;
+$link-color: #56176f;
+
+::-moz-selection {
+    /* For Firefox */
+    color: white;
+    background: #9973a8;
+}
+
+::selection {
+    color: white;
+    background: #9973a8;
+}
+
+.pagination {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.pagination a.current {
+    color: white;
+    background-color: #56176f;
+    border: solid 56176F 1px;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.pagination a.disabled {
+    color: #dee0e1;
+    pointer-events: none;
+    cursor: not-allowed;
+    border: none;
+    padding: 3px 0;
+}
+
+.pagination a {
+    border: solid #ddd 1px;
+    padding: 3px 5px;
+    line-height: 1.8rem;
+}
+
+.post_time {
+    color: #6f6f6f;
+    font-size: 0.7rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Segoe UI',
+        'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
+}
