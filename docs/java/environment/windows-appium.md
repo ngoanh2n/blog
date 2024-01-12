@@ -1,12 +1,12 @@
 ---
 layout: default
-nav_order: 1
+nav_order: 4
 grand_parent: Java
 parent: Environment
-title: macOS
+title: "Windows: Appium"
 ---
 
-## Install General Environment on macOS
+## Install Appium Environment on Windows
 {: .no_toc }
 
 ## Table of contents
@@ -15,5 +15,4 @@ title: macOS
 1. TOC
 {:toc}
 ---
-
 

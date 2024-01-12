@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Windows
 nav_order: 2
-parent: Environment
 grand_parent: Java
+parent: Environment
+title: Windows
 ---
 
-# Windows
+## Install General Environment on Windows
 {: .no_toc }
 
 ## Table of contents
@@ -14,3 +14,5 @@ grand_parent: Java
 
 1. TOC
 {:toc}
+---
+
