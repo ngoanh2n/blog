@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Tools
+title: macOS
 nav_order: 1
-parent: macOS
-grand_parent: Environment
+parent: Environment
+grand_parent: JavaScript
 ---
 
-# Tools
+# macOS
 {: .no_toc }
 
 ## Table of contents
@@ -14,4 +14,3 @@ grand_parent: Environment
 
 1. TOC
 {:toc}
-

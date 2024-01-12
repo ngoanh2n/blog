@@ -1,8 +1,9 @@
 ---
 layout: default
-nav_order: 4
 has_children: true
-title: CI/CD
+nav_order: 1
+parent: Java
+title: Environment
 ---
 
 TODO: Note
