@@ -1,8 +1,16 @@
-$purple-000: #885C9A;
-$purple-100: #77458B;
-$purple-200: #662E7D;
-$purple-300: #56176F;
+$purple-000: #885c9a;
+$purple-100: #77458b;
+$purple-200: #662e7d;
+$purple-300: #56176f;
 $link-color: $purple-300;
+
+.head-hr {
+    height: 1px;
+    padding: 0;
+    margin: 0;
+    background-color: $border-color;
+    border: 0;
+}
 
 ::-moz-selection {
     color: white;
