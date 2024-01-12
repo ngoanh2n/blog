@@ -5,7 +5,6 @@ repository: ngoanh2n/blog
 title: ngoanh2n
 permalink: pretty
 favicon_ico: "/assets/favicon.ico"
-url: "https://ngoanh2n.github.io/blog"
 
 gh_edit_link: true
 gh_edit_branch: "master"
