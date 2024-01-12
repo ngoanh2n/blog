@@ -16,3 +16,17 @@ title: "macOS: Appium"
 {:toc}
 ---
 
+### Tools
+<hr>{: .head-hr }
+
+### Android
+<hr>{: .head-hr }
+
+### Appium
+<hr>{: .head-hr }
+
+### Appium Doctor
+<hr>{: .head-hr }
+
+### Appium Inspector
+<hr>{: .head-hr }
