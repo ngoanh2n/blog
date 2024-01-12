@@ -3,6 +3,7 @@ color_scheme: purple
 repository: ngoanh2n/blog
 
 title: ngoanh2n
+url: "https://ngoanh2n.github.io"
 permalink: pretty
 favicon_ico: "/assets/favicon.ico"
 
