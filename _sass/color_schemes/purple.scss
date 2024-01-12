@@ -1,14 +1,17 @@
-$link-color: #56176f;
+$purple-000: #885C9A;
+$purple-100: #77458B;
+$purple-200: #662E7D;
+$purple-300: #56176F;
+$link-color: $purple-300;
 
 ::-moz-selection {
-    /* For Firefox */
     color: white;
-    background: #9973a8;
+    background: $purple-000;
 }
 
 ::selection {
     color: white;
-    background: #9973a8;
+    background: $purple-000;
 }
 
 .pagination {
@@ -19,7 +22,7 @@ $link-color: #56176f;
 
 .pagination a.current {
     color: white;
-    background-color: #56176f;
+    background-color: $purple-300;
     border: solid 56176F 1px;
     pointer-events: none;
     cursor: not-allowed;
