@@ -91,7 +91,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-paginate
   jekyll-sitemap
-  just-the-docs
+  just-the-docs (= 0.7.0)
 
 BUNDLED WITH
    2.3.26
