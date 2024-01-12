@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Java
+title: Windows
 nav_order: 2
-parent: Automation
+parent: Environment
 has_children: true
 ---
