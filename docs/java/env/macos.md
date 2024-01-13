@@ -32,6 +32,7 @@ title: macOS
 
 ### Git
 <hr>{: .head-hr }
+{% include docs/env/macos/git.md %}
 
 ### Java
 <hr>{: .head-hr }
