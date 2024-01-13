@@ -1,4 +1,4 @@
-{: .note .text-zeta }
+{: .note .text-epsilon }
 
 > 🔲 → Optional <br>
 > ✅ → Should be installed
