@@ -36,6 +36,7 @@ title: macOS
 
 ### Java
 <hr>{: .head-hr }
+{% include docs/env/macos/java.md %}
 
 ### NodeJS
 <hr>{: .head-hr }
