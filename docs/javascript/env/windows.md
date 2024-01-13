@@ -6,7 +6,7 @@ parent: Environment
 grand_parent: JavaScript
 ---
 
-# Install Environment on macOS
+# Install Environment on Windows
 {: .no_toc }
 
 ## Table of contents
