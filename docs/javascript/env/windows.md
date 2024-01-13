@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Windows
 nav_order: 2
-parent: Environment
 grand_parent: JavaScript
+parent: Environment
+title: Windows
 ---
 
 # Install Environment on Windows

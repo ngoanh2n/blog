@@ -1,9 +1,9 @@
 ---
 layout: default
-title: macOS
 nav_order: 1
-parent: Environment
 grand_parent: JavaScript
+parent: Environment
+title: macOS
 ---
 
 # Install Environment on macOS
