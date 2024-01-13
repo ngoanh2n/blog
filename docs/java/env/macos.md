@@ -27,9 +27,7 @@ title: macOS
 {% include docs/env/macos/git.md %}
 {% include docs/env/macos/java.md %}
 {% include docs/env/macos/nodejs.md %}
-
-### Allure Commandline
-<hr>{: .head-hr }
+{% include docs/env/macos/allure-commandline.md %}
 
 # Advance
 <hr>{: .head-hr }
