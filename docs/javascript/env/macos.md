@@ -6,7 +6,7 @@ parent: Environment
 grand_parent: JavaScript
 ---
 
-# macOS
+# Install Environment on macOS
 {: .no_toc }
 
 ## Table of contents
@@ -14,3 +14,6 @@ grand_parent: JavaScript
 
 1. TOC
 {:toc}
+---
+
+{% include docs/note-install.md %}

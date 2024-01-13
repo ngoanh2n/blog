@@ -3,7 +3,7 @@ layout: default
 has_children: true
 nav_order: 3
 parent: JavaScript
-title: Advanced
+title: Advance
 ---
 
 TODO: Note

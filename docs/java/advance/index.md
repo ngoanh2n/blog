@@ -3,7 +3,7 @@ layout: default
 has_children: true
 nav_order: 3
 parent: Java
-title: Advanced
+title: Advance
 ---
 
 TODO: Note

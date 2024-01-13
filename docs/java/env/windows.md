@@ -6,7 +6,7 @@ parent: Environment
 title: Windows
 ---
 
-## Install General Environment on Windows
+# Install Environment on Windows
 {: .no_toc }
 
 ## Table of contents
@@ -16,3 +16,4 @@ title: Windows
 {:toc}
 ---
 
+{% include docs/note-install.md %}

@@ -6,7 +6,7 @@ parent: Environment
 title: macOS
 ---
 
-## Install General Environment on macOS
+# Install Environment on macOS
 {: .no_toc }
 
 ## Table of contents
@@ -16,22 +16,15 @@ title: macOS
 {:toc}
 ---
 
-{: .note .text-epsilon }
-> 🔲 → It means optional <br>
-> ✅ → It means it should be installed
+{% include docs/note-install.md %}
+
+## General
+<hr>{: .head-hr }
 
 ### Tools
 <hr>{: .head-hr }
-
-🔲 [GitHub Desktop](https://desktop.github.com/){:target="_blank"}
-
-> {: .highlight .text-zeta }
-Perform Git commands, such as committing and pushing changes, in a graphical user interface, rather than using the command line.
-
-✅ [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/?section=mac){:target="_blank"}
-
-> {: .highlight .text-zeta }
-An Integrated Development Environment (IDE) for Java and Kotlin designed to maximize developer productivity
+{% include docs/env/macos/github-desktop.md %}
+{% include docs/env/macos/intellij-idea.md %}
 
 ### Homebrew
 <hr>{: .head-hr }
@@ -46,4 +39,22 @@ An Integrated Development Environment (IDE) for Java and Kotlin designed to maxi
 <hr>{: .head-hr }
 
 ### Allure Commandline
+<hr>{: .head-hr }
+
+## Advance
+<hr>{: .head-hr }
+
+### Tools
+<hr>{: .head-hr }
+
+### Android
+<hr>{: .head-hr }
+
+### Appium
+<hr>{: .head-hr }
+
+### Appium Doctor
+<hr>{: .head-hr }
+
+### Appium Inspector
 <hr>{: .head-hr }
