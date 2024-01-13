@@ -18,7 +18,7 @@ title: macOS
 
 {% include docs/note-install.md %}
 
-## General
+# General
 <hr>{: .head-hr }
 
 ### Tools
@@ -28,6 +28,7 @@ title: macOS
 
 ### Homebrew
 <hr>{: .head-hr }
+{% include docs/env/macos/homebrew.md %}
 
 ### Git
 <hr>{: .head-hr }
@@ -41,7 +42,7 @@ title: macOS
 ### Allure Commandline
 <hr>{: .head-hr }
 
-## Advance
+# Advance
 <hr>{: .head-hr }
 
 ### Tools
