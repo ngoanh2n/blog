@@ -11,6 +11,6 @@
 >> `$ brew install git`
 >
 > {: .note-title .text-epsilon }
->> 🔲 Validation
+>> 🔲 Check Version
 >>
 >> `$ git --version`

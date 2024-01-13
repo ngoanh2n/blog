@@ -54,7 +54,7 @@
 >
 >
 > {: .note-title .text-epsilon }
->> 🔲 Validation
+>> 🔲 Check Version
 >>
 >> `$ java --version`
 >
