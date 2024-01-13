@@ -1,3 +1,6 @@
+### Java
+<hr>{: .head-hr }
+
 **LTS:** 8, 11, 17, 21
 {: .label .label-green }
 
@@ -19,10 +22,7 @@
 >>> {: .note-title .text-epsilon } 
 >>>> ✅ Install Specific Verion
 >>>>
->>>> 🔘 `$ brew install --cask temurin8` <br>
->>>> 🔘 `$ brew install --cask temurin11` <br>
->>>> 🔘 `$ brew install --cask temurin17` <br>
->>>> 🔘 `$ brew install --cask temurin21`
+>>>> `$ brew install --cask temurin17`
 >>
 >>
 >> {: .note-title .text-epsilon } 
@@ -31,15 +31,12 @@
 >>> {: .note-title .text-epsilon } 
 >>>> ✅ Install Specific Verion
 >>>>
->>>> 🔘 `$ brew install openjdk@8` <br>
->>>> 🔘 `$ brew install openjdk@11` <br>
->>>> 🔘 `$ brew install openjdk@17` <br>
->>>> 🔘 `$ brew install openjdk@21`
+>>>> `$ brew install openjdk@17`
 >>>
 >>> {: .note-title .text-epsilon } 
 >>>> ✅ Symlink For Finding JDK
 >>>>
->>>> `$ sudo ln -sfn /usr/local/opt/openjdk@{VERSION}/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-{VERSION}.jdk`
+>>>> `$ sudo ln -sfn /usr/local/opt/openjdk@17/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-17.jdk`
 >
 >
 > {: .note-title .text-epsilon }
@@ -80,18 +77,18 @@
 >> 🔲 Useful Commands
 >>
 >> {: .note-title .text-epsilon }
->>> Show JAVA_HOME
+>>> 🔲 Show JAVA_HOME
 >>>
 >>> `$ /usr/libexec/java_home`
 >>
 >> {: .note-title .text-epsilon }
->>> Show All Version Paths
+>>> 🔲 Show All Version Paths
 >>>
 >>> `$ /usr/libexec/java_home -V`
 >>
 >> {: .note-title .text-epsilon }
->>> Remove All Versions
+>>> 🔲 Remove All Versions
 >>>
->>> ✅ `sudo rm -fr /Library/Java/JavaVirtualMachines/jdk-{VERSION}.jdk/` <br>
->>> ✅ `sudo rm -fr /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin` <br>
->>> ✅ `sudo rm -fr /Library/PreferencePanes/JavaControlPanel.prefPane`
+>>> `$ sudo rm -fr /Library/Java/JavaVirtualMachines/jdk-{VERSION}.jdk/` <br>
+>>> `$ sudo rm -fr /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin` <br>
+>>> `$ sudo rm -fr /Library/PreferencePanes/JavaControlPanel.prefPane`

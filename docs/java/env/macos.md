@@ -21,21 +21,10 @@ title: macOS
 # General
 <hr>{: .head-hr }
 
-### Tools
-<hr>{: .head-hr }
 {% include docs/env/macos/github-desktop.md %}
 {% include docs/env/macos/intellij-idea.md %}
-
-### Homebrew
-<hr>{: .head-hr }
 {% include docs/env/macos/homebrew.md %}
-
-### Git
-<hr>{: .head-hr }
 {% include docs/env/macos/git.md %}
-
-### Java
-<hr>{: .head-hr }
 {% include docs/env/macos/java.md %}
 
 ### NodeJS
