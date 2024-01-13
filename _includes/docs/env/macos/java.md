@@ -12,7 +12,9 @@
 >> ✅ Installation
 >>
 >> {: .note-title .text-epsilon } 
->>> 🔘 [Temurin](https://adoptium.net){:target="\_blank"}
+>>> 🔘 Temurin
+>>>
+>>> [https://adoptium.net](https://adoptium.net){:target="\_blank"}
 >>>
 >>> {: .note-title .text-epsilon } 
 >>>> ✅ Install Cask
@@ -25,8 +27,10 @@
 >>>> `$ brew install --cask temurin17`
 >>
 >>
->> {: .note-title .text-epsilon } 
->>> 🔘 [Oracle](https://openjdk.org){:target="\_blank"}
+>> {: .note-title .text-epsilon }
+>>> 🔘 Oracle
+>>>
+>>> [https://openjdk.org](https://openjdk.org){:target="\_blank"}
 >>>
 >>> {: .note-title .text-epsilon } 
 >>>> ✅ Install Specific Verion
@@ -89,6 +93,6 @@
 >> {: .note-title .text-epsilon }
 >>> 🔲 Remove All Versions
 >>>
->>> `$ sudo rm -fr /Library/Java/JavaVirtualMachines/jdk-{VERSION}.jdk/` <br>
->>> `$ sudo rm -fr /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin` <br>
+>>> `$ sudo rm -fr /Library/Java/JavaVirtualMachines/jdk-{VERSION}.jdk/`<br>
+>>> `$ sudo rm -fr /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin`<br>
 >>> `$ sudo rm -fr /Library/PreferencePanes/JavaControlPanel.prefPane`
