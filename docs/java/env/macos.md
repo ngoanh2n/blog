@@ -32,8 +32,7 @@ title: macOS
 # Advance
 <hr>{: .head-hr }
 
-### Tools
-<hr>{: .head-hr }
+{% include docs/env/macos/xcode.md %}
 
 ### Android
 <hr>{: .head-hr }
