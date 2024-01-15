@@ -11,6 +11,9 @@
 > {: .note-title .text-epsilon } 
 >> ✅ Installation
 >>
+>> {: .highlight :}
+>> For example, I install Java `17`!
+>>
 >> {: .note-title .text-epsilon } 
 >>> 🔘 Temurin
 >>>
