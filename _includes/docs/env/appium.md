@@ -24,3 +24,41 @@
 >>> ℹ️ Location
 >>>
 >>> `/Users/{USER}/.appium/`
+>
+>
+> {: .note-title .text-epsilon }
+>> ✅ Install Drivers
+>>
+>>
+>> {: .note-title .text-epsilon }
+>>> ✅ iOS app
+>>>
+>>> `$ appium driver install xcuitest`
+>>
+>>
+>> {: .note-title .text-epsilon }
+>>> 🔲 Android app
+>>>
+>>> `$ appium driver install uiautomator2`
+>>
+>>
+>> {: .note-title .text-epsilon }
+>>> 🔲 Desktop app
+>>>
+>>> `$ appium driver install mac2`
+>
+>
+> {: .highlight .text-epsilon }
+>>
+>> {: .note-title .text-epsilon }
+>>> ℹ️ Validation
+>>>
+>>> `$ appium driver list --installed`
+>>
+>>
+>> {: .note-title .text-epsilon }
+>>> ℹ️ Location
+>>>
+>>> `/Users/{USER}/.appium/node_modules/appium-xcuitest-driver/`<br>
+>>> `/Users/{USER}/.appium/node_modules/appium-uiautomator2-driver/`<br>
+>>> `/Users/{USER}/.appium/node_modules/appium-mac2-driver/`
