@@ -64,38 +64,3 @@
 >> 🔲 Check Version
 >>
 >> `$ java --version`
->
->
-> {: .note-title .text-epsilon }
->> 🔲 Switch To Version
->>
->> {: .note-title .text-epsilon }
->>> ✅ Open `.zshrc `file
->>>
->>> `$ nano ~/.zshrc`
->>
->> {: .note-title .text-epsilon }
->>> ✅ Change desired value of `-v` at below row
->>>
->>> `$ export JAVA_HOME=$(/usr/libexec/java_home -v 17)`
->
->
-> {: .note-title .text-epsilon }
->> 🔲 Useful Commands
->>
->> {: .note-title .text-epsilon }
->>> 🔲 Show JAVA_HOME
->>>
->>> `$ /usr/libexec/java_home`
->>
->> {: .note-title .text-epsilon }
->>> 🔲 Show All Version Paths
->>>
->>> `$ /usr/libexec/java_home -V`
->>
->> {: .note-title .text-epsilon }
->>> 🔲 Remove All Versions
->>>
->>> `$ sudo rm -fr /Library/Java/JavaVirtualMachines/jdk-{VERSION}.jdk/`<br>
->>> `$ sudo rm -fr /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin`<br>
->>> `$ sudo rm -fr /Library/PreferencePanes/JavaControlPanel.prefPane`
