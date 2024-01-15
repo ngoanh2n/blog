@@ -10,10 +10,12 @@
 >>
 >> [https://developer.android.com/studio](https://developer.android.com/studio)
 >>
+>>
 >> {: .highlight }
 >>> - Open the `android-studio-xxx.dmg` file
 >>> - Drag `Android Studio` to `Applications`
 >>> - Open `Android Studio` app
+>>>
 >>>
 >>> {: .note-title .text-epsilon } 
 >>>> `Complete Installation` window
@@ -81,4 +83,3 @@
 >>> - `$ echo "export ANDROID_HOME=/Users/{USER}/Library/Android/sdk" >> ~/.zshrc`
 >>> - `$ echo "export PATH=\$PATH:\$ANDROID_HOME/platform-tools" >> ~/.zshrc`
 >>> - `$ echo "export PATH=\$PATH:\$ANDROID_HOME/tools" >> ~/.zshrc`
->>>

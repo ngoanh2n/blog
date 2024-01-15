@@ -13,15 +13,17 @@
 >> `$ brew install node`
 >
 >
-> {: .note-title .text-epsilon }
->> 🔲 Check Version
+> {: .highlight .text-epsilon }
 >>
->> `$ node --version`<br>
->> `$ npm --version`
->
->
-> {: .note-title .text-epsilon }
->> 🔲 Location
+>> {: .note-title .text-epsilon }
+>>> ℹ️ Validation
+>>>
+>>> `$ node --version`<br>
+>>> `$ npm --version`
 >>
->> `/usr/local/lib/node_modules/`<br>
->> `/usr/local/lib/node_modules/npm/node_modules/`
+>>
+>> {: .note-title .text-epsilon }
+>>> ℹ️ Location
+>>>
+>>> `/usr/local/lib/node_modules/`<br>
+>>> `/usr/local/lib/node_modules/npm/node_modules/`

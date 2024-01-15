@@ -16,4 +16,4 @@ title: macOS
 {:toc}
 ---
 
-{% include docs/note-install.md %}
+{% include docs/env-note.md %}

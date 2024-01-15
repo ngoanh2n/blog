@@ -5,12 +5,16 @@
 > Git is a distributed version control system that tracks changes in any set of computer files.<br>
 > [https://formulae.brew.sh/formula/git](https://formulae.brew.sh/formula/git){:target="\_blank"}
 >
+>
 > {: .note-title .text-epsilon }
 >> ✅ Installation
 >>
 >> `$ brew install git`
 >
-> {: .note-title .text-epsilon }
->> 🔲 Check Version
+>
+> {: .highlight .text-epsilon }
 >>
->> `$ git --version`
+>> {: .note-title .text-epsilon }
+>>> ℹ️ Validation
+>>>
+>>> `$ git --version`

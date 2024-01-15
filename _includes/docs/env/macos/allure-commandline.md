@@ -12,13 +12,15 @@
 >> `$ npm install allure-commandline --global --save-dev`
 >
 >
-> {: .note-title .text-epsilon }
->> 🔲 Check Version
+> {: .highlight .text-epsilon }
 >>
->> `$ allure --version`
->
->
-> {: .note-title .text-epsilon }
->> 🔲 Location
+>> {: .note-title .text-epsilon }
+>>> ℹ️ Validation
+>>>
+>>> `$ allure --version`
 >>
->> `/usr/local/lib/node_modules/allure-commandline/`
+>>
+>> {: .note-title .text-epsilon }
+>>> ℹ️ Location
+>>>
+>>> `/usr/local/lib/node_modules/allure-commandline/`

@@ -16,7 +16,7 @@ title: macOS
 {:toc}
 ---
 
-{% include docs/note-install.md %}
+{% include docs/env-note.md %}
 
 # General
 <hr>{: .head-hr }
@@ -34,12 +34,4 @@ title: macOS
 
 {% include docs/env/macos/xcode.md %}
 {% include docs/env/macos/android-studio.md %}
-
-### Appium
-<hr>{: .head-hr }
-
-### Appium Doctor
-<hr>{: .head-hr }
-
-### Appium Inspector
-<hr>{: .head-hr }
+{% include docs/env/appium.md %}
