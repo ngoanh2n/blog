@@ -11,9 +11,7 @@
 >> ✅ Installation
 >>
 >> `$ brew install node`
->
->
-> {: .highlight .text-epsilon }
+>>
 >>
 >> {: .note-title .text-epsilon }
 >>> ℹ️ Validation

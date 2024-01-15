@@ -10,9 +10,7 @@
 >> ✅ Installation
 >>
 >> `$ npm install appium --global`
->
->
-> {: .highlight .text-epsilon }
+>>
 >>
 >> {: .note-title .text-epsilon }
 >>> ℹ️ Validation
@@ -46,9 +44,7 @@
 >>> 🔲 Desktop app
 >>>
 >>> `$ appium driver install mac2`
->
->
-> {: .highlight .text-epsilon }
+>>
 >>
 >> {: .note-title .text-epsilon }
 >>> ℹ️ Validation

@@ -10,9 +10,7 @@
 >> 🔲 Installation
 >>
 >> `$ npm install allure-commandline --global --save-dev`
->
->
-> {: .highlight .text-epsilon }
+>>
 >>
 >> {: .note-title .text-epsilon }
 >>> ℹ️ Validation

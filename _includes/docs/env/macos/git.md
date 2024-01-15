@@ -10,9 +10,7 @@
 >> ✅ Installation
 >>
 >> `$ brew install git`
->
->
-> {: .highlight .text-epsilon }
+>>
 >>
 >> {: .note-title .text-epsilon }
 >>> ℹ️ Validation
