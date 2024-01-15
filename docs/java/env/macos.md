@@ -33,9 +33,7 @@ title: macOS
 <hr>{: .head-hr }
 
 {% include docs/env/macos/xcode.md %}
-
-### Android
-<hr>{: .head-hr }
+{% include docs/env/macos/android-studio.md %}
 
 ### Appium
 <hr>{: .head-hr }
