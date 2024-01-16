@@ -35,3 +35,4 @@ title: macOS
 {% include docs/env/macos/xcode.md %}
 {% include docs/env/macos/android-studio.md %}
 {% include docs/env/macos/appium.md %}
+{% include docs/env/macos/inspector.md %}
