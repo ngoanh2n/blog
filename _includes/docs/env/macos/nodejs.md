@@ -16,12 +16,12 @@
 >> {: .note-title .text-epsilon }
 >>> ℹ️ Validation
 >>>
->>> `$ node --version`<br>
->>> `$ npm --version`
+>>> - `$ node --version`
+>>> - `$ npm --version`
 >>
 >>
 >> {: .note-title .text-epsilon }
 >>> ℹ️ Location
 >>>
->>> `/usr/local/lib/node_modules/`<br>
->>> `/usr/local/lib/node_modules/npm/node_modules/`
+>>> - `/usr/local/lib/node_modules/`
+>>> - `/usr/local/lib/node_modules/npm/node_modules/`

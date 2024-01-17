@@ -28,21 +28,21 @@
 > {: .note-title .text-epsilon }
 >> ✅ Install Driver
 >>
->>
+>> 
 >> {: .note-title .text-epsilon }
->>> ✅ iOS app
+>>> iOS app
 >>>
 >>> `$ appium driver install xcuitest`
 >>
 >>
 >> {: .note-title .text-epsilon }
->>> 🔲 Android app
+>>> Android app
 >>>
 >>> `$ appium driver install uiautomator2`
 >>
 >>
 >> {: .note-title .text-epsilon }
->>> 🔲 Desktop app
+>>> Desktop app
 >>>
 >>> `$ appium driver install mac2`
 >>
@@ -56,9 +56,9 @@
 >> {: .note-title .text-epsilon }
 >>> ℹ️ Location
 >>>
->>> `/Users/{USER}/.appium/node_modules/appium-xcuitest-driver/`<br>
->>> `/Users/{USER}/.appium/node_modules/appium-uiautomator2-driver/`<br>
->>> `/Users/{USER}/.appium/node_modules/appium-mac2-driver/`
+>>> - `/Users/{USER}/.appium/node_modules/appium-xcuitest-driver/`
+>>> - `/Users/{USER}/.appium/node_modules/appium-uiautomator2-driver/`
+>>> - `/Users/{USER}/.appium/node_modules/appium-mac2-driver/`
 >
 >
 > {: .note-title .text-epsilon }
@@ -70,18 +70,18 @@
 >>
 >>
 >> {: .note-title .text-epsilon }
->>> ℹ️ iOS app
+>>> iOS app
 >>>
 >>> `$ appium driver doctor xcuitest`
 >>
 >>
 >> {: .note-title .text-epsilon }
->>> ℹ️ Android app
+>>> Android app
 >>>
 >>> `$ appium driver doctor uiautomator2`
 >>
 >>
 >> {: .note-title .text-epsilon }
->>> ℹ️ Desktop app
+>>> Desktop app
 >>>
 >>> `$ appium driver doctor mac2`
