@@ -1,6 +1,3 @@
-### Java
-<hr>{: .head-hr }
-
 **LTS:** 8, 11, 17, 21
 {: .label .label-green }
 
