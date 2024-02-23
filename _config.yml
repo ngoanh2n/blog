@@ -17,6 +17,9 @@ collections:
   posts:
     output: true
     permalink: "/:posts/:path/"
+  environment:
+    output: true
+    permalink: "/:env/:path/"
 
 just_the_docs:
   collections:
@@ -24,6 +27,11 @@ just_the_docs:
       name: Posts
       nav_fold: true
       nav_exclude: true
+      search_exclude: false
+    environment:
+      name: Environment
+      nav_fold: false
+      nav_exclude: false
       search_exclude: false
 
 plugins:
@@ -33,6 +41,7 @@ plugins:
 
 back_to_top: true
 back_to_top_text: "Back to top"
+enable_copy_code_button: true
 
 callouts_level: quiet
 callouts:
