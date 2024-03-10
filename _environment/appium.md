@@ -37,3 +37,6 @@ permalink: env/appium
 
 ## Inspector
 <hr>{: .head-hr }
+
+{% include docs/env/appium/inspector-intro.md %}
+{% include docs/env/appium/inspector-installation.md %}
