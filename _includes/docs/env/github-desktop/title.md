@@ -1,10 +1,14 @@
 <!-- _includes/docs/env/github-desktop/ -->
 
-{% assign stm = "GitHub Desktop" %}
-{% assign heading = include.heading %}
+<!-- USE CASE -->
+<!-- 1. include docs/env/github-desktop/title.md -->
+<!-- 2. include docs/env/github-desktop/title.md isHeading=true -->
 
-{% if heading %}
-<{{heading}}>{{stm}}</{{heading}}>
+{% assign stm = "GitHub Desktop" %}
+{% assign isHeading = include.isHeading %}
+
+{% if isHeading %}
+<{{isHeading}}>{{stm}}</{{isHeading}}>
 {% else %}
 <h1>{{stm}}</h1>
 {% endif %}

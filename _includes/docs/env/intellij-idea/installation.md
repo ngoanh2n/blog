@@ -1,5 +1,10 @@
 <!-- _includes/docs/env/intellij-idea/ -->
 
+<!-- USE CASE -->
+<!-- 1. include docs/env/intellij-idea/location.md  -->
+<!-- 2. include docs/env/intellij-idea/location.md platform="macos" -->
+<!-- 3. include docs/env/intellij-idea/location.md platform="windows" -->
+
 {% assign platform = include.platform %}
 
 {% assign stm_macos =  "https://www.jetbrains.com/idea/download/?section=mac" %}

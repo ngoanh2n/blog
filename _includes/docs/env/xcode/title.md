@@ -1,10 +1,14 @@
 <!-- _includes/docs/env/xcode/ -->
 
-{% assign stm = "Xcode" %}
-{% assign heading = include.heading %}
+<!-- USE CASE -->
+<!-- 1. include docs/env/xcode/title.md -->
+<!-- 2. include docs/env/xcode/title.md isHeading=true -->
 
-{% if heading %}
-<{{heading}}>{{stm}}</{{heading}}>
+{% assign stm = "Xcode" %}
+{% assign isHeading = include.isHeading %}
+
+{% if isHeading %}
+<{{isHeading}}>{{stm}}</{{isHeading}}>
 {% else %}
 <h1>{{stm}}</h1>
 {% endif %}

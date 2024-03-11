@@ -1,10 +1,14 @@
 <!-- _includes/docs/env/intellij-idea/ -->
 
-{% assign stm = "IntelliJ IDEA Community Edition" %}
-{% assign heading = include.heading %}
+<!-- USE CASE -->
+<!-- 1. include docs/env/intellij-idea/title.md -->
+<!-- 2. include docs/env/intellij-idea/title.md isHeading=true -->
 
-{% if heading %}
-<{{heading}}>{{stm}}</{{heading}}>
+{% assign stm = "IntelliJ IDEA Community Edition" %}
+{% assign isHeading = include.isHeading %}
+
+{% if isHeading %}
+<{{isHeading}}>{{stm}}</{{isHeading}}>
 {% else %}
 <h1>{{stm}}</h1>
 {% endif %}

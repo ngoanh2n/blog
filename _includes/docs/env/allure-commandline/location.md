@@ -1,5 +1,10 @@
 <!-- _includes/docs/env/allure-commandline/ -->
 
+<!-- USE CASE -->
+<!-- 1. include docs/env/allure-commandline/location.md  -->
+<!-- 2. include docs/env/allure-commandline/location.md platform="macos" -->
+<!-- 3. include docs/env/allure-commandline/location.md platform="windows" -->
+
 {% assign platform = include.platform %}
 
 {% assign stm_macos =  "`/usr/local/lib/node_modules/allure-commandline/`" %}

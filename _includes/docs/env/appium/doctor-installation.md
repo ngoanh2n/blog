@@ -1,5 +1,10 @@
 <!-- _includes/docs/env/appium/ -->
 
+<!-- USE CASE -->
+<!-- 1. include docs/env/appium/location.md  -->
+<!-- 2. include docs/env/appium/location.md platform="macos" -->
+<!-- 3. include docs/env/appium/location.md platform="windows" -->
+
 {% assign platform = include.platform %}
 
 {% assign stm_xcuitest =  "`$ appium driver doctor xcuitest`" %}

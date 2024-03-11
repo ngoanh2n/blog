@@ -1,10 +1,14 @@
 <!-- _includes/docs/env/java/ -->
 
-{% assign stm = "Java" %}
-{% assign heading = include.heading %}
+<!-- USE CASE -->
+<!-- 1. include docs/env/java/title.md -->
+<!-- 2. include docs/env/java/title.md isHeading=true -->
 
-{% if heading %}
-<{{heading}}>{{stm}}</{{heading}}>
+{% assign stm = "Java" %}
+{% assign isHeading = include.isHeading %}
+
+{% if isHeading %}
+<{{isHeading}}>{{stm}}</{{isHeading}}>
 {% else %}
 <h1>{{stm}}</h1>
 {% endif %}
