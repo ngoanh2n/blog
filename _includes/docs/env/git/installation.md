@@ -21,7 +21,9 @@
 {: .note-title .text-epsilon }
 > ✅ Installation
 >
+> ```shell
 > {{stm}}
+> ```
 
 <!-- ALL -->
 {% else %}
