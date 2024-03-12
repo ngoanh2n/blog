@@ -6,7 +6,7 @@
 > {: .note-title .text-epsilon } 
 >> 🔘 Temurin
 >>
->> [https://adoptium.net](https://adoptium.net){:target="\_blank"}
+>> [https://adoptium.net](https://adoptium.net){:target="\_blank"}<br>
 >>
 >>
 >> {: .note-title .text-epsilon } 
