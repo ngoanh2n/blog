@@ -7,9 +7,3 @@
 >> LTS: 8, 11, 17, 21
 >> 
 >> For example, I install Java `17`!
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
