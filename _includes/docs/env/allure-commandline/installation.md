@@ -1,9 +1,8 @@
 <!-- _includes/docs/env/allure-commandline/ -->
 
 {: .note-title .text-epsilon } 
-> ✅ Installation
+> 🔲 Installation
 >
 > ```shell
 > npm install allure-commandline --global
 > ```
-
