@@ -8,4 +8,4 @@
 > {: .note-title .text-epsilon }
 >> LTS: even-numbered releases (18, 28, etc.)
 >> 
->> For example, I install NodeJS `20`!
+>> For example, I will install NodeJS `20`!
