@@ -2,15 +2,14 @@
 
 <!-- USE CASE -->
 <!-- 1. include docs/env/java/title.md -->
-<!-- 2. include docs/env/java/title.md isHeading=true -->
+<!-- 2. include docs/env/java/title.md useMDHead="###" -->
 
 {% assign stm = "Java" %}
-{% assign isHeading = include.isHeading %}
+{% assign useMDHead = include.useMDHead %}
 
-{% if isHeading %}
-<{{isHeading}}>{{stm}}</{{isHeading}}>
+{% if useMDHead %}
+{{useMDHead}} {{stm}}
 {% else %}
 <h1>{{stm}}</h1>
 {% endif %}
-{: .no_toc }
 <hr>{: .head-hr }
