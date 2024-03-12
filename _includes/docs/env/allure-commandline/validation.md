@@ -3,4 +3,6 @@
 {: .note-title .text-epsilon }
 > ℹ️ Validation
 >
-> `$ allure --version`
+> ```shell
+> allure --version
+> ```

@@ -4,8 +4,10 @@
 > 🔲 Doctor
 >
 > Attempts to diagnose and fix common Appium configuration issues.
-> 
-> `$ appium driver doctor <driver_name>`
+>
+> ```shell
+> appium driver doctor <driver_name>
+> ```
 > 
 > {: .highlight .text-epsilon }
 >> driver_name: `xcuitest`, `uiautomator2`, `mac2`...<br>

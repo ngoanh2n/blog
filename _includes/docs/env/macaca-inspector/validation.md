@@ -3,4 +3,6 @@
 {: .note-title .text-epsilon }
 > ℹ️ Validation
 >
-> `$ app-inspector -v`
+> ```shell
+> app-inspector -v
+> ```

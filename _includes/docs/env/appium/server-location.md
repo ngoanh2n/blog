@@ -8,7 +8,7 @@
 {% assign platform = include.platform %}
 
 {% assign stm_macos =  "`/Users/{USER}/.appium/`" %}
-{% assign stm_windows =  "`TODO`" %}
+{% assign stm_windows =  "`C:/Users/{USER}/AppData/Roaming/npm/node_modules/appium/`" %}
 
 <!-- macOS & Windows -->
 {% if platform %}

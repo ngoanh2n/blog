@@ -3,4 +3,6 @@
 {: .note-title .text-epsilon }
 > ✅ Installation
 >
-> `$ npm install appium --global`
+> ```shell
+> npm install appium --global
+> ```

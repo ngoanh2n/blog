@@ -3,4 +3,6 @@
 {: .note-title .text-epsilon } 
 > ✅ Installation
 >
-> [https://brew.sh](https://brew.sh/){:target="\_blank"}
+> ```shell
+> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+> ```

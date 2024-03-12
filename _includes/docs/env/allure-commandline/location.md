@@ -8,7 +8,7 @@
 {% assign platform = include.platform %}
 
 {% assign stm_macos =  "`/usr/local/lib/node_modules/allure-commandline/`" %}
-{% assign stm_windows =  "`TODO`" %}
+{% assign stm_windows =  "`C:/Users/{USER}/AppData/Roaming/npm/node_modules/allure-commandline`" %}
 
 <!-- macOS & Windows -->
 {% if platform %}

@@ -8,11 +8,15 @@
 >>
 >> Plugin for image comparison and finding elements by image.
 >> {: .fs-2 }
->> `$ appium plugin install images`
+>> ```shell
+>> appium plugin install images
+>> ```
 >>
 >> {: .note-title .text-epsilon }
 >>> Usage
 >>>
 >>> The plugin must be explicitly activated when launching the Appium server.
 >>> {: .fs-2 }
->>> `$ appium --use-plugins=images`
+>>> ```shell
+>>> appium --use-plugins=images
+>>> ```

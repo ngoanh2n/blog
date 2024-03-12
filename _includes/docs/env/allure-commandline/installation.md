@@ -3,4 +3,7 @@
 {: .note-title .text-epsilon } 
 > ✅ Installation
 >
-> `$ npm install allure-commandline --global`
+> ```shell
+> npm install allure-commandline --global
+> ```
+

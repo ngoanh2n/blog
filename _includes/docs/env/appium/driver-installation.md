@@ -3,7 +3,9 @@
 {: .note-title .text-epsilon }
 > ✅ Installation
 >
-> `$ appium driver install <driver_name>`
+> ```shell
+> appium driver install <driver_name>
+> ```
 > 
 > {: .highlight .text-epsilon }
 >> driver_name: `xcuitest`, `uiautomator2`, `mac2`...<br>

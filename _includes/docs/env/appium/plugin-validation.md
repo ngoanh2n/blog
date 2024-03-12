@@ -3,4 +3,7 @@
 {: .note-title .text-epsilon }
 > ℹ️ Validation
 >
-> `$ appium plugin list --installed`
+> ```shell
+> appium plugin list --installed
+> ```
+

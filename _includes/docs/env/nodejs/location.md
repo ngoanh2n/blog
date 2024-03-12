@@ -10,8 +10,8 @@
 {% assign stm_macos_node =  "`/usr/local/lib/node_modules/`" %}
 {% assign stm_macos_npm =  "`/usr/local/lib/node_modules/npm/node_modules/`" %}
 
-{% assign stm_windows_node =  "`TODO`" %}
-{% assign stm_windows_npm =  "`TODO`" %}
+{% assign stm_windows_node =  "`C:/Program Files/nodejs/`" %}
+{% assign stm_windows_npm =  "`C:/Program Files/nodejs/node_modules/npm/`" %}
 
 <!-- macOS & Windows -->
 {% if platform %}

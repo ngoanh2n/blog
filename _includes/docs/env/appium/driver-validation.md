@@ -3,4 +3,6 @@
 {: .note-title .text-epsilon }
 > ℹ️ Validation
 >
-> `$ appium driver list --installed`
+> ```shell
+> appium driver list --installed
+> ```

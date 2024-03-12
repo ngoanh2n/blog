@@ -6,9 +6,13 @@
 > {: .note-title .text-epsilon }
 >> ℹ️ Node
 >> 
->> `node --version`
+>> ```shell
+>> node --version
+>> ```
 >
 > {: .note-title .text-epsilon }
 >> ℹ️ NPM
 >> 
->> `npm --version`
+>> ```shell
+>> npm --version
+>> ```

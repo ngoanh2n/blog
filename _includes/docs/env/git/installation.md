@@ -7,8 +7,8 @@
 
 {% assign platform = include.platform %}
 
-{% assign stm_macos =  "`$ brew install git`" %}
-{% assign stm_windows =  "`TODO`" %}
+{% assign stm_macos =  "brew install git" %}
+{% assign stm_windows =  "choco install git -y" %}
 
 <!-- macOS & Windows -->
 {% if platform %}
@@ -31,10 +31,14 @@
 > {: .note-title .text-epsilon }
 >> 🔘 macOS
 >> 
+>> ```shell
 >> {{stm_macos}}
+>> ```
 >
 > {: .note-title .text-epsilon }
 >> 🔘 Windows
 >> 
+>> ```shell
 >> {{stm_windows}}
+>> ```
 {% endif %}

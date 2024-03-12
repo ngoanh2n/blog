@@ -3,4 +3,6 @@
 {: .note-title .text-epsilon } 
 > ✅ Installation
 >
-> `$ npm install app-inspector --global`
+> ```shell
+> npm install app-inspector --global
+> ```

@@ -15,6 +15,6 @@
 > {: .note-title .text-epsilon } 
 >> 🔘 Web application
 >>
->> Appium Inspector is hosted by [Appium Pro](https://appiumpro.com/).
+>> Appium Inspector is hosted by [Appium Pro](https://appiumpro.com/){:target="\_blank"}.
 >> You can inspect your app on this site directly.<br>
 >> [https://inspector.appiumpro.com/](https://inspector.appiumpro.com/){:target="\_blank"}

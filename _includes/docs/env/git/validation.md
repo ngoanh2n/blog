@@ -3,4 +3,6 @@
 {: .note-title .text-epsilon }
 > ℹ️ Validation
 >
-> `$ git --version`
+> ```shell
+> git --version
+> ```
