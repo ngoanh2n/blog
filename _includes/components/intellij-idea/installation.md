@@ -1,14 +1,25 @@
+<!-- LOCATION -->
 <!-- _includes/docs/env/intellij-idea/ -->
 
-<!-- USE CASE -->
-<!-- 1. include docs/env/intellij-idea/location.md  -->
-<!-- 2. include docs/env/intellij-idea/location.md platform="macos" -->
-<!-- 3. include docs/env/intellij-idea/location.md platform="windows" -->
+<!-- INCLUDE -->
+<!-- docs/env/intellij-idea/installation.md -->
+
+<!-- VARIABLE -->
+<!-- platform: [macos, windows], default to ALL -->
+<!-- required: [true, false], default to true -->
 
 {% assign platform = include.platform %}
+{% assign required = include.required %}
 
 {% assign stm_macos =  "https://www.jetbrains.com/idea/download/?section=mac" %}
 {% assign stm_windows =  "https://www.jetbrains.com/idea/download/?section=windows" %}
+
+<!-- Set title -->
+{% if required == false %}
+    {% assign title = "🔲 Installation" %}
+{% else %}
+    {% assign title = "✅ Installation" %}
+{% endif %}
 
 <!-- macOS & Windows -->
 {% if platform %}
@@ -19,14 +30,14 @@
     {% endif %}
 
 {: .note-title .text-epsilon } 
-> ✅ Installation
+> {{ title }}
 >
 > [{{stm}}]({{stm}}){:target="\_blank"}
 
 <!-- ALL -->
 {% else %}
 {: .note-title .text-epsilon }
-> ✅ Installation
+> {{ title }}
 >
 > {: .note-title .text-epsilon }
 >> 🔘 macOS

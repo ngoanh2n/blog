@@ -1,7 +1,23 @@
+<!-- LOCATION -->
 <!-- _includes/docs/env/chocolatey/ -->
 
+<!-- INCLUDE -->
+<!-- docs/env/chocolatey/installation.md -->
+
+<!-- VARIABLE -->
+<!-- required: [true, false], default to true -->
+
+{% assign required = include.required %}
+
+<!-- Set title -->
+{% if required == false %}
+    {% assign title = "🔲 Installation" %}
+{% else %}
+    {% assign title = "✅ Installation" %}
+{% endif %}
+
 {: .note-title .text-epsilon } 
-> ✅ Installation
+> {{ title }}
 >
 > 1. Open `Windows PowerShell` with administrator privileges
 > 2. Run below command:<br>

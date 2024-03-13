@@ -1,14 +1,25 @@
+<!-- LOCATION -->
 <!-- _includes/docs/env/git/ -->
 
-<!-- USE CASE -->
-<!-- 1. include docs/env/git/installation.md  -->
-<!-- 2. include docs/env/git/installation.md platform="macos" -->
-<!-- 3. include docs/env/git/installation.md platform="windows" -->
+<!-- INCLUDE -->
+<!-- docs/env/git/installation.md -->
+
+<!-- VARIABLE -->
+<!-- platform: [macos, windows], default to ALL -->
+<!-- required: [true, false], default to true -->
 
 {% assign platform = include.platform %}
+{% assign required = include.required %}
 
 {% assign stm_macos =  "brew install git" %}
 {% assign stm_windows =  "choco install git -y" %}
+
+<!-- Set title -->
+{% if required == false %}
+    {% assign title = "🔲 Installation" %}
+{% else %}
+    {% assign title = "✅ Installation" %}
+{% endif %}
 
 <!-- macOS & Windows -->
 {% if platform %}
@@ -19,7 +30,7 @@
     {% endif %}
 
 {: .note-title .text-epsilon }
-> ✅ Installation
+> {{ title }}
 >
 > ```shell
 > {{stm}}
@@ -28,7 +39,7 @@
 <!-- ALL -->
 {% else %}
 {: .note-title .text-epsilon }
-> ✅ Installation
+> {{ title }}
 >
 > {: .note-title .text-epsilon }
 >> 🔘 macOS

@@ -1,14 +1,28 @@
+<!-- LOCATION -->
 <!-- _includes/docs/env/nodejs/ -->
 
-<!-- USE CASE -->
-<!-- 1. include docs/env/nodejs/location.md  -->
-<!-- 2. include docs/env/nodejs/location.md platform="macos" -->
-<!-- 3. include docs/env/nodejs/location.md platform="windows" -->
+<!-- INCLUDE -->
+<!-- docs/env/nodejs/installation.md -->
+
+<!-- VARIABLE -->
+<!-- platform: [macos, windows], default to ALL -->
+<!-- required: [true, false], default to true -->
 
 {% assign platform = include.platform %}
+{% assign required = include.required %}
 
-{% assign stm_macos =  "brew install node@20" %}
-{% assign stm_windows =  "[https://nodejs.org/en/download](https://nodejs.org/en/download){:target='\_blank'}" %}
+{% assign command_brew = "brew install node@20" %}
+{% assign command_choco = "choco install nodejs-lts" %}
+
+{% assign download_link = "https://nodejs.org/en/download" %}
+{% assign download_file_windows = "`node-v20.xx.x-xxx.msi`" %}
+
+<!-- Set title -->
+{% if required == false %}
+    {% assign title = "🔲 Installation" %}
+{% else %}
+    {% assign title = "✅ Installation" %}
+{% endif %}
 
 <!-- macOS & Windows -->
 {% if platform %}
@@ -16,36 +30,61 @@
 <!-- macOS -->
 {% if platform == "macos" %}
 {: .note-title .text-epsilon }
-> ✅ Installation
+> {{ title }}
 >
 > ```shell
-> {{stm_macos}}
+> {{ command_brew }}
 > ```
 
 <!-- Windows -->
 {% else %}
 {: .note-title .text-epsilon }
-> ✅ Installation
+> {{ title }}
 >
-> 1. Download by using {{stm_windows}}
-> 2. Open the `node-v20.xx.x-xxx.msi` file to install using wizard
+> {: .note-title .text-epsilon }
+>> 🔘 Chocolatey
+>> 
+>> ```shell
+>> {{ command_choco }}
+>> ```
+>
+> {: .note-title .text-epsilon }
+>> 🔘 Setup Wizard
+>>
+>> 1. Visit [{{ download_link }}]({{ download_link }}){:target="\_blank"}
+>> 2. Click `Windows Installer`
+>> 3. Open the {{ download_file_windows }} file in `Downloads`
+>> 4. Do installation procedures of Setup Wizard
 {% endif %}
 
 <!-- ALL -->
 {% else %}
 {: .note-title .text-epsilon }
-> ✅ Installation
+> {{ title }}
 >
 > {: .note-title .text-epsilon }
 >> 🔘 macOS
 >> 
 >> ```shell
->> {{stm_macos}}
+>> {{ command_brew }}
 >> ```
+>
 >
 > {: .note-title .text-epsilon }
 >> 🔘 Windows
->> 
->> 1. Download by using {{stm_windows}}
->> 2. Open the `node-v20.xx.x-xxx.msi` file to install using wizard
+>>
+>> {: .note-title .text-epsilon }
+>>> 🔘 Chocolatey
+>>> 
+>>> ```shell
+>>> {{ command_choco }}
+>>> ```
+>>
+>> {: .note-title .text-epsilon }
+>>> 🔘 Setup Wizard
+>>> 
+>>> 1. Visit [{{ download_link }}]({{ download_link }}){:target="\_blank"}
+>>> 2. Click `Windows Installer`
+>>> 3. Open the {{ download_file_windows }} file in `Downloads`
+>>> 4. Do installation procedures of Setup Wizard
 {% endif %}

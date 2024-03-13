@@ -1,7 +1,23 @@
+<!-- LOCATION -->
 <!-- _includes/docs/env/java/ -->
 
+<!-- INCLUDE -->
+<!-- docs/env/java/installation.md -->
+
+<!-- VARIABLE -->
+<!-- required: [true, false], default to true -->
+
+{% assign required = include.required %}
+
+<!-- Set title -->
+{% if required == false %}
+    {% assign title = "🔲 Installation" %}
+{% else %}
+    {% assign title = "✅ Installation" %}
+{% endif %}
+
 {: .note-title .text-epsilon } 
-> ✅ Installation
+> {{ title }}
 >
 > {: .note-title .text-epsilon } 
 >> 🔘 Temurin
@@ -47,7 +63,6 @@
 >>> sudo ln -sfn /usr/local/opt/openjdk@17/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-17.jdk
 >>> ```
 
-
 {: .note-title .text-epsilon }
 > ✅ Set JAVA_HOME
 >
@@ -65,4 +80,3 @@
 >> ```shell
 >> echo "export JAVA_HOME=\$(/usr/libexec/java_home -v 17)" >> ~/.zshrc
 >> ```
-
