@@ -17,7 +17,7 @@ collections:
   posts:
     output: true
     permalink: "/:posts/:path/"
-  environment:
+  env:
     output: true
     permalink: "/:env/:path/"
 
@@ -28,7 +28,7 @@ just_the_docs:
       nav_fold: true
       nav_exclude: true
       search_exclude: false
-    environment:
+    env:
       name: Environment
       nav_fold: false
       nav_exclude: false
