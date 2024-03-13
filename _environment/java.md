@@ -5,8 +5,8 @@ title: Java
 permalink: env/java
 ---
 
-{% include docs/env/java/title.md %}
-{% include docs/env/java/intro.md %}
+{% include components/java/title.md %}
+{% include components/java/intro.md %}
 {% include components/note.md %}
 
 ---
@@ -14,9 +14,9 @@ permalink: env/java
 ## macOS
 <hr>{: .head-hr }
 
-{% include docs/env/java/installation-macos.md %}
+{% include components/java/installation-macos.md %}
 
 ## Windows
 <hr>{: .head-hr }
 
-{% include docs/env/java/installation-windows.md %}
+{% include components/java/installation-windows.md %}

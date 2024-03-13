@@ -5,11 +5,11 @@ title: Xcode
 permalink: env/xcode
 ---
 
-{% include docs/env/xcode/title.md %}
-{% include docs/env/xcode/intro.md %}
+{% include components/xcode/title.md %}
+{% include components/xcode/intro.md %}
 {% include components/note.md %}
 
 ---
 
-{% include docs/env/xcode/prerequisites.md %}
-{% include docs/env/xcode/installation.md %}
+{% include components/xcode/prerequisites.md %}
+{% include components/xcode/installation.md %}

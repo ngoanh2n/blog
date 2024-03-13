@@ -5,8 +5,8 @@ title: Appium
 permalink: env/appium
 ---
 
-{% include docs/env/appium/title.md %}
-{% include docs/env/appium/intro.md %}
+{% include components/appium/title.md %}
+{% include components/appium/intro.md %}
 {% include components/note.md %}
 
 ---
@@ -14,29 +14,29 @@ permalink: env/appium
 ## Server
 <hr>{: .head-hr }
 
-{% include docs/env/appium/server-installation.md %}
-{% include docs/env/appium/server-validation.md %}
-{% include docs/env/appium/server-location.md %}
+{% include components/appium/server-installation.md %}
+{% include components/appium/server-validation.md %}
+{% include components/appium/server-location.md %}
 
 ## Driver
 <hr>{: .head-hr }
 
-{% include docs/env/appium/driver-intro.md %}
-{% include docs/env/appium/driver-installation.md platform="macos" %}
-{% include docs/env/appium/driver-doctor.md platform="macos" %}
-{% include docs/env/appium/driver-validation.md %}
-{% include docs/env/appium/driver-location.md %}
+{% include components/appium/driver-intro.md %}
+{% include components/appium/driver-installation.md platform="macos" %}
+{% include components/appium/driver-doctor.md platform="macos" %}
+{% include components/appium/driver-validation.md %}
+{% include components/appium/driver-location.md %}
 
 ## Plugin
 <hr>{: .head-hr }
 
-{% include docs/env/appium/plugin-intro.md %}
-{% include docs/env/appium/plugin-installation.md %}
-{% include docs/env/appium/plugin-validation.md %}
-{% include docs/env/appium/plugin-location.md %}
+{% include components/appium/plugin-intro.md %}
+{% include components/appium/plugin-installation.md %}
+{% include components/appium/plugin-validation.md %}
+{% include components/appium/plugin-location.md %}
 
 ## Inspector
 <hr>{: .head-hr }
 
-{% include docs/env/appium/inspector-intro.md %}
-{% include docs/env/appium/inspector-installation.md %}
+{% include components/appium/inspector-intro.md %}
+{% include components/appium/inspector-installation.md %}

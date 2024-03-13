@@ -5,10 +5,10 @@ title: Homebrew
 permalink: env/homebrew
 ---
 
-{% include docs/env/homebrew/title.md %}
-{% include docs/env/homebrew/intro.md %}
+{% include components/homebrew/title.md %}
+{% include components/homebrew/intro.md %}
 {% include components/note.md %}
 
 ---
 
-{% include docs/env/homebrew/installation.md %}
+{% include components/homebrew/installation.md %}

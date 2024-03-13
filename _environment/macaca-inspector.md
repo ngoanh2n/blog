@@ -5,12 +5,12 @@ title: Macaca Inspector
 permalink: env/macaca-inspector
 ---
 
-{% include docs/env/macaca-inspector/title.md %}
-{% include docs/env/macaca-inspector/intro.md %}
+{% include components/macaca-inspector/title.md %}
+{% include components/macaca-inspector/intro.md %}
 {% include components/note.md %}
 
 ---
 
-{% include docs/env/macaca-inspector/installation.md %}
-{% include docs/env/macaca-inspector/validation.md %}
-{% include docs/env/macaca-inspector/location.md %}
+{% include components/macaca-inspector/installation.md %}
+{% include components/macaca-inspector/validation.md %}
+{% include components/macaca-inspector/location.md %}

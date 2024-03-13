@@ -5,12 +5,12 @@ title: NodeJS
 permalink: env/nodejs
 ---
 
-{% include docs/env/nodejs/title.md %}
-{% include docs/env/nodejs/intro.md %}
+{% include components/nodejs/title.md %}
+{% include components/nodejs/intro.md %}
 {% include components/note.md %}
 
 ---
 
-{% include docs/env/nodejs/installation.md %}
-{% include docs/env/nodejs/validation.md %}
-{% include docs/env/nodejs/location.md %}
+{% include components/nodejs/installation.md %}
+{% include components/nodejs/validation.md %}
+{% include components/nodejs/location.md %}
