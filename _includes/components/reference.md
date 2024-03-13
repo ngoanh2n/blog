@@ -5,7 +5,5 @@
 
 {% assign fromPath = include.fromPath %}
 
-{: .note-title .text-epsilon }
-> ℹ️ Reference
->
-> [{{ site.url }}{{ fromPath }}]({{ fromPath }}){:target="\_blank"}
+{: .highlight .text-epsilon }
+[{{ site.url }}{{ fromPath }}]({{ fromPath }}){:target="\_blank"}
