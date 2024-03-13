@@ -21,36 +21,36 @@ title: Windows
 # General
 <hr>{: .head-hr }
 
-{% include docs/env/chocolatey/title.md useMDHead="###" %}
+{% include components/chocolatey/title.md useMDHead="###" %}
 {% include components/reference.md fromPath="/env/chocolatey/" %}
-{% include docs/env/chocolatey/installation.md %}
+{% include components/chocolatey/installation.md %}
 
-{% include docs/env/git/title.md useMDHead="###" %}
-{% include docs/env/git/intro.md %}
-{% include docs/env/git/installation.md platform="windows" %}
-{% include docs/env/git/validation.md %}
+{% include components/git/title.md useMDHead="###" %}
+{% include components/git/intro.md %}
+{% include components/git/installation.md platform="windows" %}
+{% include components/git/validation.md %}
 
-{% include docs/env/java/title.md useMDHead="###" %}
-{% include docs/env/java/intro.md %}
-{% include docs/env/java/installation-windows.md %}
+{% include components/java/title.md useMDHead="###" %}
+{% include components/java/intro.md %}
+{% include components/java/installation-windows.md %}
 
-{% include docs/env/nodejs/title.md useMDHead="###" %}
-{% include docs/env/nodejs/intro.md %}
-{% include docs/env/nodejs/installation.md platform="windows" %}
-{% include docs/env/nodejs/validation.md %}
+{% include components/nodejs/title.md useMDHead="###" %}
+{% include components/nodejs/intro.md %}
+{% include components/nodejs/installation.md platform="windows" %}
+{% include components/nodejs/validation.md %}
 
-{% include docs/env/allure-commandline/title.md useMDHead="###" %}
-{% include docs/env/allure-commandline/intro.md %}
-{% include docs/env/allure-commandline/installation.md platform="windows" %}
-{% include docs/env/allure-commandline/validation.md %}
+{% include components/allure-commandline/title.md useMDHead="###" %}
+{% include components/allure-commandline/intro.md %}
+{% include components/allure-commandline/installation.md platform="windows" %}
+{% include components/allure-commandline/validation.md %}
 
-{% include docs/env/github-desktop/title.md useMDHead="###" %}
-{% include docs/env/github-desktop/intro.md %}
-{% include docs/env/github-desktop/installation.md %}
+{% include components/github-desktop/title.md useMDHead="###" %}
+{% include components/github-desktop/intro.md %}
+{% include components/github-desktop/installation.md %}
 
-{% include docs/env/intellij-idea/title.md useMDHead="###" %}
-{% include docs/env/intellij-idea/intro.md %}
-{% include docs/env/intellij-idea/installation.md platform="windows" %}
+{% include components/intellij-idea/title.md useMDHead="###" %}
+{% include components/intellij-idea/intro.md %}
+{% include components/intellij-idea/installation.md platform="windows" %}
 
 # Advance
 <hr>{: .head-hr }
