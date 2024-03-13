@@ -7,7 +7,7 @@ permalink: env/git
 
 {% include docs/env/git/title.md %}
 {% include docs/env/git/intro.md %}
-{% include docs/env/notes.md %}
+{% include note.md %}
 
 ---
 

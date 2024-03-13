@@ -7,7 +7,7 @@ permalink: env/xcode
 
 {% include docs/env/xcode/title.md %}
 {% include docs/env/xcode/intro.md %}
-{% include docs/env/notes.md %}
+{% include note.md %}
 
 ---
 

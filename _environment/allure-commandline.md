@@ -7,7 +7,7 @@ permalink: env/allure-commandline
 
 {% include docs/env/allure-commandline/title.md %}
 {% include docs/env/allure-commandline/intro.md %}
-{% include docs/env/notes.md %}
+{% include note.md %}
 
 ---
 

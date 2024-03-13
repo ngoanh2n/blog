@@ -7,7 +7,7 @@ permalink: env/homebrew
 
 {% include docs/env/homebrew/title.md %}
 {% include docs/env/homebrew/intro.md %}
-{% include docs/env/notes.md %}
+{% include note.md %}
 
 ---
 

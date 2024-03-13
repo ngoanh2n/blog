@@ -7,7 +7,7 @@ permalink: env/macaca-inspector
 
 {% include docs/env/macaca-inspector/title.md %}
 {% include docs/env/macaca-inspector/intro.md %}
-{% include docs/env/notes.md %}
+{% include note.md %}
 
 ---
 

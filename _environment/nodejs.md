@@ -7,7 +7,7 @@ permalink: env/nodejs
 
 {% include docs/env/nodejs/title.md %}
 {% include docs/env/nodejs/intro.md %}
-{% include docs/env/notes.md %}
+{% include note.md %}
 
 ---
 
