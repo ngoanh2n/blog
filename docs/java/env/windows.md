@@ -16,13 +16,13 @@ title: Windows
 {:toc}
 ---
 
-{% include note.md %}
+{% include components/note.md %}
 
 # General
 <hr>{: .head-hr }
 
 {% include docs/env/chocolatey/title.md useMDHead="###" %}
-{% include reference.md fromPath="/env/chocolatey/" %}
+{% include components/reference.md fromPath="/env/chocolatey/" %}
 {% include docs/env/chocolatey/installation.md %}
 
 {% include docs/env/git/title.md useMDHead="###" %}

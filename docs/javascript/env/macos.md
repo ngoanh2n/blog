@@ -16,4 +16,4 @@ title: macOS
 {:toc}
 ---
 
-{% include note.md %}
+{% include components/note.md %}
