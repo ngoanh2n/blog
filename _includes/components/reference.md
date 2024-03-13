@@ -6,4 +6,4 @@
 {% assign fromPath = include.fromPath %}
 
 {: .highlight .text-epsilon }
-[{{ site.url }}{{ fromPath }}]({{ fromPath }}){:target="\_blank"}
+[{{ site.url }}{{ fromPath }}]({{ site.url }}{{ fromPath }}){:target="\_blank"}
