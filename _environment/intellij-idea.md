@@ -7,7 +7,7 @@ permalink: env/intellij-idea
 
 {% include docs/env/intellij-idea/title.md %}
 {% include docs/env/intellij-idea/intro.md %}
-{% include note.md %}
+{% include components/note.md %}
 
 ---
 

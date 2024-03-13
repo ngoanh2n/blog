@@ -7,7 +7,7 @@ permalink: env/java
 
 {% include docs/env/java/title.md %}
 {% include docs/env/java/intro.md %}
-{% include note.md %}
+{% include components/note.md %}
 
 ---
 

@@ -7,7 +7,7 @@ permalink: env/chocolatey
 
 {% include docs/env/chocolatey/title.md %}
 {% include docs/env/chocolatey/intro.md %}
-{% include note.md %}
+{% include components/note.md %}
 
 ---
 
