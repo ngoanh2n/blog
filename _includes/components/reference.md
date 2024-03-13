@@ -1,4 +1,7 @@
-<!-- _includes/docs/env/chocolatey/ -->
+<!-- _includes/components/ -->
+
+<!-- USE CASE -->
+<!-- include components/reference.md fromPath="{RELATIVE_PATH}" -->
 
 {% assign fromPath = include.fromPath %}
 

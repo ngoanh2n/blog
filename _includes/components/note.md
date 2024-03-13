@@ -1,4 +1,4 @@
-<!-- _includes/docs/env/ -->
+<!-- _includes/components/ -->
 
 {: .note-title .text-zeta }
 > Notes
