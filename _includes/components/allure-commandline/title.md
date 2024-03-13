@@ -2,13 +2,13 @@
 
 <!-- USE CASE -->
 <!-- 1. include docs/env/allure-commandline/title.md -->
-<!-- 2. include docs/env/allure-commandline/title.md useMDHead="###" -->
+<!-- 2. include docs/env/allure-commandline/title.md heading="###" -->
 
 {% assign stm = "Allure Commandline" %}
-{% assign useMDHead = include.useMDHead %}
+{% assign heading = include.heading %}
 
-{% if useMDHead %}
-{{useMDHead}} {{stm}}
+{% if heading %}
+{{heading}} {{stm}}
 {% else %}
 <h1>{{stm}}</h1>
 {% endif %}

@@ -2,13 +2,13 @@
 
 <!-- USE CASE -->
 <!-- 1. include docs/env/xcode/title.md -->
-<!-- 2. include docs/env/xcode/title.md useMDHead="###" -->
+<!-- 2. include docs/env/xcode/title.md heading="###" -->
 
 {% assign stm = "Xcode" %}
-{% assign useMDHead = include.useMDHead %}
+{% assign heading = include.heading %}
 
-{% if useMDHead %}
-{{useMDHead}} {{stm}}
+{% if heading %}
+{{heading}} {{stm}}
 {% else %}
 <h1>{{stm}}</h1>
 {% endif %}
