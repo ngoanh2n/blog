@@ -22,31 +22,31 @@ title: Windows
 <hr>{: .head-hr }
 
 {% include components/chocolatey/title.md useMDHead="###" %}
-{% include components/reference.md fromPath="/env/chocolatey/" %}
+{% include components/reference.md fromPath="/env/chocolatey" %}
 {% include components/chocolatey/installation.md %}
 
 {% include components/git/title.md useMDHead="###" %}
-{% include components/reference.md fromPath="/env/git/" %}
+{% include components/reference.md fromPath="/env/git" %}
 {% include components/git/installation.md platform="windows" %}
 
 {% include components/java/title.md useMDHead="###" %}
-{% include components/reference.md fromPath="/env/java/" %}
+{% include components/reference.md fromPath="/env/java" %}
 {% include components/java/installation-windows.md %}
 
 {% include components/nodejs/title.md useMDHead="###" %}
-{% include components/reference.md fromPath="/env/nodejs/" %}
+{% include components/reference.md fromPath="/env/nodejs" %}
 {% include components/nodejs/installation.md platform="windows" %}
 
 {% include components/allure-commandline/title.md useMDHead="###" %}
-{% include components/reference.md fromPath="/env/allure-commandline/" %}
+{% include components/reference.md fromPath="/env/allure-commandline" %}
 {% include components/allure-commandline/installation.md platform="windows" %}
 
 {% include components/github-desktop/title.md useMDHead="###" %}
-{% include components/reference.md fromPath="/env/github-desktop/" %}
+{% include components/reference.md fromPath="/env/github-desktop" %}
 {% include components/github-desktop/installation.md %}
 
 {% include components/intellij-idea/title.md useMDHead="###" %}
-{% include components/reference.md fromPath="/env/intellij-idea/" %}
+{% include components/reference.md fromPath="/env/intellij-idea" %}
 {% include components/intellij-idea/installation.md platform="windows" %}
 
 # Advance
