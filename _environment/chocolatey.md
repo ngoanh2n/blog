@@ -12,3 +12,4 @@ permalink: env/chocolatey
 ---
 
 {% include docs/env/chocolatey/installation.md %}
+{% include docs/env/chocolatey/location.md %}
