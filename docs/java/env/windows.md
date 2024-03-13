@@ -21,38 +21,38 @@ title: Windows
 # General
 <hr>{: .head-hr }
 
-{% include components/chocolatey/title.md useMDHead="###" %}
+{% include components/chocolatey/title.md heading="###" %}
 {% include components/reference.md fromPath="/env/chocolatey" %}
 {% include components/chocolatey/installation.md %}
 
-{% include components/java/title.md useMDHead="###" %}
+{% include components/java/title.md heading="###" %}
 {% include components/reference.md fromPath="/env/java" %}
 {% include components/java/installation-windows.md %}
 
-{% include components/git/title.md useMDHead="###" %}
+{% include components/git/title.md heading="###" %}
 {% include components/reference.md fromPath="/env/git" %}
 {% include components/git/installation.md platform="windows" %}
 
-{% include components/intellij-idea/title.md useMDHead="###" %}
+{% include components/intellij-idea/title.md heading="###" %}
 {% include components/reference.md fromPath="/env/intellij-idea" %}
 {% include components/intellij-idea/installation.md platform="windows" %}
 
-{% include components/nodejs/title.md useMDHead="###" %}
+{% include components/nodejs/title.md heading="###" %}
 {% include components/reference.md fromPath="/env/nodejs" %}
 {% include components/nodejs/installation.md platform="windows" required=false %}
 
-{% include components/allure-commandline/title.md useMDHead="###" %}
+{% include components/allure-commandline/title.md heading="###" %}
 {% include components/reference.md fromPath="/env/allure-commandline" %}
 {% include components/allure-commandline/installation.md platform="windows" required=false %}
 
-{% include components/github-desktop/title.md useMDHead="###" %}
+{% include components/github-desktop/title.md heading="###" %}
 {% include components/reference.md fromPath="/env/github-desktop" %}
 {% include components/github-desktop/installation.md platform="windows" required=false %}
 
 # Advance
 <hr>{: .head-hr }
 
-{% include components/appium/title.md useMDHead="###" %}
+{% include components/appium/title.md heading="###" %}
 {% include components/reference.md fromPath="/env/appium" %}
 
 #### Server
