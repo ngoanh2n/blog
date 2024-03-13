@@ -15,7 +15,7 @@ title: macOS
 {:toc}
 ---
 
-{% include docs/env-note.md %}
+{% include note.md %}
 
 ### Java
 

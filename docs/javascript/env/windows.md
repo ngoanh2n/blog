@@ -16,4 +16,4 @@ title: Windows
 {:toc}
 ---
 
-{% include docs/env-note.md %}
+{% include note.md %}
