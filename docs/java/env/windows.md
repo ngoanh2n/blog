@@ -22,9 +22,8 @@ title: Windows
 <hr>{: .head-hr }
 
 {% include docs/env/chocolatey/title.md useMDHead="###" %}
-{% include docs/env/chocolatey/intro.md %}
+{% include reference.md fromPath="/env/chocolatey/" %}
 {% include docs/env/chocolatey/installation.md %}
-{% include docs/env/chocolatey/validation.md %}
 
 {% include docs/env/git/title.md useMDHead="###" %}
 {% include docs/env/git/intro.md %}
