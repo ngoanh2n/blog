@@ -5,7 +5,7 @@ title: Allure Commandline
 permalink: env/allure-commandline
 ---
 
-{% include components/allure-commandline/title.md %}
+{% include components/title.md value="Allure Commandline" %}
 {% include components/allure-commandline/intro.md %}
 {% include components/note.md %}
 

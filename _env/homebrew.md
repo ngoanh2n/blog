@@ -5,7 +5,7 @@ title: Homebrew
 permalink: env/homebrew
 ---
 
-{% include components/homebrew/title.md %}
+{% include components/title.md value="Homebrew" %}
 {% include components/homebrew/intro.md %}
 {% include components/note.md %}
 

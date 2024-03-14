@@ -5,7 +5,7 @@ title: NodeJS
 permalink: env/nodejs
 ---
 
-{% include components/nodejs/title.md %}
+{% include components/title.md value="NodeJS" %}
 {% include components/nodejs/intro.md %}
 {% include components/note.md %}
 

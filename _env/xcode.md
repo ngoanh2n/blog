@@ -5,7 +5,7 @@ title: Xcode
 permalink: env/xcode
 ---
 
-{% include components/xcode/title.md %}
+{% include components/title.md value="Xcode" %}
 {% include components/xcode/intro.md %}
 {% include components/note.md %}
 

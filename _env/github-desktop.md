@@ -5,7 +5,7 @@ title: GitHub Desktop
 permalink: env/github-desktop
 ---
 
-{% include components/github-desktop/title.md %}
+{% include components/title.md value="GitHub Desktop" %}
 {% include components/github-desktop/intro.md %}
 {% include components/note.md %}
 

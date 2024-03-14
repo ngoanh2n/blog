@@ -5,18 +5,16 @@ title: Java
 permalink: env/java
 ---
 
-{% include components/java/title.md %}
+{% include components/title.md value="Java" %}
 {% include components/java/intro.md %}
 {% include components/note.md %}
 
 ---
 
-## macOS
-<hr>{: .head-hr }
-
+<!-- macOS -->
+{% include components/title.md heading="##" value="macOS" %}
 {% include components/java/installation-macos.md %}
 
-## Windows
-<hr>{: .head-hr }
-
+<!-- Windows -->
+{% include components/title.md heading="##" value="Windows" %}
 {% include components/java/installation-windows.md %}

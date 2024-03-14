@@ -5,7 +5,7 @@ title: IntelliJ IDEA
 permalink: env/intellij-idea
 ---
 
-{% include components/intellij-idea/title.md %}
+{% include components/title.md value="IntelliJ IDEA Community Edition" %}
 {% include components/intellij-idea/intro.md %}
 {% include components/note.md %}
 

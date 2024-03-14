@@ -5,7 +5,7 @@ title: Git
 permalink: env/git
 ---
 
-{% include components/git/title.md %}
+{% include components/title.md value="Git" %}
 {% include components/git/intro.md %}
 {% include components/note.md %}
 

@@ -5,7 +5,7 @@ title: Macaca Inspector
 permalink: env/macaca-inspector
 ---
 
-{% include components/macaca-inspector/title.md %}
+{% include components/title.md value="Macaca Inspector" %}
 {% include components/macaca-inspector/intro.md %}
 {% include components/note.md %}
 
