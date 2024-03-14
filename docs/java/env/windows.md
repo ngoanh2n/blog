@@ -44,7 +44,7 @@ title: Windows
 
 <!-- Allure Commandline -->
 {% include components/title.md heading="##" value="Allure Commandline" %}
-{% include components/allure-commandline/installation.md platform="windows" required=false referenced=true %}
+{% include components/allure-commandline/installation.md required=false referenced=true %}
 
 <!-- GitHub Desktop -->
 {% include components/title.md heading="##" value="GitHub Desktop" %}
@@ -59,7 +59,7 @@ title: Windows
 {% include components/title.md heading="###" value="Server" %}
 {% include components/appium/server-installation.md referenced=true %}
 {% include components/title.md heading="###" value="Driver" %}
-{% include components/appium/driver-installation.md referenced=true %}
+{% include components/appium/driver-installation.md platform="windows" referenced=true %}
 {% include components/title.md heading="###" value="Plugin" %}
 {% include components/appium/plugin-installation.md required=false referenced=true %}
 {% include components/title.md heading="###" value="Inspector" %}
