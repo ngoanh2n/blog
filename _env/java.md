@@ -7,6 +7,7 @@ permalink: env/java
 
 {% include components/title.md value="Java" %}
 {% include components/java/intro.md %}
+{% include components/toc.md %}
 {% include components/note.md %}
 
 ---

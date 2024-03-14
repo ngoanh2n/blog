@@ -7,6 +7,7 @@ permalink: env/appium
 
 {% include components/title.md value="Appium" %}
 {% include components/appium/intro.md %}
+{% include components/toc.md %}
 {% include components/note.md %}
 
 ---
