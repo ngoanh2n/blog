@@ -7,8 +7,8 @@
 
 {% assign platform = include.platform %}
 
-{% assign stm_macos =  "`/Users/{USER}/.appium/node_modules/appium-{DRIVER}-driver/`" %}
-{% assign stm_windows =  "`TODO`" %}
+{% assign stm_macos =  "`/Users/{USER}/.appium/node_modules/appium-{INSTALLATION_KEY}-driver/`" %}
+{% assign stm_windows =  "`C:/Users/{USER}/.appium/node_modules/appium-{INSTALLATION_KEY}-driver`" %}
 
 <!-- macOS & Windows -->
 {% if platform %}

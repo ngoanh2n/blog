@@ -7,8 +7,8 @@
 
 {% assign platform = include.platform %}
 
-{% assign stm_macos =  "`/Users/{USER}/.appium/node_modules/@appium/images-plugin`" %}
-{% assign stm_windows =  "`TODO`" %}
+{% assign stm_macos     =  "`/Users/{USER}/.appium/node_modules/@appium/{INSTALLATION_KEY}-plugin`" %}
+{% assign stm_windows   =  "`C:/Users/{USER}/.appium/node_modules/@appium/{INSTALLATION_KEY}-plugin`" %}
 
 <!-- macOS & Windows -->
 {% if platform %}
