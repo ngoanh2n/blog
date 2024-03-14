@@ -1,29 +1,43 @@
 <!-- LOCATION -->
-<!-- _includes/docs/env/github-desktop/ -->
+<!-- _includes/components/github-desktop/ -->
 
 <!-- INCLUDE -->
-<!-- docs/env/github-desktop/installation.md -->
+<!-- components/github-desktop/installation.md -->
 
-<!-- VARIABLE -->
-<!-- platform: [macos, windows], default to ALL -->
-<!-- required: [true, false], default to true -->
+<!-- VARIABLES -->
+<!-- platform:      [macos, windows], default to ALL -->
+<!-- required:      [true, false], default to true -->
+<!-- referenced:    [true, false], default to false -->
 
+
+<!-- READ VARIABLES -->
 {% assign platform = include.platform %}
 {% assign required = include.required %}
+{% assign referenced = include.referenced %}
 
+
+<!-- ASSIGN CONSTANTS -->
 {% assign command_brew = "brew install node@20" %}
 {% assign command_choco = "choco install github-desktop" %}
-
 {% assign download_link = "https://desktop.github.com" %}
 {% assign download_file_macos = "`GitHubDesktop-xxx.zip`" %}
 {% assign download_file_windows = "`GitHubDesktopSetup-xxx.exe`" %}
 
-<!-- Set title -->
+<!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
 {% if required == false %}
     {% assign title = "🔲 Installation" %}
 {% else %}
     {% assign title = "✅ Installation" %}
 {% endif %}
+
+
+<!-- DECIDE TO DISPLAY THE LINK OF THIS COMPONENT -->
+{% if referenced == true %}
+{% include components/reference.md path="/env/github-desktop" %}
+{% endif %}
+
+
+<!-- MAIN CONTENT -->
 
 <!-- macOS & Windows -->
 {% if platform %}

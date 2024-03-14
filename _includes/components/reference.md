@@ -1,9 +1,13 @@
+<!-- LOCATION -->
 <!-- _includes/components/ -->
 
-<!-- USE CASE -->
-<!-- include components/reference.md fromPath="{RELATIVE_PATH}" -->
+<!-- INCLUDE -->
+<!-- components/reference.md -->
 
-{% assign fromPath = include.fromPath %}
+<!-- VARIABLES -->
+<!-- path: {RELATIVE_PATH} -->
+
+{% assign path = include.path %}
 
 {: .highlight .text-epsilon }
-[{{ site.url }}{{ fromPath }}]({{ site.url }}{{ fromPath }}){:target="\_blank"}
+[{{ site.url }}{{ path }}]({{ site.url }}{{ path }}){:target="\_blank"}

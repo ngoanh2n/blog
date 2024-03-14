@@ -1,21 +1,43 @@
 <!-- LOCATION -->
-<!-- _includes/docs/env/nodejs/ -->
+<!-- _includes/components/nodejs/ -->
 
 <!-- INCLUDE -->
-<!-- docs/env/nodejs/installation.md -->
+<!-- components/nodejs/installation.md -->
 
-<!-- VARIABLE -->
-<!-- platform: [macos, windows], default to ALL -->
-<!-- required: [true, false], default to true -->
+<!-- VARIABLES -->
+<!-- platform:      [macos, windows], default to ALL -->
+<!-- required:      [true, false], default to true -->
+<!-- referenced:    [true, false], default to false -->
 
+
+<!-- READ VARIABLES -->
 {% assign platform = include.platform %}
 {% assign required = include.required %}
+{% assign referenced = include.referenced %}
 
+
+<!-- ASSIGN CONSTANTS -->
 {% assign command_brew = "brew install node@20" %}
 {% assign command_choco = "choco install nodejs-lts" %}
-
 {% assign download_link = "https://nodejs.org/en/download" %}
 {% assign download_file_windows = "`node-v20.xx.x-xxx.msi`" %}
+
+
+<!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
+{% if required == false %}
+    {% assign title = "🔲 Installation" %}
+{% else %}
+    {% assign title = "✅ Installation" %}
+{% endif %}
+
+
+<!-- DECIDE TO DISPLAY THE LINK OF THIS COMPONENT -->
+{% if referenced == true %}
+{% include components/reference.md path="/env/nodejs" %}
+{% endif %}
+
+
+<!-- MAIN CONTENT -->
 
 <!-- Set title -->
 {% if required == false %}

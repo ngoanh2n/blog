@@ -1,20 +1,34 @@
 <!-- LOCATION -->
-<!-- _includes/docs/env/appium/ -->
+<!-- _includes/components/appium/ -->
 
 <!-- INCLUDE -->
-<!-- docs/env/appium/installation.md -->
+<!-- components/appium/server-installation.md -->
 
-<!-- VARIABLE -->
-<!-- required: [true, false], default to true -->
+<!-- VARIABLES -->
+<!-- required:      [true, false], default to true -->
+<!-- referenced:    [true, false], default to false -->
 
+
+<!-- READ VARIABLES -->
 {% assign required = include.required %}
+{% assign referenced = include.referenced %}
 
-<!-- Set title -->
+
+<!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
 {% if required == false %}
     {% assign title = "🔲 Installation" %}
 {% else %}
     {% assign title = "✅ Installation" %}
 {% endif %}
+
+
+<!-- DECIDE TO DISPLAY THE LINK OF THIS COMPONENT -->
+{% if referenced == true %}
+{% include components/reference.md path="/env/appium#server" %}
+{% endif %}
+
+
+<!-- MAIN CONTENT -->
 
 {: .note-title .text-epsilon }
 > {{ title }}

@@ -1,39 +1,55 @@
 <!-- LOCATION -->
-<!-- _includes/docs/env/git/ -->
+<!-- _includes/components/git/ -->
 
 <!-- INCLUDE -->
-<!-- docs/env/git/installation.md -->
+<!-- components/git/installation.md -->
 
-<!-- VARIABLE -->
-<!-- platform: [macos, windows], default to ALL -->
-<!-- required: [true, false], default to true -->
+<!-- VARIABLES -->
+<!-- platform:      [macos, windows], default to ALL -->
+<!-- required:      [true, false], default to true -->
+<!-- referenced:    [true, false], default to false -->
 
+
+<!-- READ VARIABLES -->
 {% assign platform = include.platform %}
 {% assign required = include.required %}
+{% assign referenced = include.referenced %}
 
-{% assign stm_macos =  "brew install git" %}
-{% assign stm_windows =  "choco install git -y" %}
 
-<!-- Set title -->
+<!-- ASSIGN CONSTANTS -->
+{% assign command_brew =  "brew install git" %}
+{% assign command_choco =  "choco install git -y" %}
+
+
+<!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
 {% if required == false %}
     {% assign title = "🔲 Installation" %}
 {% else %}
     {% assign title = "✅ Installation" %}
 {% endif %}
 
+
+<!-- DECIDE TO DISPLAY THE LINK OF THIS COMPONENT -->
+{% if referenced == true %}
+{% include components/reference.md path="/env/git" %}
+{% endif %}
+
+
+<!-- MAIN CONTENT -->
+
 <!-- macOS & Windows -->
 {% if platform %}
     {% if platform == "macos" %}
-        {% assign stm =  stm_macos %}
+        {% assign command =  command_brew %}
     {% else %}
-        {% assign stm =  stm_windows %}
+        {% assign command =  command_choco %}
     {% endif %}
 
 {: .note-title .text-epsilon }
 > {{ title }}
 >
 > ```shell
-> {{stm}}
+> {{ command }}
 > ```
 
 <!-- ALL -->
@@ -45,13 +61,13 @@
 >> 🔘 macOS
 >> 
 >> ```shell
->> {{stm_macos}}
+>> {{ command_brew }}
 >> ```
 >
 > {: .note-title .text-epsilon }
 >> 🔘 Windows
 >> 
 >> ```shell
->> {{stm_windows}}
+>> {{ command_choco }}
 >> ```
 {% endif %}
