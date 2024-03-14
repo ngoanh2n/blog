@@ -18,43 +18,49 @@ title: Windows
 
 {% include components/note.md %}
 
-# General
-<hr>{: .head-hr }
 
-{% include components/chocolatey/title.md heading="##" %}
+<!-- General -->
+{% include components/title.md heading="#" value="General" %}
+
+<!-- Chocolatey -->
+{% include components/title.md heading="##" value="Chocolatey" %}
 {% include components/chocolatey/installation.md referenced=true %}
 
-{% include components/java/title.md heading="##" %}
+<!-- Java -->
+{% include components/title.md heading="##" value="Java" %}
 {% include components/java/installation-windows.md referenced=true %}
 
-{% include components/git/title.md heading="##" %}
+<!-- Git -->
+{% include components/title.md heading="##" value="Git" %}
 {% include components/git/installation.md platform="windows" referenced=true %}
 
-{% include components/intellij-idea/title.md heading="##" %}
+<!-- IntelliJ IDEA Community Edition -->
+{% include components/title.md heading="##" value="IntelliJ IDEA Community Edition" %}
 {% include components/intellij-idea/installation.md platform="windows" referenced=true %}
 
-{% include components/nodejs/title.md heading="##" %}
+<!-- NodeJS -->
+{% include components/title.md heading="##" value="NodeJS" %}
 {% include components/nodejs/installation.md platform="windows" required=false referenced=true %}
 
-{% include components/allure-commandline/title.md heading="##" %}
+<!-- Allure Commandline -->
+{% include components/title.md heading="##" value="Allure Commandline" %}
 {% include components/allure-commandline/installation.md platform="windows" required=false referenced=true %}
 
-{% include components/github-desktop/title.md heading="##" %}
+<!-- GitHub Desktop -->
+{% include components/title.md heading="##" value="GitHub Desktop" %}
 {% include components/github-desktop/installation.md platform="windows" required=false referenced=true %}
 
-# Advance
-<hr>{: .head-hr }
 
-{% include components/appium/title.md heading="##" %}
+<!-- Advance -->
+{% include components/title.md heading="#" value="Advance" %}
 
-### Server
+<!-- Appium -->
+{% include components/title.md heading="##" value="Appium" %}
+{% include components/title.md heading="###" value="Server" %}
 {% include components/appium/server-installation.md referenced=true %}
-
-### Driver
+{% include components/title.md heading="###" value="Driver" %}
 {% include components/appium/driver-installation.md referenced=true %}
-
-### Plugin
+{% include components/title.md heading="###" value="Plugin" %}
 {% include components/appium/plugin-installation.md required=false referenced=true %}
-
-### Inspector
+{% include components/title.md heading="###" value="Inspector" %}
 {% include components/appium/inspector-installation.md referenced=true %}
