@@ -67,4 +67,4 @@ title: macOS
 {% include components/title.md heading="###" value="Plugin" %}
 {% include components/appium/plugin-installation.md required=false referenced=true %}
 {% include components/title.md heading="###" value="Inspector" %}
-{% include components/appium/inspector-installation.md referenced=true %}
+{% include components/appium/inspector-installation.md platform="macos" referenced=true %}
