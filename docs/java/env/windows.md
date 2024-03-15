@@ -14,10 +14,10 @@ title: Windows
 
 1. TOC
 {:toc}
----
 
 {% include components/note.md %}
 
+---
 
 <!-- General -->
 {% include components/title.md heading="#" value="General" %}
