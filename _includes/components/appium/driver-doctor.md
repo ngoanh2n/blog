@@ -1,4 +1,11 @@
-<!-- _includes/docs/env/appium/ -->
+<!-- LOCATION -->
+<!-- _includes/components/appium/ -->
+
+<!-- INCLUDE -->
+<!-- components/appium/driver-doctor.md -->
+
+
+<!-- MAIN CONTENT -->
 
 {: .note-title .text-epsilon }
 > 🔲 Doctor
@@ -6,10 +13,5 @@
 > Attempts to diagnose and fix common Appium configuration issues.
 >
 > ```shell
-> appium driver doctor <driver_name>
+> appium driver doctor <installation_key>
 > ```
-> 
-> {: .highlight .text-epsilon }
->> driver_name: `xcuitest`, `uiautomator2`, `mac2`...<br>
->> Refer to the [link](https://appium.io/docs/en/latest/ecosystem/drivers){:target="\_blank"} 
->> for installing appropriate drivers to your testing environment. 
