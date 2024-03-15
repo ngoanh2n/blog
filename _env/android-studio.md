@@ -12,14 +12,18 @@ permalink: env/android-studio
 
 ---
 
-<!-- Installation -->
+<!-- IDE -->
 {% include components/title.md heading="##" value="IDE" %}
-{% include components/android-studio/installation.md %}
+{% include components/android-studio/ide-installation.md %}
 
 <!-- Environment -->
 {% include components/title.md heading="##" value="Environment" %}
-{% include components/android-studio/environment.md %}
+{% include components/android-studio/environment-installation.md %}
+
+<!-- Components Download -->
+{% include components/title.md heading="##" value="Components" %}
+{% include components/android-studio/components-download.md %}
 
 <!-- Android Home -->
 {% include components/title.md heading="##" value="Android Home" %}
-{% include components/android-studio/android-home.md %}
+{% include components/android-studio/android-home-setting.md %}
