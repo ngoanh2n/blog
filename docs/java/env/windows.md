@@ -58,13 +58,13 @@ title: Windows
 {% include components/title.md heading="##" value="Android Studio" %}
 
 {% include components/title.md heading="###" value="IDE" %}
-{% include components/android-studio/installation.md platform="windows" referenced=true %}
+{% include components/android-studio/ide-installation.md platform="windows" referenced=true %}
 
 {% include components/title.md heading="###" value="Environment" %}
-{% include components/android-studio/environment.md platform="windows" %}
+{% include components/android-studio/environment-installation.md platform="windows" referenced=true %}
 
 {% include components/title.md heading="###" value="Android Home" %}
-{% include components/android-studio/android-home.md platform="windows" %}
+{% include components/android-studio/android-home-setting.md platform="windows" referenced=true %}
 
 <!-- Appium -->
 {% include components/title.md heading="##" value="Appium" %}
