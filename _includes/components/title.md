@@ -21,4 +21,7 @@
 {% else %}
 <h1>{{ value }}</h1>
 {% endif %}
+
+{% if heading == "#" or heading == "##" %}
 <hr>{: .head-hr }
+{% endif %}
