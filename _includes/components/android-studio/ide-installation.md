@@ -2,7 +2,7 @@
 <!-- _includes/components/android-studio/ -->
 
 <!-- INCLUDE -->
-<!-- components/android-studio/installation.md -->
+<!-- components/android-studio/ide-installation.md -->
 
 <!-- VARIABLES -->
 <!-- platform:      [macos, windows], default to ALL -->
@@ -17,14 +17,14 @@
 
 
 <!-- ASSIGN CONSTANTS -->
-{% assign path_reference = "/env/android-studio" %}
+{% assign reference      = "/env/android-studio#ide" %}
 {% assign link_download  = "https://developer.android.com/studio" %}
 
-{% assign download_option_macos  = "`Mac with Intel chip` or `Mac with Apple chip`" %}
-{% assign download_option_windows  = "`Download Android Studio Xxx | xxxx.x.x for Windows`" %}
+{% assign download_option_macos   = "`Mac with Intel chip` or `Mac with Apple chip`" %}
+{% assign download_option_windows = "`Download Android Studio Xxx | xxxx.x.x for Windows`" %}
 
-{% assign file_download_macos  = "`android-studio-xxx.x.x-mac.dmg`" %}
-{% assign file_download_windows  = "`android-studio-xxx.x.x-windows.exe`" %}
+{% assign file_download_macos   = "`android-studio-xxx.x.x-mac.dmg`" %}
+{% assign file_download_windows = "`android-studio-xxx.x.x-windows.exe`" %}
 
 
 <!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
@@ -37,7 +37,7 @@
 
 <!-- DECIDE TO DISPLAY THE LINK OF THIS COMPONENT -->
 {% if referenced == true %}
-{% include components/reference.md path=path_reference %}
+{% include components/reference.md path=reference %}
 {% endif %}
 
 

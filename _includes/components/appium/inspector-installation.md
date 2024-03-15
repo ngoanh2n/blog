@@ -17,7 +17,7 @@
 
 
 <!-- ASSIGN CONSTANTS -->
-{% assign path_reference = "/env/appium#inspector" %}
+{% assign reference = "/env/appium#inspector" %}
 {% assign file_download_macos  = "Appium-Inspector-mac-xxxx.x.x.dmg" %}
 {% assign file_download_windows  = "Appium-Inspector-windows-xxxx.x.x-xxx.exe" %}
 {% assign link_appiumpro = "https://appiumpro.com" %}
@@ -35,7 +35,7 @@
 
 <!-- DECIDE TO DISPLAY THE LINK OF THIS COMPONENT -->
 {% if referenced == true %}
-{% include components/reference.md path=path_reference %}
+{% include components/reference.md path=reference %}
 {% endif %}
 
 
