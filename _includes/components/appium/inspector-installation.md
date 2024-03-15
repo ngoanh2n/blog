@@ -18,7 +18,8 @@
 
 <!-- ASSIGN CONSTANTS -->
 {% assign path_reference = "/env/appium#inspector" %}
-{% assign file_download_macos  = "Appium-Inspector-mac-xxxx.xx.xx.dmg" %}
+{% assign file_download_macos  = "Appium-Inspector-mac-xxxx.x.x.dmg" %}
+{% assign file_download_windows  = "Appium-Inspector-windows-xxxx.x.x-xxx.exe" %}
 {% assign link_appiumpro = "https://appiumpro.com" %}
 {% assign link_inspector = "https://inspector.appiumpro.com" %}
 {% assign link_download  = "https://github.com/appium/appium-inspector/releases" %}
@@ -73,7 +74,10 @@
 > {: .note-title .text-epsilon } 
 >> 🔘 Desktop application
 >>
->> TODO
+>> 1. Visit [{{ link_download }}]({{ link_download }}){:target="\_blank"}
+>> 2. Click `{{ file_download_windows }}`
+>> 3. Open the `{{ file_download_windows }}` file in `Downloads`
+>> 4. Do installation procedures of Setup Wizard
 >
 > 
 > {: .note-title .text-epsilon } 
@@ -105,7 +109,10 @@
 >> {: .note-title .text-epsilon }
 >>> 🔘 Windows
 >>>
->>> TODO
+>>> 1. Visit [{{ link_download }}]({{ link_download }}){:target="\_blank"}
+>>> 2. Click `{{ file_download_windows }}`
+>>> 3. Open the `{{ file_download_windows }}` file in `Downloads`
+>>> 4. Do installation procedures of Setup Wizard
 > 
 > {: .note-title .text-epsilon } 
 >> 🔘 Web application
