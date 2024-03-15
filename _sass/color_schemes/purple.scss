@@ -4,6 +4,10 @@ $purple-200: #662e7d;
 $purple-300: #56176f;
 $link-color: $purple-300;
 
+h1, h2, h3, h4, h5, h6, #toctitle {
+    font-weight: 350 !important;
+}
+
 .head-hr {
     height: 1px;
     padding: 0;
