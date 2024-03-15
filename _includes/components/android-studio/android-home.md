@@ -68,7 +68,11 @@
 > {: .note-title .text-epsilon }
 >> ✅ Setting
 >> 
->> Execute 3 commands in the following, and replace `{USER}` by your current username!
+>> 1. Open `Command Prompt` with administrator
+>> 2. Execute a command
+>> 3. Close `Command Prompt`
+>>
+>> Repeat 3 commands in the following, and replace `{USER}` by your current username!
 >> ```shell
 >> setx ANDROID_HOME "{{ sdk_location_windows }}"
 >> setx PATH "%PATH%;%ANDROID_HOME%\platform-tools";
@@ -110,7 +114,11 @@
 >> {: .note-title .text-epsilon }
 >>> ✅ Setting
 >>> 
->>> Execute 3 commands in the following, and replace `{USER}` by your current username!
+>>> 1. Open `Command Prompt` with administrator
+>>> 2. Execute a command
+>>> 3. Close `Command Prompt`
+>>>
+>>> Repeat 3 commands in the following, and replace `{USER}` by your current username!
 >>> ```shell
 >>> setx ANDROID_HOME "{{ sdk_location_windows }}"
 >>> setx PATH "%PATH%;%ANDROID_HOME%\platform-tools";
