@@ -2,7 +2,8 @@ theme: just-the-docs
 color_scheme: purple
 repository: ngoanh2n/blog
 
-title: ngoanh2n
+name: ngoanh2n
+title: Automation Test
 url: "https://ngoanh2n.github.io/blog"
 permalink: pretty
 favicon_ico: "/assets/favicon.ico"
