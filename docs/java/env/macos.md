@@ -58,13 +58,29 @@ title: macOS
 {% include components/title.md heading="##" value="Xcode" %}
 {% include components/xcode/installation.md platform="macos" required=false referenced=true %}
 
+<!-- Android Studio -->
+{% include components/title.md heading="##" value="Android Studio" %}
+
+{% include components/title.md heading="###" value="IDE" %}
+{% include components/android-studio/installation.md platform="macos" referenced=true %}
+
+{% include components/title.md heading="###" value="Environment" %}
+{% include components/android-studio/environment.md platform="macos" %}
+
+{% include components/title.md heading="###" value="Android Home" %}
+{% include components/android-studio/android-home.md platform="macos" %}
+
 <!-- Appium -->
 {% include components/title.md heading="##" value="Appium" %}
+
 {% include components/title.md heading="###" value="Server" %}
 {% include components/appium/server-installation.md referenced=true %}
+
 {% include components/title.md heading="###" value="Driver" %}
 {% include components/appium/driver-installation.md platform="macos" referenced=true %}
+
 {% include components/title.md heading="###" value="Plugin" %}
 {% include components/appium/plugin-installation.md required=false referenced=true %}
+
 {% include components/title.md heading="###" value="Inspector" %}
 {% include components/appium/inspector-installation.md platform="macos" referenced=true %}

@@ -54,13 +54,29 @@ title: Windows
 <!-- Advance -->
 {% include components/title.md heading="#" value="Advance" %}
 
+<!-- Android Studio -->
+{% include components/title.md heading="##" value="Android Studio" %}
+
+{% include components/title.md heading="###" value="IDE" %}
+{% include components/android-studio/installation.md platform="windows" referenced=true %}
+
+{% include components/title.md heading="###" value="Environment" %}
+{% include components/android-studio/environment.md platform="windows" %}
+
+{% include components/title.md heading="###" value="Android Home" %}
+{% include components/android-studio/android-home.md platform="windows" %}
+
 <!-- Appium -->
 {% include components/title.md heading="##" value="Appium" %}
+
 {% include components/title.md heading="###" value="Server" %}
 {% include components/appium/server-installation.md referenced=true %}
+
 {% include components/title.md heading="###" value="Driver" %}
 {% include components/appium/driver-installation.md platform="windows" referenced=true %}
+
 {% include components/title.md heading="###" value="Plugin" %}
 {% include components/appium/plugin-installation.md required=false referenced=true %}
+
 {% include components/title.md heading="###" value="Inspector" %}
 {% include components/appium/inspector-installation.md platform="windows" referenced=true %}
