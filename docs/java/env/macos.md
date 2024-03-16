@@ -29,10 +29,10 @@ title: macOS
 <!-- Java -->
 {% include components/title.md heading="##" value="Java" %}
 
-{% include components/title.md heading="###" value="JDK" %}
+{% include components/title.md heading="###" value="JDK" anchor="java-jdk" %}
 {% include components/java/jdk.md platform="macos" referenced=true %}
 
-{% include components/title.md heading="###" value="Java Home" %}
+{% include components/title.md heading="###" value="Java Home" anchor="java-home" %}
 {% include components/java/home.md platform="macos" referenced=true %}
 
 <!-- Git -->
@@ -40,7 +40,7 @@ title: macOS
 {% include components/git/installation.md platform="macos" referenced=true %}
 
 <!-- IntelliJ IDEA Community Edition -->
-{% include components/title.md heading="##" value="IntelliJ IDEA Community Edition" %}
+{% include components/title.md heading="##" value="IntelliJ IDEA Community Edition" anchor="intellij-idea" %}
 {% include components/intellij-idea/installation.md platform="macos" referenced=true %}
 
 <!-- NodeJS -->
@@ -66,26 +66,26 @@ title: macOS
 <!-- Android Studio -->
 {% include components/title.md heading="##" value="Android Studio" %}
 
-{% include components/title.md heading="###" value="IDE" %}
+{% include components/title.md heading="###" value="IDE" anchor="android-ide" %}
 {% include components/android-studio/ide.md platform="macos" referenced=true %}
 
-{% include components/title.md heading="###" value="SDK" %}
+{% include components/title.md heading="###" value="SDK" anchor="android-sdk" %}
 {% include components/android-studio/sdk.md platform="macos" referenced=true %}
 
-{% include components/title.md heading="###" value="Android Home" %}
+{% include components/title.md heading="###" value="Android Home" anchor="android-home" %}
 {% include components/android-studio/home.md platform="macos" referenced=true %}
 
 <!-- Appium -->
 {% include components/title.md heading="##" value="Appium" %}
 
-{% include components/title.md heading="###" value="Server" %}
+{% include components/title.md heading="###" value="Server" anchor="appium-server" %}
 {% include components/appium/server-installation.md referenced=true %}
 
-{% include components/title.md heading="###" value="Driver" %}
+{% include components/title.md heading="###" value="Driver" anchor="appium-server" %}
 {% include components/appium/driver-installation.md platform="macos" referenced=true %}
 
-{% include components/title.md heading="###" value="Plugin" %}
+{% include components/title.md heading="###" value="Plugin" anchor="appium-plugin" %}
 {% include components/appium/plugin-installation.md required=false referenced=true %}
 
-{% include components/title.md heading="###" value="Inspector" %}
+{% include components/title.md heading="###" value="Inspector" anchor="appium-inspector" %}
 {% include components/appium/inspector-installation.md platform="macos" referenced=true %}
