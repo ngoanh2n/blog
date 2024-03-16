@@ -12,10 +12,8 @@ permalink: env/java
 
 ---
 
-<!-- macOS -->
-{% include components/title.md heading="##" value="macOS" %}
-{% include components/java/installation-macos.md %}
+{% include components/title.md heading="##" value="JDK" %}
+{% include components/java/jdk.md %}
 
-<!-- Windows -->
-{% include components/title.md heading="##" value="Windows" %}
-{% include components/java/installation-windows.md %}
+{% include components/title.md heading="##" value="Java Home" %}
+{% include components/java/java-home.md %}
