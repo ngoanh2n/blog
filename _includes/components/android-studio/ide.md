@@ -2,7 +2,7 @@
 <!-- _includes/components/android-studio/ -->
 
 <!-- INCLUDE -->
-<!-- components/android-studio/ide-installation.md -->
+<!-- components/android-studio/ide.md -->
 
 <!-- VARIABLES -->
 <!-- platform:      [macos, windows], default to ALL -->

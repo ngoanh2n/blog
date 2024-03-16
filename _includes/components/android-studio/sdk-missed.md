@@ -2,7 +2,7 @@
 <!-- _includes/components/android-studio/ -->
 
 <!-- INCLUDE -->
-<!-- components/android-studio/components-download.md -->
+<!-- components/android-studio/sdk-missed.md -->
 
 <!-- VARIABLES -->
 <!-- required:      [true, false], default to true -->
@@ -15,7 +15,7 @@
 
 
 <!-- ASSIGN CONSTANTS -->
-{% assign reference = "/env/android-studio#components" %}
+{% assign reference = "/env/android-studio#sdk-missed" %}
 
 
 <!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->

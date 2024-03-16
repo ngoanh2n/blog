@@ -2,7 +2,7 @@
 <!-- _includes/components/android-studio/ -->
 
 <!-- INCLUDE -->
-<!-- components/android-studio/android-home-setting.md -->
+<!-- components/android-studio/home.md -->
 
 <!-- VARIABLES -->
 <!-- required:      [true, false], default to true -->

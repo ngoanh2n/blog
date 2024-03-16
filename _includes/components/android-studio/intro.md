@@ -1,4 +1,8 @@
-<!-- _includes/docs/env/android-studio/ -->
+<!-- LOCATION -->
+<!-- _includes/components/android-studio/ -->
+
+<!-- INCLUDE -->
+<!-- components/android-studio/intro.md -->
 
 {: .highlight .text-epsilon }
 Android Studio is an IDE developed by Google, built on JetBrains' IntelliJ IDEA software and designed specifically for Android development.<br>
