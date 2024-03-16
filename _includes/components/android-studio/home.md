@@ -36,7 +36,7 @@
 
 <!-- MAIN CONTENT -->
 
-<!-- MACOS -->
+<!-- macOS -->
 {% if platform == "macos" %}
 {: .note-title .text-epsilon }
 > {{ title }}
@@ -53,7 +53,7 @@
 > Replace `{USER}` by your current username!
 {% endif %}
 
-<!-- WINDOWS -->
+<!-- Windows -->
 {% if platform == "windows" %}
 {: .note-title .text-epsilon }
 > {{ title }}
@@ -74,7 +74,7 @@
 > Replace `{USER}` by your current username!
 {% endif %}
 
-<!-- ALL -->
+<!-- All -->
 {% if platform == nil %}
 {: .note-title .text-epsilon }
 > {{ title }}

@@ -17,14 +17,12 @@
 
 
 <!-- ASSIGN CONSTANTS -->
-{% assign reference      = "/env/android-studio#ide" %}
-{% assign link_download  = "https://developer.android.com/studio" %}
-
+{% assign reference               = "/env/android-studio#ide" %}
+{% assign link_download           = "https://developer.android.com/studio" %}
 {% assign download_option_macos   = "`Mac with Intel chip` or `Mac with Apple chip`" %}
 {% assign download_option_windows = "`Download Android Studio Xxx | xxxx.x.x for Windows`" %}
-
-{% assign file_download_macos   = "`android-studio-xxx.x.x-mac.dmg`" %}
-{% assign file_download_windows = "`android-studio-xxx.x.x-windows.exe`" %}
+{% assign file_download_macos     = "`android-studio-xxx.x.x-mac.dmg`" %}
+{% assign file_download_windows   = "`android-studio-xxx.x.x-windows.exe`" %}
 
 
 <!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
@@ -42,7 +40,8 @@
 
 
 <!-- MAIN CONTENT -->
-<!-- MACOS -->
+
+<!-- macOS -->
 {% if platform == "macos" %}
 {: .note-title .text-epsilon }
 > {{ title }}
@@ -55,7 +54,7 @@
 > 6. Drag `Android Studio` and drop to `Applications`
 {% endif %}
 
-<!-- WINDOWS -->
+<!-- Windows -->
 {% if platform == "windows" %}
 {: .note-title .text-epsilon }
 > {{ title }}
@@ -78,7 +77,7 @@
 >> 6. Do installation procedures of Setup Wizard
 {% endif %}
 
-<!-- ALL -->
+<!-- All -->
 {% if platform == nil %}
 {: .note-title .text-epsilon }
 > {{ title }}

@@ -1,4 +1,11 @@
-<!-- _includes/docs/env/nodejs/ -->
+<!-- LOCATION -->
+<!-- _includes/components/nodejs/ -->
+
+<!-- INCLUDE -->
+<!-- components/nodejs/intro.md -->
+
+
+<!-- MAIN CONTENT -->
 
 {: .highlight .text-epsilon }
 > Node.js is an open source server environment.

@@ -11,18 +11,18 @@
 
 
 <!-- READ VARIABLES -->
-{% assign platform = include.platform %}
+{% assign platform   = include.platform %}
 {% assign required   = include.required %}
 {% assign referenced = include.referenced %}
 
 
 <!-- ASSIGN CONSTANTS -->
-{% assign reference = "/env/appium#inspector" %}
-{% assign file_download_macos  = "Appium-Inspector-mac-xxxx.x.x.dmg" %}
+{% assign reference              = "/env/appium#inspector" %}
+{% assign file_download_macos    = "Appium-Inspector-mac-xxxx.x.x.dmg" %}
 {% assign file_download_windows  = "Appium-Inspector-windows-xxxx.x.x-xxx.exe" %}
-{% assign link_appiumpro = "https://appiumpro.com" %}
-{% assign link_inspector = "https://inspector.appiumpro.com" %}
-{% assign link_download  = "https://github.com/appium/appium-inspector/releases" %}
+{% assign link_appiumpro         = "https://appiumpro.com" %}
+{% assign link_inspector         = "https://inspector.appiumpro.com" %}
+{% assign link_download          = "https://github.com/appium/appium-inspector/releases" %}
 
 
 <!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
@@ -40,7 +40,8 @@
 
 
 <!-- MAIN CONTENT -->
-<!-- MACOS -->
+
+<!-- macOS -->
 {% if platform == "macos" %}
 {: .note-title .text-epsilon }
 > {{ title }}
@@ -54,7 +55,6 @@
 >> 2. Click `{{ file_download_macos }}`
 >> 3. Open the `{{ file_download_macos }}` file in `Downloads`
 >> 4. Drag `Appium Inspector` and drop to `Applications`
->
 > 
 > {: .note-title .text-epsilon } 
 >> 🔘 Web application
@@ -64,7 +64,7 @@
 >> [{{ link_inspector }}]({{ link_inspector }}){:target="\_blank"}
 {% endif %}
 
-<!-- WINDOWS -->
+<!-- Windows -->
 {% if platform == "windows" %}
 {: .note-title .text-epsilon }
 > {{ title }}
@@ -78,7 +78,6 @@
 >> 2. Click `{{ file_download_windows }}`
 >> 3. Open the `{{ file_download_windows }}` file in `Downloads`
 >> 4. Do installation procedures of Setup Wizard
->
 > 
 > {: .note-title .text-epsilon } 
 >> 🔘 Web application
@@ -88,7 +87,7 @@
 >> [{{ link_inspector }}]({{ link_inspector }}){:target="\_blank"}
 {% endif %}
 
-<!-- ALL -->
+<!-- All -->
 {% if platform == nil %}
 {: .note-title .text-epsilon }
 > {{ title }}

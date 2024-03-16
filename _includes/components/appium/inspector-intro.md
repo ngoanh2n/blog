@@ -1,4 +1,11 @@
-<!-- _includes/docs/env/appium/ -->
+<!-- LOCATION -->
+<!-- _includes/components/appium/ -->
+
+<!-- INCLUDE -->
+<!-- components/appium/inspector-intro.md -->
+
+
+<!-- MAIN CONTENT -->
 
 {: .highlight .text-epsilon }
 A GUI inspector for mobile apps and more, powered by a (separately installed) Appium server. 

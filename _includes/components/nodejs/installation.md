@@ -11,15 +11,16 @@
 
 
 <!-- READ VARIABLES -->
-{% assign platform = include.platform %}
-{% assign required = include.required %}
+{% assign platform   = include.platform %}
+{% assign required   = include.required %}
 {% assign referenced = include.referenced %}
 
 
 <!-- ASSIGN CONSTANTS -->
-{% assign command_brew = "brew install node@20" %}
-{% assign command_choco = "choco install nodejs-lts" %}
-{% assign download_link = "https://nodejs.org/en/download" %}
+{% assign reference             = "/env/nodejs" %}
+{% assign command_brew          = "brew install node@20" %}
+{% assign command_choco         = "choco install nodejs-lts" %}
+{% assign download_link         = "https://nodejs.org/en/download" %}
 {% assign download_file_windows = "`node-v20.xx.x-xxx.msi`" %}
 
 
@@ -33,7 +34,7 @@
 
 <!-- DECIDE TO DISPLAY THE LINK OF THIS COMPONENT -->
 {% if referenced == true %}
-{% include components/reference.md path="/env/nodejs" %}
+{% include components/reference.md path=reference %}
 {% endif %}
 
 
@@ -79,7 +80,7 @@
 >> 4. Do installation procedures of Setup Wizard
 {% endif %}
 
-<!-- ALL -->
+<!-- All -->
 {% else %}
 {: .note-title .text-epsilon }
 > {{ title }}

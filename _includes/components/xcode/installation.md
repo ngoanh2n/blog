@@ -11,8 +11,12 @@
 
 
 <!-- READ VARIABLES -->
-{% assign required = include.required %}
+{% assign required   = include.required %}
 {% assign referenced = include.referenced %}
+
+
+<!-- ASSIGN CONSTANTS -->
+{% assign reference = "/env/xcode" %}
 
 
 <!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
@@ -25,7 +29,7 @@
 
 <!-- DECIDE TO DISPLAY THE LINK OF THIS COMPONENT -->
 {% if referenced == true %}
-{% include components/reference.md path="/env/xcode" %}
+{% include components/reference.md path=reference %}
 {% endif %}
 
 

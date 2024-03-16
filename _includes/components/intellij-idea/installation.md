@@ -11,14 +11,16 @@
 
 
 <!-- READ VARIABLES -->
-{% assign platform = include.platform %}
-{% assign required = include.required %}
+{% assign platform   = include.platform %}
+{% assign required   = include.required %}
 {% assign referenced = include.referenced %}
 
 
 <!-- ASSIGN CONSTANTS -->
-{% assign download_link_macos =  "https://www.jetbrains.com/idea/download/?section=mac" %}
-{% assign download_link_windows =  "https://www.jetbrains.com/idea/download/?section=windows" %}
+{% assign reference             = "/env/intellij-idea" %}
+{% assign download_link_macos   = "https://www.jetbrains.com/idea/download/?section=mac" %}
+{% assign download_link_windows = "https://www.jetbrains.com/idea/download/?section=windows" %}
+
 
 <!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
 {% if required == false %}
@@ -30,7 +32,7 @@
 
 <!-- DECIDE TO DISPLAY THE LINK OF THIS COMPONENT -->
 {% if referenced == true %}
-{% include components/reference.md path="/env/intellij-idea" %}
+{% include components/reference.md path=reference %}
 {% endif %}
 
 
@@ -49,7 +51,7 @@
 >
 > [{{ download_link }}]({{ download_link }}){:target="\_blank"}
 
-<!-- ALL -->
+<!-- All -->
 {% else %}
 {: .note-title .text-epsilon }
 > {{ title }}

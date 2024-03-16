@@ -1,4 +1,9 @@
+<!-- LOCATION -->
 <!-- _includes/components/ -->
+
+<!-- INCLUDE -->
+<!-- components/note.md -->
+
 
 {: .note-title .text-zeta }
 > Notes

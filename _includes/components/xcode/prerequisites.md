@@ -1,4 +1,11 @@
-<!-- _includes/docs/env/xcode/ -->
+<!-- LOCATION -->
+<!-- _includes/components/xcode/ -->
+
+<!-- INCLUDE -->
+<!-- components/xcode/prerequisites.md -->
+
+
+<!-- MAIN CONTENT -->
 
 {: .note-title .text-epsilon }
 > ℹ️ Prerequisites

@@ -11,16 +11,17 @@
 
 
 <!-- READ VARIABLES -->
-{% assign platform = include.platform %}
-{% assign required = include.required %}
+{% assign platform   = include.platform %}
+{% assign required   = include.required %}
 {% assign referenced = include.referenced %}
 
 
 <!-- ASSIGN CONSTANTS -->
-{% assign command_brew = "brew install node@20" %}
-{% assign command_choco = "choco install github-desktop" %}
-{% assign download_link = "https://desktop.github.com" %}
-{% assign download_file_macos = "`GitHubDesktop-xxx.zip`" %}
+{% assign reference             = "/env/github-desktop" %}
+{% assign command_brew          = "brew install node@20" %}
+{% assign command_choco         = "choco install github-desktop" %}
+{% assign download_link         = "https://desktop.github.com" %}
+{% assign download_file_macos   = "`GitHubDesktop-xxx.zip`" %}
 {% assign download_file_windows = "`GitHubDesktopSetup-xxx.exe`" %}
 
 <!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
@@ -33,7 +34,7 @@
 
 <!-- DECIDE TO DISPLAY THE LINK OF THIS COMPONENT -->
 {% if referenced == true %}
-{% include components/reference.md path="/env/github-desktop" %}
+{% include components/reference.md path=reference %}
 {% endif %}
 
 
@@ -73,7 +74,7 @@
 >> 4. Do installation procedures of Setup Wizard
 {% endif %}
 
-<!-- ALL -->
+<!-- All -->
 {% else %}
 {: .note-title .text-epsilon }
 > {{ title }}
@@ -85,7 +86,6 @@
 >> 2. Click `Download for macOS`
 >> 3. Open the {{ download_file_macos }} file in `Downloads` folder
 >> 4. After unzipped, move `GitHub Desktop` to `Applications` folder
->
 >
 > {: .note-title .text-epsilon }
 >> 🔘 Windows

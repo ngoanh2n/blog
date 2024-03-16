@@ -11,9 +11,10 @@
 
 
 <!-- READ VARIABLES -->
-{% assign platform = include.platform %}
-{% assign required = include.required %}
+{% assign platform   = include.platform %}
+{% assign required   = include.required %}
 {% assign referenced = include.referenced %}
+
 
 <!-- ASSIGN CONSTANTS -->
 {% assign reference = "/env/java#jdk" %}
@@ -35,7 +36,7 @@
 
 <!-- MAIN CONTENT -->
 
-<!-- MACOS -->
+<!-- macOS -->
 {% if platform == "macos" %}
 {: .note-title .text-epsilon } 
 > {{ title }}
@@ -79,7 +80,7 @@
 >>> ```
 {% endif %}
 
-<!-- WINDOWS -->
+<!-- Windows -->
 {% if platform == "windows" %}
  {: .note-title .text-epsilon } 
 > {{ title }}
@@ -103,7 +104,7 @@
 >> ```
 {% endif %}
 
-<!-- ALL -->
+<!-- All -->
 {% if platform == nil %}
 {: .note-title .text-epsilon } 
 > {{ title }}

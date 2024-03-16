@@ -13,8 +13,12 @@
 
 
 <!-- READ VARIABLES -->
-{% assign required = include.required %}
+{% assign required   = include.required %}
 {% assign referenced = include.referenced %}
+
+
+<!-- ASSIGN CONSTANTS -->
+{% assign reference = "/env/appium#plugin" %}
 
 
 <!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
@@ -27,7 +31,7 @@
 
 <!-- DECIDE TO DISPLAY THE LINK OF THIS COMPONENT -->
 {% if referenced == true %}
-{% include components/reference.md path="/env/appium#plugin" %}
+{% include components/reference.md path=reference %}
 {% endif %}
 
 
@@ -40,7 +44,6 @@
 >> 🔲 Images
 >>
 >> Plugin for image comparison and finding elements by image.
->> {: .fs-2 }
 >> ```shell
 >> appium plugin install images
 >> ```
@@ -49,7 +52,6 @@
 >>> Usage
 >>>
 >>> The plugin must be explicitly activated when launching the Appium server.
->>> {: .fs-2 }
 >>> ```shell
 >>> appium --use-plugins=images
 >>> ```

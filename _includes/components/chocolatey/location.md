@@ -1,10 +1,21 @@
-<!-- _includes/docs/env/chocolatey/ -->
+<!-- LOCATION -->
+<!-- _includes/components/chocolatey/ -->
 
+<!-- INCLUDE -->
+<!-- components/chocolatey/location.md -->
+
+
+<!-- READ VARIABLES -->
 {% assign platform = include.platform %}
 
-{% assign stm =  "`C:/ProgramData/chocolatey/`" %}
+
+<!-- ASSIGN CONSTANTS -->
+{% assign location = "`C:/ProgramData/chocolatey/`" %}
+
+
+<!-- MAIN CONTENT -->
 
 {: .note-title .text-epsilon }
 > ℹ️ Location
 >
-> {{stm}}
+> {{ location }}

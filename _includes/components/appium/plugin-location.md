@@ -1,16 +1,23 @@
-<!-- _includes/docs/env/appium/ -->
+<!-- LOCATION -->
+<!-- _includes/components/appium/ -->
 
-<!-- USE CASE -->
-<!-- 1. include docs/env/appium/location.md  -->
-<!-- 2. include docs/env/appium/location.md platform="macos" -->
-<!-- 3. include docs/env/appium/location.md platform="windows" -->
+<!-- INCLUDE -->
+<!-- components/appium/plugin-location.md -->
 
+<!-- VARIABLES -->
+<!-- platform:      [macos, windows], default to ALL -->
+
+<!-- READ VARIABLES -->
 {% assign platform = include.platform %}
 
-{% assign stm_macos     =  "`/Users/{USER}/.appium/node_modules/@appium/{INSTALLATION_KEY}-plugin`" %}
-{% assign stm_windows   =  "`C:/Users/{USER}/.appium/node_modules/@appium/{INSTALLATION_KEY}-plugin`" %}
 
-<!-- macOS & Windows -->
+<!-- ASSIGN CONSTANTS -->
+{% assign stm_macos   =  "`/Users/{USER}/.appium/node_modules/@appium/{installation_key}-plugin`" %}
+{% assign stm_windows =  "`C:/Users/{USER}/.appium/node_modules/@appium/{installation_key}-plugin`" %}
+
+
+<!-- MAIN CONTENT -->
+
 {% if platform %}
 
 <!-- macOS -->
@@ -28,7 +35,7 @@
 > {{stm_windows}}
 {% endif %}
 
-<!-- ALL -->
+<!-- All -->
 {% else %}
 {: .note-title .text-epsilon }
 > ℹ️ Location

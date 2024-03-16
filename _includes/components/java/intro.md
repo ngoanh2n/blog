@@ -1,4 +1,11 @@
-<!-- _includes/docs/env/java/ -->
+<!-- LOCATION -->
+<!-- _includes/components/java/ -->
+
+<!-- INCLUDE -->
+<!-- components/java/intro.md -->
+
+
+<!-- MAIN CONTENT -->
 
 {: .highlight .text-epsilon }
 > Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.

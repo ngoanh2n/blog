@@ -17,6 +17,7 @@
 
 
 <!-- MAIN CONTENT -->
+
 {% if anchor == nil %}
 {{ heading }} {{ value }}
 {% else %}

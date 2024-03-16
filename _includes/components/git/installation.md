@@ -11,14 +11,15 @@
 
 
 <!-- READ VARIABLES -->
-{% assign platform = include.platform %}
-{% assign required = include.required %}
+{% assign platform   = include.platform %}
+{% assign required   = include.required %}
 {% assign referenced = include.referenced %}
 
 
 <!-- ASSIGN CONSTANTS -->
-{% assign command_brew =  "brew install git" %}
-{% assign command_choco =  "choco install git -y" %}
+{% assign reference     = "/env/git" %}
+{% assign command_brew  = "brew install git" %}
+{% assign command_choco = "choco install git -y" %}
 
 
 <!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
@@ -31,7 +32,7 @@
 
 <!-- DECIDE TO DISPLAY THE LINK OF THIS COMPONENT -->
 {% if referenced == true %}
-{% include components/reference.md path="/env/git" %}
+{% include components/reference.md path=reference %}
 {% endif %}
 
 
@@ -52,7 +53,7 @@
 > {{ command }}
 > ```
 
-<!-- ALL -->
+<!-- All -->
 {% else %}
 {: .note-title .text-epsilon }
 > {{ title }}

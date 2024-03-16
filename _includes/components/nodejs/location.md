@@ -1,26 +1,34 @@
-<!-- _includes/docs/env/nodejs/ -->
+<!-- LOCATION -->
+<!-- _includes/components/nodejs/ -->
 
-<!-- USE CASE -->
-<!-- 1. include docs/env/nodejs/location.md  -->
-<!-- 2. include docs/env/nodejs/location.md platform="macos" -->
-<!-- 3. include docs/env/nodejs/location.md platform="windows" -->
+<!-- INCLUDE -->
+<!-- components/nodejs/location.md -->
 
+<!-- VARIABLES -->
+<!-- platform:      [macos, windows], default to ALL -->
+
+
+<!-- READ VARIABLES -->
 {% assign platform = include.platform %}
 
-{% assign stm_macos_node =  "`/usr/local/lib/node_modules/`" %}
-{% assign stm_macos_npm =  "`/usr/local/lib/node_modules/npm/node_modules/`" %}
 
-{% assign stm_windows_node =  "`C:/Program Files/nodejs/`" %}
-{% assign stm_windows_npm =  "`C:/Program Files/nodejs/node_modules/npm/`" %}
+<!-- ASSIGN CONSTANTS -->
+{% assign location_node_macos   =  "`/usr/local/lib/node_modules/`" %}
+{% assign location_npm_macos    =  "`/usr/local/lib/node_modules/npm/node_modules/`" %}
+{% assign location_node_windows =  "`C:/Program Files/nodejs/`" %}
+{% assign location_npm_windows  =  "`C:/Program Files/nodejs/node_modules/npm/`" %}
+
+
+<!-- MAIN CONTENT -->
 
 <!-- macOS & Windows -->
 {% if platform %}
     {% if platform == "macos" %}
-        {% assign node =  stm_macos_node %}
-        {% assign npm =  stm_macos_npm %}
+        {% assign node =  location_node_macos %}
+        {% assign npm =  location_npm_macos %}
     {% else %}
-        {% assign node =  stm_windows_node %}
-        {% assign npm =  stm_windows_npm %}
+        {% assign node =  location_node_windows %}
+        {% assign npm =  location_npm_windows %}
     {% endif %}
 
 {: .note-title .text-epsilon }
@@ -36,7 +44,7 @@
 >> 
 >> {{npm}}
 
-<!-- ALL -->
+<!-- All -->
 {% else %}
 {: .note-title .text-epsilon }
 > ℹ️ Location
@@ -47,12 +55,12 @@
 >> {: .note-title .text-epsilon }
 >>> ℹ️ Node
 >>>
->>> {{stm_macos_node}}
+>>> {{location_node_macos}}
 >>
 >> {: .note-title .text-epsilon }
 >>> ℹ️ NPM
 >>>
->>> {{stm_macos_npm}}
+>>> {{location_npm_macos}}
 >
 > {: .note-title .text-epsilon }
 >> 🔘 Windows
@@ -60,10 +68,10 @@
 >> {: .note-title .text-epsilon }
 >>> ℹ️ Node
 >>>
->>> {{stm_windows_node}}
+>>> {{location_node_windows}}
 >>
 >> {: .note-title .text-epsilon }
 >>> ℹ️ NPM
 >>>
->>> {{stm_windows_npm}}
+>>> {{location_npm_windows}}
 {% endif %}

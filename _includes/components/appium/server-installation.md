@@ -14,6 +14,10 @@
 {% assign referenced = include.referenced %}
 
 
+<!-- ASSIGN CONSTANTS -->
+{% assign reference = "/env/appium#server" %}
+
+
 <!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
 {% if required == false %}
     {% assign title = "🔲 Installation" %}
@@ -24,7 +28,7 @@
 
 <!-- DECIDE TO DISPLAY THE LINK OF THIS COMPONENT -->
 {% if referenced == true %}
-{% include components/reference.md path="/env/appium#server" %}
+{% include components/reference.md path=reference %}
 {% endif %}
 
 

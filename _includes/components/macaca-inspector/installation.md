@@ -10,9 +10,13 @@
 
 
 <!-- READ VARIABLES -->
-{% assign platform = include.platform %}
-{% assign required = include.required %}
+{% assign platform   = include.platform %}
+{% assign required   = include.required %}
 {% assign referenced = include.referenced %}
+
+
+<!-- ASSIGN CONSTANTS -->
+{% assign reference = "/env/macaca-inspector" %}
 
 
 <!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
@@ -25,7 +29,7 @@
 
 <!-- DECIDE TO DISPLAY THE LINK OF THIS COMPONENT -->
 {% if referenced == true %}
-{% include components/reference.md path="/env/macaca-inspector" %}
+{% include components/reference.md path=reference %}
 {% endif %}
 
 

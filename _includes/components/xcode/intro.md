@@ -1,4 +1,11 @@
-<!-- _includes/docs/env/xcode/ -->
+<!-- LOCATION -->
+<!-- _includes/components/xcode/ -->
+
+<!-- INCLUDE -->
+<!-- components/xcode/intro.md -->
+
+
+<!-- MAIN CONTENT -->
 
 {: .highlight .text-epsilon }
 Xcode is an IDE developed by Apple. You can use Xcode for developing iPhone, iPad, Apple Watch, MacOS, and Apple TV. 

@@ -1,4 +1,11 @@
-<!-- _includes/docs/env/allure-commandline/ -->
+<!-- LOCATION -->
+<!-- _includes/components/allure-commandline/ -->
+
+<!-- INCLUDE -->
+<!-- components/allure-commandline/intro.md -->
+
+
+<!-- MAIN CONTENT -->
 
 {: .highlight .text-epsilon }
 Allure Commandline is a tool to generate Allure report from test results.<br>

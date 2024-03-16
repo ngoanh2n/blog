@@ -11,12 +11,13 @@
 
 
 <!-- READ VARIABLES -->
-{% assign platform      = include.platform %}
-{% assign required      = include.required %}
-{% assign referenced    = include.referenced %}
+{% assign platform   = include.platform %}
+{% assign required   = include.required %}
+{% assign referenced = include.referenced %}
 
 
 <!-- ASSIGN CONSTANTS -->
+{% assign reference                     = "/env/appium#driver" %}
 {% assign macos_platform                = "macOS" %}
 {% assign macos_app_ios                 = "iOS app" %}
 {% assign macos_app_macos               = "macOS app" %}
@@ -42,7 +43,7 @@
 
 <!-- DECIDE TO DISPLAY THE LINK OF THIS COMPONENT -->
 {% if referenced == true %}
-{% include components/reference.md path="/env/appium#driver" %}
+{% include components/reference.md path=reference %}
 {% endif %}
 
 
@@ -91,7 +92,7 @@
 >
 > Or refer to the [Appium Ecosystem's Drivers]({{ link_ecosystem_driver }}){:target="\_blank"} for installing appropriate drivers to your testing environment.
 
-<!-- ALL -->
+<!-- All -->
 {% else %}
 {: .note-title .text-epsilon }
 > {{ title }}
