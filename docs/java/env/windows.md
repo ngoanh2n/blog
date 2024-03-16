@@ -28,7 +28,12 @@ title: Windows
 
 <!-- Java -->
 {% include components/title.md heading="##" value="Java" %}
-{% include components/java/installation-windows.md referenced=true %}
+
+{% include components/title.md heading="###" value="JDK" %}
+{% include components/java/jdk.md platform="windows" referenced=true %}
+
+{% include components/title.md heading="###" value="Java Home" %}
+{% include components/java/java-home.md platform="windows" referenced=true %}
 
 <!-- Git -->
 {% include components/title.md heading="##" value="Git" %}

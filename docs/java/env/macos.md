@@ -28,7 +28,12 @@ title: macOS
 
 <!-- Java -->
 {% include components/title.md heading="##" value="Java" %}
-{% include components/java/installation-macos.md referenced=true %}
+
+{% include components/title.md heading="###" value="JDK" %}
+{% include components/java/jdk.md platform="macos" referenced=true %}
+
+{% include components/title.md heading="###" value="Java Home" %}
+{% include components/java/java-home.md platform="macos" referenced=true %}
 
 <!-- Git -->
 {% include components/title.md heading="##" value="Git" %}
@@ -64,10 +69,10 @@ title: macOS
 {% include components/title.md heading="###" value="IDE" %}
 {% include components/android-studio/ide-installation.md platform="macos" referenced=true %}
 
-{% include components/title.md heading="###" value="Environment" %}
+{% include components/title.md heading="###" value="SDK" %}
 {% include components/android-studio/environment-installation.md platform="macos" referenced=true %}
 
-{% include components/title.md heading="###" value="Android Home" %}
+{% include components/title.md heading="###" value="Android Home" anchor="android-home" %}
 {% include components/android-studio/android-home-setting.md platform="macos" referenced=true %}
 
 <!-- Appium -->
