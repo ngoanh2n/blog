@@ -33,7 +33,7 @@ title: macOS
 {% include components/java/jdk.md platform="macos" referenced=true %}
 
 {% include components/title.md heading="###" value="Java Home" %}
-{% include components/java/java-home.md platform="macos" referenced=true %}
+{% include components/java/home.md platform="macos" referenced=true %}
 
 <!-- Git -->
 {% include components/title.md heading="##" value="Git" %}

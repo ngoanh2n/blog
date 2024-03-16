@@ -33,7 +33,7 @@ title: Windows
 {% include components/java/jdk.md platform="windows" referenced=true %}
 
 {% include components/title.md heading="###" value="Java Home" %}
-{% include components/java/java-home.md platform="windows" referenced=true %}
+{% include components/java/home.md platform="windows" referenced=true %}
 
 <!-- Git -->
 {% include components/title.md heading="##" value="Git" %}

@@ -16,4 +16,4 @@ permalink: env/java
 {% include components/java/jdk.md %}
 
 {% include components/title.md heading="##" value="Java Home" %}
-{% include components/java/java-home.md %}
+{% include components/java/home.md %}
