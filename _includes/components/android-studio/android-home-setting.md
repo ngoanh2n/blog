@@ -22,9 +22,9 @@
 
 <!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
 {% if required == false %}
-    {% assign title = "🔲 Installation" %}
+    {% assign title = "🔲 Setting" %}
 {% else %}
-    {% assign title = "✅ Installation" %}
+    {% assign title = "✅ Setting" %}
 {% endif %}
 
 
@@ -39,7 +39,7 @@
 <!-- MACOS -->
 {% if platform == "macos" %}
 {: .note-title .text-epsilon }
-> ✅ Setting
+> {{ title }}
 >
 > By default, SDK location is `{{ sdk_location_macos }}`.<br>
 > Run the following commands in Terminal:
@@ -56,7 +56,7 @@
 <!-- WINDOWS -->
 {% if platform == "windows" %}
 {: .note-title .text-epsilon }
-> ✅ Setting
+> {{ title }}
 >
 > By default, SDK location is `{{ sdk_location_windows }}`.<br>
 > 1. Open `Command Prompt` with administrator
@@ -77,7 +77,7 @@
 <!-- ALL -->
 {% if platform == nil %}
 {: .note-title .text-epsilon }
-> ✅ Setting
+> {{ title }}
 >
 > {: .note-title .text-epsilon }
 >> 🔘 macOS
