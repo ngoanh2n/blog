@@ -14,16 +14,16 @@ permalink: env/android-studio
 
 <!-- IDE -->
 {% include components/title.md heading="##" value="IDE" %}
-{% include components/android-studio/ide-installation.md %}
+{% include components/android-studio/ide.md %}
 
 <!-- Environment -->
 {% include components/title.md heading="##" value="Environment" %}
-{% include components/android-studio/environment-installation.md %}
+{% include components/android-studio/sdk.md %}
 
 <!-- Components Download -->
 {% include components/title.md heading="##" value="Components" %}
-{% include components/android-studio/components-download.md %}
+{% include components/android-studio/sdk-missed.md %}
 
 <!-- Android Home -->
 {% include components/title.md heading="##" value="Android Home" %}
-{% include components/android-studio/android-home-setting.md %}
+{% include components/android-studio/home.md %}
