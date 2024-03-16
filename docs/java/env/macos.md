@@ -67,13 +67,13 @@ title: macOS
 {% include components/title.md heading="##" value="Android Studio" %}
 
 {% include components/title.md heading="###" value="IDE" %}
-{% include components/android-studio/ide-installation.md platform="macos" referenced=true %}
+{% include components/android-studio/ide.md platform="macos" referenced=true %}
 
 {% include components/title.md heading="###" value="SDK" %}
-{% include components/android-studio/environment-installation.md platform="macos" referenced=true %}
+{% include components/android-studio/sdk.md platform="macos" referenced=true %}
 
-{% include components/title.md heading="###" value="Android Home" anchor="android-home" %}
-{% include components/android-studio/android-home-setting.md platform="macos" referenced=true %}
+{% include components/title.md heading="###" value="Android Home" %}
+{% include components/android-studio/home.md platform="macos" referenced=true %}
 
 <!-- Appium -->
 {% include components/title.md heading="##" value="Appium" %}
