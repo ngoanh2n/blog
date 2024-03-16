@@ -2,17 +2,17 @@
 - Emoji Cheat Sheet: https://github.com/ikatyang/emoji-cheat-sheet
 
 # Platform Statement: IF
-<!-- MACOS -->
+<!-- macOS -->
 {% if platform == "macos" %}
 
 {% endif %}
 
-<!-- WINDOWS -->
+<!-- Windows -->
 {% if platform == "windows" %}
 
 {% endif %}
 
-<!-- ALL -->
+<!-- All -->
 {% if platform == nil %}
 
 {% endif %}
@@ -20,15 +20,15 @@
 # Platform Statement: IFELSE
 <!-- MACOS & WINDOWS -->
 {% if platform %}
-<!-- MACOS -->
+<!-- macOS -->
 {% if platform == "macos" %}
 
-<!-- WINDOWS -->
+<!-- Windows -->
 {% else %}
 
 {% endif %}
 
-<!-- ALL -->
+<!-- All -->
 {% else %}
 
 {% endif %}
