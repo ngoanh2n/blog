@@ -27,5 +27,5 @@ permalink: env/java
 {% include components/title.md level="###" value="JDK" anchor="windows-jdk" %}
 {% include components/java/jdk-windows.md %}
 
-{% include components/title.md level="###" value="Java Home" anchor="windows-home-windows" %}
+{% include components/title.md level="###" value="Java Home" anchor="windows-java-home" %}
 {% include components/java/home-windows.md %}
