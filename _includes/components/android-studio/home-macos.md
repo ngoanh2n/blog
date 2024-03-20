@@ -1,8 +1,8 @@
 <!-- LOCATION -->
-<!-- _includes/components/appium/ -->
+<!-- _includes/components/android-studio/ -->
 
 <!-- INCLUDE -->
-<!-- components/appium/server-installation.md -->
+<!-- components/android-studio/home-macos.md -->
 
 <!-- VARIABLES -->
 <!-- required:      [true, false], default to true -->
@@ -15,14 +15,15 @@
 
 
 <!-- ASSIGN CONSTANTS -->
-{% assign reference = "/env/appium#server" %}
+{% assign reference    = "/env/android-studio#android-home-macos" %}
+{% assign sdk_location = "/Users/{USER}/Library/Android/sdk" %}
 
 
 <!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
 {% if required == false %}
-    {% assign title = "🔲 Installation" %}
+    {% assign title = "🔲 Setting" %}
 {% else %}
-    {% assign title = "✅ Installation" %}
+    {% assign title = "✅ Setting" %}
 {% endif %}
 
 
@@ -37,13 +38,22 @@
 {: .note-title .text-epsilon }
 > {{ title }}
 >
+> By default, SDK location is `{{ sdk_location }}`.
 > ```shell
-> npm install appium --global
+> echo "export ANDROID_HOME={{ sdk_location }}" >> ~/.zshrc
+> echo "export PATH=\$PATH:\$ANDROID_HOME/platform-tools" >> ~/.zshrc
+> echo "export PATH=\$PATH:\$ANDROID_HOME/tools" >> ~/.zshrc
 > ```
+>
+> {: .warning }
+> Replace `{USER}` by your current username!
+>
+> <hr>{: .zone-hr }
 >
 > {: .note-title .text-epsilon }
 >> ℹ️ Validation
 >>
 >> ```shell
->> appium --version
+>> echo $ANDROID_HOME
+>> adb --version
 >> ```

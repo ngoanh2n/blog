@@ -52,26 +52,12 @@
 > {: .note-title .text-epsilon }
 >> 🔘 macOS
 >>
->> {: .note-title .text-epsilon }
->>> ℹ️ Node
->>>
->>> {{location_node_macos}}
->>
->> {: .note-title .text-epsilon }
->>> ℹ️ NPM
->>>
->>> {{location_npm_macos}}
+>> {{ location_node_macos }}<br>
+>> {{ location_npm_macos }}
 >
 > {: .note-title .text-epsilon }
 >> 🔘 Windows
 >>
->> {: .note-title .text-epsilon }
->>> ℹ️ Node
->>>
->>> {{location_node_windows}}
->>
->> {: .note-title .text-epsilon }
->>> ℹ️ NPM
->>>
->>> {{location_npm_windows}}
+>> {{ location_node_windows }}<br>
+>> {{ location_npm_windows }}
 {% endif %}

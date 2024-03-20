@@ -8,18 +8,9 @@
 <!-- MAIN CONTENT -->
 
 {: .note-title .text-epsilon }
-> ℹ️ Validation
+> 🔲 Validation
 >
-> {: .note-title .text-epsilon }
->> ℹ️ Node
->> 
->> ```shell
->> node --version
->> ```
->
-> {: .note-title .text-epsilon }
->> ℹ️ NPM
->> 
->> ```shell
->> npm --version
->> ```
+> ```shell
+> node --version
+> npm --version
+> ```

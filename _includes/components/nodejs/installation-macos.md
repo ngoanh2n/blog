@@ -1,8 +1,8 @@
 <!-- LOCATION -->
-<!-- _includes/components/homebrew/ -->
+<!-- _includes/components/nodejs/ -->
 
 <!-- INCLUDE -->
-<!-- components/homebrew/installation.md -->
+<!-- components/nodejs/installation-macos.md -->
 
 <!-- VARIABLES -->
 <!-- required:      [true, false], default to true -->
@@ -15,9 +15,10 @@
 
 
 <!-- ASSIGN CONSTANTS -->
-{% assign reference            = "/env/homebrew" %}
-{% assign command_installation = '/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"' %}
-{% assign command_validation   = 'brew --version' %}
+{% assign reference     = "/env/nodejs#macos" %}
+{% assign command       = "brew install node@20" %}
+{% assign download_link = "https://nodejs.org/en/download" %}
+{% assign download_file = "`node-v20.xx.x-xxx.msi`" %}
 
 
 <!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
@@ -36,18 +37,25 @@
 
 <!-- MAIN CONTENT -->
 
-{: .note-title .text-epsilon } 
+{: .note-title .text-epsilon }
 > {{ title }}
 >
 > ```shell
-> {{ command_installation }}
+> {{ command }}
 > ```
 >
 > <hr>{: .zone-hr }
 >
 > {: .note-title .text-epsilon }
+>> ℹ️ Location
+>> 
+>> `/usr/local/lib/node_modules`<br>
+>> `/usr/local/lib/node_modules/npm/node_modules`
+> 
+> {: .note-title .text-epsilon }
 >> 🔲 Validation
 >>
 >> ```shell
->> {{ command_validation }}
+>> node --version
+>> npm --version
 >> ```

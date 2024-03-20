@@ -1,8 +1,8 @@
 <!-- LOCATION -->
-<!-- _includes/components/homebrew/ -->
+<!-- _includes/components/java/ -->
 
 <!-- INCLUDE -->
-<!-- components/homebrew/installation.md -->
+<!-- components/java/jdk-windows.md -->
 
 <!-- VARIABLES -->
 <!-- required:      [true, false], default to true -->
@@ -15,9 +15,7 @@
 
 
 <!-- ASSIGN CONSTANTS -->
-{% assign reference            = "/env/homebrew" %}
-{% assign command_installation = '/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"' %}
-{% assign command_validation   = 'brew --version' %}
+{% assign reference = "/env/java#jdk-windows" %}
 
 
 <!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
@@ -39,15 +37,34 @@
 {: .note-title .text-epsilon } 
 > {{ title }}
 >
-> ```shell
-> {{ command_installation }}
-> ```
->
-> <hr>{: .zone-hr }
->
-> {: .note-title .text-epsilon }
->> 🔲 Validation
+> {: .note-title .text-epsilon } 
+>> 🔘 Temurin
+>>
+>> [https://adoptium.net](https://adoptium.net){:target="\_blank"}
 >>
 >> ```shell
->> {{ command_validation }}
+>> choco install temurin17
 >> ```
+>>
+>> <hr>{: .zone-hr }
+>>
+>> {: .note-title .text-epsilon }
+>>> ℹ️ JDK Location
+>>> 
+>>> `C:\Program Files\Eclipse Adoptium\jdk-17.X.X.X-hotspot`
+>
+> {: .note-title .text-epsilon }
+>> 🔘 Oracle
+>>
+>> [https://openjdk.org](https://openjdk.org){:target="\_blank"}
+>>
+>> ```shell
+>> choco install openjdk17
+>> ```
+>>
+>> <hr>{: .zone-hr }
+>>
+>> {: .note-title .text-epsilon }
+>>> ℹ️ JDK Location
+>>> 
+>>> `C:\Program Files\OpenJDK\jdk-17.X.X`

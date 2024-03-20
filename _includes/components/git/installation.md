@@ -18,8 +18,9 @@
 
 <!-- ASSIGN CONSTANTS -->
 {% assign reference     = "/env/git" %}
-{% assign command_brew  = "brew install git" %}
-{% assign command_choco = "choco install git -y" %}
+{% assign command_installation_macos  = "brew install git" %}
+{% assign command_installation_windows = "choco install git" %}
+{% assign command_validation   = "git --version" %}
 
 
 <!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
@@ -38,37 +39,72 @@
 
 <!-- MAIN CONTENT -->
 
-<!-- macOS & Windows -->
-{% if platform %}
-    {% if platform == "macos" %}
-        {% assign command =  command_brew %}
-    {% else %}
-        {% assign command =  command_choco %}
-    {% endif %}
 
-{: .note-title .text-epsilon }
+<!-- MACOS -->
+{% if platform == "macos" %}
+{: .note-title .text-epsilon } 
 > {{ title }}
 >
 > ```shell
-> {{ command }}
+> {{ command_installation_macos }}
 > ```
+>
+> <hr>{: .zone-hr }
+> 
+> {: .note-title .text-epsilon }
+>> 🔲 Validation
+>>
+>> ```shell
+>> {{ command_validation }}
+>> ```
+{% endif %}
 
-<!-- All -->
-{% else %}
-{: .note-title .text-epsilon }
+
+<!-- WINDOWS -->
+{% if platform == "windows" %}
+{: .note-title .text-epsilon } 
+> {{ title }}
+>
+> ```shell
+> {{ command_installation_windows }}
+> ```
+>
+> <hr>{: .zone-hr }
+> 
+> {: .note-title .text-epsilon }
+>> 🔲 Validation
+>>
+>> ```shell
+>> {{ command_validation }}
+>> ```
+{% endif %}
+
+
+<!-- PLATFORMS -->
+{% if platform == nil %}
+{: .note-title .text-epsilon } 
 > {{ title }}
 >
 > {: .note-title .text-epsilon }
 >> 🔘 macOS
 >> 
 >> ```shell
->> {{ command_brew }}
+>> {{ command_installation_macos }}
 >> ```
 >
 > {: .note-title .text-epsilon }
 >> 🔘 Windows
 >> 
 >> ```shell
->> {{ command_choco }}
+>> {{ command_installation_windows }}
+>> ```
+>
+> <hr>{: .zone-hr }
+> 
+> {: .note-title .text-epsilon }
+>> 🔲 Validation
+>>
+>> ```shell
+>> {{ command_validation }}
 >> ```
 {% endif %}

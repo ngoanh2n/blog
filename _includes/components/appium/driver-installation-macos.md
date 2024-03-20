@@ -20,10 +20,6 @@
 {% assign command_mac2            = "appium driver install mac2" %}
 {% assign command_xcuitest_doctor = "appium driver doctor xcuitest" %}
 {% assign command_mac2_doctor     = "appium driver doctor mac2" %}
-{% assign command_uiautomator2    = "appium driver install uiautomator2" %}
-{% assign command_windows         = "appium driver install --source=npm appium-windows-driver" %}
-{% assign command_uiautomator2    = "appium driver doctor uiautomator2" %}
-{% assign command_windows_doctor  = "appium driver doctor windows" %}
 {% assign link_ecosystem          = "https://appium.io/docs/en/latest/ecosystem/drivers" %}
 
 

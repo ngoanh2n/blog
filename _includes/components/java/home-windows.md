@@ -1,8 +1,8 @@
 <!-- LOCATION -->
-<!-- _includes/components/homebrew/ -->
+<!-- _includes/components/java/ -->
 
 <!-- INCLUDE -->
-<!-- components/homebrew/installation.md -->
+<!-- components/java/home-windows.md -->
 
 <!-- VARIABLES -->
 <!-- required:      [true, false], default to true -->
@@ -15,16 +15,14 @@
 
 
 <!-- ASSIGN CONSTANTS -->
-{% assign reference            = "/env/homebrew" %}
-{% assign command_installation = '/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"' %}
-{% assign command_validation   = 'brew --version' %}
+{% assign reference = "/env/java#java-home-windows" %}
 
 
 <!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
 {% if required == false %}
-    {% assign title = "🔲 Installation" %}
+    {% assign title = "🔲 Setting" %}
 {% else %}
-    {% assign title = "✅ Installation" %}
+    {% assign title = "✅ Setting" %}
 {% endif %}
 
 
@@ -36,11 +34,12 @@
 
 <!-- MAIN CONTENT -->
 
-{: .note-title .text-epsilon } 
+{: .note-title .text-epsilon }
 > {{ title }}
 >
 > ```shell
-> {{ command_installation }}
+> setx /m JAVA_HOME "{JDK_LOCATION}"
+> setx /m PATH "%PATH%;%JAVA_HOME%\bin"
 > ```
 >
 > <hr>{: .zone-hr }
@@ -49,5 +48,7 @@
 >> 🔲 Validation
 >>
 >> ```shell
->> {{ command_validation }}
+>> echo %JAVA_HOME%
+>> java --version
 >> ```
+

@@ -67,6 +67,7 @@
 > {: .note-title .text-epsilon }
 >> 🔘 Chocolatey
 >> 
+>> Open `Command Prompt` with administrator privileges.
 >> ```shell
 >> {{ command_choco }}
 >> ```
@@ -99,8 +100,10 @@
 >> {: .note-title .text-epsilon }
 >>> 🔘 Chocolatey
 >>> 
+>>> Open `Command Prompt` with administrator privileges.
 >>> ```shell
 >>> {{ command_choco }}
+>>> 
 >>> ```
 >>
 >> {: .note-title .text-epsilon }

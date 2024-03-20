@@ -5,25 +5,38 @@
 <!-- components/title.md -->
 
 <!-- VARIABLES -->
-<!-- heading:   {HEADING} | Example: ### -->
-<!-- value:     {VALUE} | Example: Appium -->
-<!-- anchor:    {VALUE} | Example: my-anchor -->
+<!-- level:  {VALUE} | Example: ### -->
+<!-- value:  {VALUE} | Example: Appium -->
+<!-- anchor: {VALUE} | Example: my-anchor -->
 
 
 <!-- READ VARIABLES -->
-{% assign heading = include.heading %}
-{% assign value   = include.value %}
-{% assign anchor  = include.anchor %}
+{% assign level  = include.level %}
+{% assign value  = include.value %}
+{% assign anchor = include.anchor %}
 
 
 <!-- MAIN CONTENT -->
 
-{% if anchor == nil %}
-{{ heading }} {{ value }}
+<!-- PASSED LEVEL,  -->
+{% if level != nil %}
+
+<!-- -- PASSED ANCHOR -->
+{% if anchor != nil %}
+{{ level }} {{ value }} {#{{ anchor }}}
+
+<!-- -- NOT PASSED ANCHOR -->
 {% else %}
-{{ heading }} {{ value }} {#{{ anchor }}}
+{{ level }} {{ value }}
 {% endif %}
 
-{% if heading == "#" or heading == "##" %}
+<!-- -- LEVEL="#" OR LEVEL="##" -->
+{% if level == "#" or level == "##" %}
+<hr>{: .head-hr }
+{% endif %}
+
+<!-- NOT PASSED LEVEL,  -->
+{% else %}
+<h1>{{ value }}</h1>
 <hr>{: .head-hr }
 {% endif %}
