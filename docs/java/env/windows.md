@@ -75,7 +75,7 @@ title: Windows
 {% include components/title.md level="##" value="Appium" %}
 
 {% include components/title.md level="###" value="Server" anchor="appium-server" %}
-{% include components/appium/server-installation.md referenced=true %}
+{% include components/appium/server-installation.md platform="windows" referenced=true %}
 
 {% include components/title.md level="###" value="Driver" anchor="appium-driver" %}
 {% include components/appium/driver-installation-windows.md referenced=true %}

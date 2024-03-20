@@ -79,7 +79,7 @@ title: macOS
 {% include components/title.md level="##" value="Appium" %}
 
 {% include components/title.md level="###" value="Server" anchor="appium-server" %}
-{% include components/appium/server-installation.md referenced=true %}
+{% include components/appium/server-installation.md platform="macos" referenced=true %}
 
 {% include components/title.md level="###" value="Driver" anchor="appium-driver" %}
 {% include components/appium/driver-installation-macos.md referenced=true %}
