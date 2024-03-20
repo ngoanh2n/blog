@@ -19,7 +19,9 @@
 <!-- ASSIGN CONSTANTS -->
 {% assign reference             = "/env/intellij-idea" %}
 {% assign download_link_macos   = "https://www.jetbrains.com/idea/download/?section=mac" %}
+{% assign file_download_macos   = "ideaIC-XXX.X.X.dmg" %}
 {% assign download_link_windows = "https://www.jetbrains.com/idea/download/?section=windows" %}
+{% assign file_download_windows = "ideaIC-XXX.X.X.exe" %}
 
 
 <!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
@@ -59,10 +61,29 @@
 > {: .note-title .text-epsilon }
 >> 🔘 macOS
 >> 
->> [{{ download_link_macos }}]({{ download_link_macos }}){:target="\_blank"}
+>> 1. Visit [{{ download_link_macos }}]({{ download_link_macos }}){:target="\_blank"}
+>> 2. Click `Download` at `IntelliJ IDEA Community Edition`
+>> 3. Open the `{{ file_download_macos }}` file in `Downloads`
+>> 4. Drag `IntelliJ IDEA CE` and drop to `Applications`
 >
 > {: .note-title .text-epsilon }
 >> 🔘 Windows
 >> 
->> [{{ download_link_windows }}]({{ download_link_windows }}){:target="\_blank"}
+>> {: .note-title .text-epsilon }
+>>> 🔘 Chocolatey
+>>>
+>>> ```shell
+>>> choco install intellijidea-community
+>>> ```
+>>>
+>>> {: .warning }
+>>> Open `Command Prompt` with administrator privileges
+>>
+>> {: .note-title .text-epsilon }
+>>> 🔘 Setup Wizard
+>>>
+>>> 1. Visit [{{ download_link_windows }}]({{ download_link_windows }}){:target="\_blank"}
+>>> 2. Click `Download` at `IntelliJ IDEA Community Edition`
+>>> 3. Open the `{{ file_download_windows }}` file in `Downloads`
+>>> 4. Do installation procedures of Setup Wizard
 {% endif %}
