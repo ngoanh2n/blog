@@ -17,6 +17,16 @@ h1, h2, h3, h4, h5, h6, #toctitle {
     border: 0;
 }
 
+.zone-hr {
+    height: 1px;
+    padding: 0;
+    margin: 0;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    background-color: $border-color;
+    border: 0;
+}
+
 ::-moz-selection {
     color: white;
     background: $purple-000;
