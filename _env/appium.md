@@ -15,19 +15,21 @@ permalink: env/appium
 <!-- Server -->
 {% include components/title.md level="##" value="Server" %}
 {% include components/appium/server-installation.md %}
-{% include components/appium/server-location.md %}
 
 <!-- Driver -->
 {% include components/title.md level="##" value="Driver" %}
 {% include components/appium/driver-intro.md %}
-{% include components/appium/driver-installation.md %}
+
+{% include components/title.md level="###" value="macOS" anchor="driver-macos" %}
+{% include components/appium/driver-installation-macos.md %}
+
+{% include components/title.md level="###" value="Windows" anchor="driver-windows" %}
+{% include components/appium/driver-installation-windows.md %}
 
 <!-- Plugin -->
 {% include components/title.md level="##" value="Plugin" %}
 {% include components/appium/plugin-intro.md %}
 {% include components/appium/plugin-installation.md %}
-{% include components/appium/plugin-validation.md %}
-{% include components/appium/plugin-location.md %}
 
 <!-- Inspector -->
 {% include components/title.md level="##" value="Inspector" %}

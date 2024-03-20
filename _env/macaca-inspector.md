@@ -12,5 +12,3 @@ permalink: env/macaca-inspector
 ---
 
 {% include components/macaca-inspector/installation.md %}
-{% include components/macaca-inspector/validation.md %}
-{% include components/macaca-inspector/location.md %}
