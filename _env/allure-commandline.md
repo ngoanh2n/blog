@@ -12,5 +12,3 @@ permalink: env/allure-commandline
 ---
 
 {% include components/allure-commandline/installation.md %}
-{% include components/allure-commandline/validation.md %}
-{% include components/allure-commandline/location.md %}

@@ -12,4 +12,3 @@ permalink: env/git
 ---
 
 {% include components/git/installation.md %}
-{% include components/git/validation.md %}

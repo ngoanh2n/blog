@@ -12,5 +12,3 @@ permalink: env/chocolatey
 ---
 
 {% include components/chocolatey/installation.md %}
-{% include components/chocolatey/validation.md %}
-{% include components/chocolatey/location.md %}

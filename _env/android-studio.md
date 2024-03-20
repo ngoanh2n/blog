@@ -13,17 +13,27 @@ permalink: env/android-studio
 ---
 
 <!-- IDE -->
-{% include components/title.md heading="##" value="IDE" %}
-{% include components/android-studio/ide.md %}
+{% include components/title.md level="##" value="IDE" %}
+
+{% include components/title.md level="###" value="macOS" anchor="ide-macos" %}
+{% include components/android-studio/ide-macos.md %}
+
+{% include components/title.md level="###" value="Windows" anchor="ide-windows" %}
+{% include components/android-studio/ide-windows.md %}
 
 <!-- SDK -->
-{% include components/title.md heading="##" value="SDK" %}
+{% include components/title.md level="##" value="SDK" %}
 {% include components/android-studio/sdk.md %}
 
 <!-- CMissed SDK -->
-{% include components/title.md heading="##" value="Missed SDK" %}
+{% include components/title.md level="##" value="Missed SDK" %}
 {% include components/android-studio/sdk-missed.md %}
 
 <!-- Android Home -->
-{% include components/title.md heading="##" value="Android Home" %}
-{% include components/android-studio/home.md %}
+{% include components/title.md level="##" value="Android Home" %}
+
+{% include components/title.md level="###" value="macOS" anchor="android-home-macos" %}
+{% include components/android-studio/home-macos.md %}
+
+{% include components/title.md level="###" value="Windows" anchor="android-home-windows" %}
+{% include components/android-studio/home-windows.md %}
