@@ -15,12 +15,14 @@
 
 
 <!-- ASSIGN CONSTANTS -->
-{% assign reference               = "/env/appium#driver-macos" %}
-{% assign command_xcuitest        = "appium driver install xcuitest" %}
-{% assign command_mac2            = "appium driver install mac2" %}
-{% assign command_xcuitest_doctor = "appium driver doctor xcuitest" %}
-{% assign command_mac2_doctor     = "appium driver doctor mac2" %}
-{% assign link_ecosystem          = "https://appium.io/docs/en/latest/ecosystem/drivers" %}
+{% assign reference                = "/env/appium#driver-macos" %}
+{% assign command_install_xcuitest = "appium driver install xcuitest" %}
+{% assign command_install_mac2     = "appium driver install mac2" %}
+{% assign command_doctor_xcuitest  = "appium driver doctor xcuitest" %}
+{% assign command_doctor_mac2      = "appium driver doctor mac2" %}
+{% assign location_xcuitest        = "/Users/{USER}/.appium/node_modules/appium-xcuitest-driver" %}
+{% assign location_mac2            = "/Users/{USER}/.appium/node_modules/appium-mac2-driver" %}
+{% assign link_ecosystem           = "https://appium.io/docs/en/latest/ecosystem/drivers" %}
 
 
 <!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
@@ -48,14 +50,14 @@
 >> ✅ iOS app
 >>
 >> ```shell
->> {{ command_xcuitest }}
+>> {{ command_install_xcuitest }}
 >> ```
 > 
 > {: .note-title .text-epsilon }
 >> ✅ macOS app
 >>
 >> ```shell
->> {{ command_mac2 }}
+>> {{ command_install_mac2 }}
 >> ```
 >
 > Or refer to the [Appium Ecosystem's Drivers]({{ link_ecosystem }}){:target="\_blank"} for installing appropriate drivers to your testing environment.
@@ -65,7 +67,6 @@
 > {: .note-title .text-epsilon }
 >> 🔲 Validation
 >>
->> List already installed drivers.
 >> ```shell
 >> appium driver list --installed
 >> ```
@@ -73,19 +74,13 @@
 > {: .note-title .text-epsilon }
 >> 🔲 Doctor
 >>
->> Attempts to diagnose and fix common Appium configuration issues.
 >> ```shell
->> {{ command_xcuitest_doctor }}
->> {{ command_mac2_doctor }}
+>> {{ command_doctor_xcuitest }}
+>> {{ command_doctor_mac2 }}
 >> ```
 >
 > {: .note-title .text-epsilon }
 >> ℹ️ Location
 >>
->> ```
->> /Users/{USER}/.appium/node_modules/appium-xcuitest-driver
->> /Users/{USER}/.appium/node_modules/appium-mac2-driver
->> ```
->>
->> {: .warning }
->> Replace `{USER}` by your current username!
+>> `{{ location_xcuitest }}`<br>
+>> `{{ location_mac2 }}`

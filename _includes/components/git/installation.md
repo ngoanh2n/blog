@@ -69,6 +69,9 @@
 > {{ command_installation_windows }}
 > ```
 >
+> {: .warning }
+> Open `Command Prompt` with administrator privileges
+>
 > <hr>{: .zone-hr }
 > 
 > {: .note-title .text-epsilon }
@@ -98,6 +101,9 @@
 >> ```shell
 >> {{ command_installation_windows }}
 >> ```
+>>
+>> {: .warning }
+>> Open `Command Prompt` with administrator privileges
 >
 > <hr>{: .zone-hr }
 > 

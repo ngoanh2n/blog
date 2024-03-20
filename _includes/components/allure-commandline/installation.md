@@ -18,7 +18,7 @@
 
 <!-- ASSIGN CONSTANTS -->
 {% assign reference            = "/env/allure-commandline" %}
-{% assign command_installation = "npm install allure-commandline --global" %}
+{% assign command_installation = "npm install --global allure-commandline" %}
 {% assign command_validation   = "allure --version" %}
 {% assign location_macos       = "`/usr/local/lib/node_modules/allure-commandline`" %}
 {% assign location_windows     = "`C:\Users\{USER}\AppData\Roaming\npm\node_modules\allure-commandline`" %}
@@ -39,7 +39,6 @@
 
 
 <!-- MAIN CONTENT -->
-
 
 <!-- MACOS -->
 {% if platform == "macos" %}

@@ -18,7 +18,7 @@
 {% assign command_installation            = "Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" %}
 {% assign command_allowGlobalConfirmation = "choco feature enable --name allowGlobalConfirmation" %}
 {% assign command_validation              = "choco --version" %}
-{% assign location                        = "`C:/ProgramData/chocolatey`" %}
+{% assign location                        = "`C:\ProgramData\chocolatey`" %}
 
 
 <!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
@@ -39,17 +39,21 @@
 
 {: .note-title .text-epsilon } 
 > {{ title }}
->
-> 1. Open `Windows PowerShell` with administrator privileges
-> 2. Run below command
+> 
 > ```shell
 > {{ command_installation }}
 > ```
-> 3. Prompt for confirmation in scripts or bypass
-> ```shell
-> {{ command_allowGlobalConfirmation }}
-> ```
 >
+> {: .note-title .text-epsilon }
+>> ✅ Allow Confirmation
+>>
+>> ```shell
+>> {{ command_allowGlobalConfirmation }}
+>> ```
+>
+> {: .warning}
+> Open `Windows PowerShell` with administrator privileges
+> 
 > <hr>{: .zone-hr }
 > 
 > {: .note-title .text-epsilon }

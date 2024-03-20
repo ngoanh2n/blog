@@ -46,6 +46,9 @@
 >> ```shell
 >> choco install androidstudio
 >> ```
+>>
+>> {: .warning }
+>> Open `Command Prompt` with administrator privileges
 >
 > {: .note-title .text-epsilon }
 >> 🔘 Setup Wizard

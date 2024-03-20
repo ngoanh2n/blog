@@ -38,25 +38,21 @@
 {: .note-title .text-epsilon }
 > {{ title }}
 >
-> By default, SDK location is `{{ sdk_location }}`.<br>
-> 1. Open `Command Prompt` with administrator privileges
-> 2. Run a command
-> 3. Close `Command Prompt`
->
-> Repeat the above process for each command in Command Prompt:
+> By default, SDK location is `{{ sdk_location }}`.
 > ```shell
-> setx /m ANDROID_HOME "{{ sdk_location }}"
-> setx /m PATH "%PATH%;%ANDROID_HOME%\platform-tools"
-> setx /m PATH "%PATH%;%ANDROID_HOME%\tools"
+> setx /m ANDROID_HOME "{{ sdk_location }}" & refreshenv
+> setx /m PATH "%PATH%;%ANDROID_HOME%\platform-tools" & refreshenv
+> setx /m PATH "%PATH%;%ANDROID_HOME%\tools" & refreshenv
 > ```
 >
 > {: .warning }
-> Replace `{USER}` by your current username!
+> ☑️ Open `Command Prompt` with administrator privileges<br>
+> ☑️ Replace `{USER}` by your current username!
 >
 > <hr>{: .zone-hr }
 > 
 > {: .note-title .text-epsilon }
->> ℹ️ Validation
+>> 🔲 Validation
 >>
 >> ```shell
 >> echo %ANDROID_HOME%

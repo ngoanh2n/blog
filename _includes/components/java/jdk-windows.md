@@ -38,33 +38,18 @@
 > {{ title }}
 >
 > {: .note-title .text-epsilon } 
->> 🔘 Temurin
->>
->> [https://adoptium.net](https://adoptium.net){:target="\_blank"}
+>> 🔘 [Temurin](https://adoptium.net){:target="\_blank"}
 >>
 >> ```shell
 >> choco install temurin17
 >> ```
->>
->> <hr>{: .zone-hr }
->>
->> {: .note-title .text-epsilon }
->>> ℹ️ JDK Location
->>> 
->>> `C:\Program Files\Eclipse Adoptium\jdk-17.X.X.X-hotspot`
 >
 > {: .note-title .text-epsilon }
->> 🔘 Oracle
->>
->> [https://openjdk.org](https://openjdk.org){:target="\_blank"}
+>> 🔘 [Oracle](https://openjdk.org){:target="\_blank"}
 >>
 >> ```shell
 >> choco install openjdk17
 >> ```
->>
->> <hr>{: .zone-hr }
->>
->> {: .note-title .text-epsilon }
->>> ℹ️ JDK Location
->>> 
->>> `C:\Program Files\OpenJDK\jdk-17.X.X`
+>
+> {: .warning }
+> Open `Command Prompt` with administrator privileges

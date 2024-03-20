@@ -51,7 +51,7 @@
 > <hr>{: .zone-hr }
 >
 > {: .note-title .text-epsilon }
->> ℹ️ Validation
+>> 🔲 Validation
 >>
 >> ```shell
 >> echo $ANDROID_HOME

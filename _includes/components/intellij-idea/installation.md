@@ -51,7 +51,7 @@
 >
 > [{{ download_link }}]({{ download_link }}){:target="\_blank"}
 
-<!-- All -->
+<!-- PLATFORMS -->
 {% else %}
 {: .note-title .text-epsilon }
 > {{ title }}

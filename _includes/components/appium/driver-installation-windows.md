@@ -16,12 +16,14 @@
 
 
 <!-- ASSIGN CONSTANTS -->
-{% assign reference              = "/env/appium#driver-windows" %}
-{% assign command_uiautomator2   = "appium driver install uiautomator2" %}
-{% assign command_windows        = "appium driver install --source=npm appium-windows-driver" %}
-{% assign command_uiautomator2   = "appium driver doctor uiautomator2" %}
-{% assign command_windows_doctor = "appium driver doctor windows" %}
-{% assign link_ecosystem         = "https://appium.io/docs/en/latest/ecosystem/drivers" %}
+{% assign reference                    = "/env/appium#driver-windows" %}
+{% assign command_install_uiautomator2 = "appium driver install uiautomator2" %}
+{% assign command_install_windows      = "appium driver install --source=npm appium-windows-driver" %}
+{% assign command_doctor_uiautomator2  = "appium driver doctor uiautomator2" %}
+{% assign command_doctor_windows       = "appium driver doctor windows" %}
+{% assign location_uiautomator2        = "C:/Users/{USER}/.appium/node_modules/appium-uiautomator2-driver" %}
+{% assign location_windows             = "C:/Users/{USER}/.appium/node_modules/appium-windows-driver" %}
+{% assign link_ecosystem               = "https://appium.io/docs/en/latest/ecosystem/drivers" %}
 
 
 <!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
@@ -49,14 +51,14 @@
 >> ✅ Android app
 >>
 >> ```shell
->> {{ command_uiautomator2 }}
+>> {{ command_install_uiautomator2 }}
 >> ```
 > 
 > {: .note-title .text-epsilon }
 >> ✅ Windows app
 >>
 >> ```shell
->> {{ command_windows }}
+>> {{ command_install_windows }}
 >> ```
 >
 > Or refer to the [Appium Ecosystem's Drivers]({{ link_ecosystem }}){:target="\_blank"} for installing appropriate drivers to your testing environment.
@@ -73,20 +75,13 @@
 > {: .note-title .text-epsilon }
 >> 🔲 Doctor
 >>
->> Attempts to diagnose and fix common Appium configuration issues.
->>
 >> ```shell
->> {{ command_uiautomator2 }}
->> {{ command_windows_doctor }}
+>> {{ command_doctor_uiautomator2 }}
+>> {{ command_doctor_windows }}
 >> ```
 >
 > {: .note-title .text-epsilon }
 >> ℹ️ Location
 >>
->> ```
->> C:/Users/{USER}/.appium/node_modules/appium-uiautomator2-driver
->> C:/Users/{USER}/.appium/node_modules/appium-windows-driver
->> ```
->>
->> {: .warning }
->> Replace `{USER}` by your current username!
+>> `{{ location_uiautomator2 }}`<br>
+>> `{{ location_windows }}`

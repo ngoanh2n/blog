@@ -57,16 +57,16 @@
 >>>
 >>> 1. Select `Show Package Details`
 >>> 2. Select the components as below:
->>>     - [x] `Android XX.X`
->>>         + [x] `Android SDK Platform XX`
->>>         + [x] `Sources for Android XX`
+>>>     - ☑️ `Android XX.X`
+>>>         + ☑️ `Android SDK Platform XX`
+>>>         + ☑️ `Sources for Android XX`
 >>
 >> {: .note-title .text-epsilon }
 >>> ✅ SDK Tools
 >>>
 >>> 1. Select `Show Package Details`
 >>> 2. Select the components as below:
->>>     - [x] `Android SDK Build-Tools XX`
->>>         + [x] `XX.0.0`
->>>     - [x] `Android Emulator`
->>>     - [x] `Android SDK Platform-Tools`
+>>>     - ☑️ `Android SDK Build-Tools XX`
+>>>         + ☑️ `XX.0.0`
+>>>     - ☑️ `Android Emulator`
+>>>     - ☑️ `Android SDK Platform-Tools`

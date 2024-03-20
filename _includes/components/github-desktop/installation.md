@@ -43,7 +43,7 @@
 <!-- macOS & Windows -->
 {% if platform %}
 
-<!-- macOS -->
+<!-- MACOS -->
 {% if platform == "macos" %}
 {: .note-title .text-epsilon }
 > {{ title }}
@@ -53,7 +53,7 @@
 > 3. Open the {{ download_file_macos }} file in `Downloads` folder
 > 4. After unzipped, move `GitHub Desktop` to `Applications` folder
 
-<!-- Windows -->
+<!-- WINDOWS -->
 {% else %}
 {: .note-title .text-epsilon }
 > {{ title }}
@@ -64,6 +64,9 @@
 >> ```shell
 >> {{ command_choco }}
 >> ```
+>>
+>> {: .warning }
+>> Open `Command Prompt` with administrator privileges
 >
 > {: .note-title .text-epsilon }
 >> 🔘 Setup Wizard
@@ -74,7 +77,7 @@
 >> 4. Do installation procedures of Setup Wizard
 {% endif %}
 
-<!-- All -->
+<!-- PLATFORMS -->
 {% else %}
 {: .note-title .text-epsilon }
 > {{ title }}
@@ -96,6 +99,9 @@
 >>> ```shell
 >>> {{ command_choco }}
 >>> ```
+>>>
+>>> {: .warning }
+>>> Open `Command Prompt` with administrator privileges
 >>
 >> {: .note-title .text-epsilon }
 >>> 🔘 Setup Wizard

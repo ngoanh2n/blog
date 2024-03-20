@@ -48,19 +48,6 @@
 >> {{ command }}
 >> ```
 >>
->> <hr>{: .zone-hr }
->> 
->> {: .note-title .text-epsilon }
->>> ℹ️ Location
->>> 
->>> `C:\Program Files\nodejs`<br>
->>> `C:\Program Files\nodejs\node_modules\npm`
->>>
->>> {: .note-title .text-epsilon }
->>>> NPM Packages
->>>>
->>>> `C:\{USER}\AppData\Roaming\npm`
->>
 >> {: .note-title .text-epsilon }
 >>> ✅ Path Setting
 >>>
@@ -68,9 +55,9 @@
 >>> setx /m PATH "%PATH%;C:\Program Files\nodejs" & refreshenv
 >>> setx /m PATH "%PATH%;C:\{USER}\AppData\Roaming\npm" & refreshenv
 >>> ```
->>
->> {: .warning }
->> Replace `{USER}` by your current username!
+>>>
+>>> {: .warning }
+>>> Replace `{USER}` by your current username!
 >
 > {: .note-title .text-epsilon }
 >> 🔘 Setup Wizard
@@ -89,3 +76,14 @@
 >> node --version
 >> npm --version
 >> ```
+>
+> {: .note-title .text-epsilon }
+>> ℹ️ Location
+>> 
+>> `C:\Program Files\nodejs`<br>
+>> `C:\Program Files\nodejs\node_modules\npm`
+>>
+>> {: .note-title .text-epsilon }
+>>> NPM Packages
+>>>
+>>> `C:\{USER}\AppData\Roaming\npm`

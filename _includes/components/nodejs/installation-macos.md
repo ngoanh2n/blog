@@ -45,12 +45,6 @@
 > ```
 >
 > <hr>{: .zone-hr }
->
-> {: .note-title .text-epsilon }
->> ℹ️ Location
->> 
->> `/usr/local/lib/node_modules`<br>
->> `/usr/local/lib/node_modules/npm/node_modules`
 > 
 > {: .note-title .text-epsilon }
 >> 🔲 Validation
@@ -59,3 +53,10 @@
 >> node --version
 >> npm --version
 >> ```
+>
+> {: .note-title .text-epsilon }
+>> ℹ️ Location
+>> 
+>> `/usr/local/lib/node_modules`<br>
+>> `/usr/local/lib/node_modules/npm/node_modules`
+

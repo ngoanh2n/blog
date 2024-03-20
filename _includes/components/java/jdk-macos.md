@@ -15,7 +15,7 @@
 
 
 <!-- ASSIGN CONSTANTS -->
-{% assign reference = "/env/java#jdk-macos" %}
+{% assign reference = "/env/java#macos-jdk" %}
 
 
 <!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
@@ -38,9 +38,7 @@
 > {{ title }}
 >
 > {: .note-title .text-epsilon } 
->> 🔘 Temurin
->>
->> [https://adoptium.net](https://adoptium.net){:target="\_blank"}<br>
+>> 🔘 [Temurin](https://adoptium.net){:target="\_blank"}
 >>
 >> {: .note-title .text-epsilon } 
 >>> ✅ Install Cask
@@ -57,9 +55,7 @@
 >>> ```
 >
 > {: .note-title .text-epsilon }
->> 🔘 Oracle
->>
->> [https://openjdk.org](https://openjdk.org){:target="\_blank"}
+>> 🔘 [Oracle](https://openjdk.org){:target="\_blank"}
 >>
 >> {: .note-title .text-epsilon } 
 >>> ✅ Install Specific Verion

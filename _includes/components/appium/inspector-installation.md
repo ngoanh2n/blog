@@ -41,7 +41,7 @@
 
 <!-- MAIN CONTENT -->
 
-<!-- macOS -->
+<!-- MACOS -->
 {% if platform == "macos" %}
 {: .note-title .text-epsilon }
 > {{ title }}
@@ -64,7 +64,7 @@
 >> [{{ link_inspector }}]({{ link_inspector }}){:target="\_blank"}
 {% endif %}
 
-<!-- Windows -->
+<!-- WINDOWS -->
 {% if platform == "windows" %}
 {: .note-title .text-epsilon }
 > {{ title }}
@@ -87,7 +87,7 @@
 >> [{{ link_inspector }}]({{ link_inspector }}){:target="\_blank"}
 {% endif %}
 
-<!-- All -->
+<!-- PLATFORMS -->
 {% if platform == nil %}
 {: .note-title .text-epsilon }
 > {{ title }}
