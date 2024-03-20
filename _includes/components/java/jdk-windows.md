@@ -15,7 +15,7 @@
 
 
 <!-- ASSIGN CONSTANTS -->
-{% assign reference = "/env/java#jdk-windows" %}
+{% assign reference = "/env/java#windows-jdk" %}
 
 
 <!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->

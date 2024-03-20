@@ -15,7 +15,7 @@
 
 
 <!-- ASSIGN CONSTANTS -->
-{% assign reference        = "/env/java#java-home-windows" %}
+{% assign reference        = "/env/java#windows-java-home" %}
 {% assign location_temurin = "C:\Program Files\Eclipse Adoptium\jdk-17.X.X.X-hotspot" %}
 {% assign location_oracle  = "C:\Program Files\OpenJDK\jdk-17.X.X" %}
 
