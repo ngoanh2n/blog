@@ -1,9 +1,0 @@
----
-layout: default
-nav_order: 4
-has_children: true
-title: CI/CD
----
-
-TODO: Note
-{: .fs-3 .fw-400 }

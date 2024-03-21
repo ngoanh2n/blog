@@ -6,15 +6,8 @@ parent: Environment
 title: macOS
 ---
 
-# Install Environment on macOS
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
+{% include components/title.md value="Install Environment on macOS" %}
+{% include components/toc.md %}
 {% include components/note.md %}
 
 ---
@@ -61,7 +54,15 @@ title: macOS
 
 <!-- Xcode -->
 {% include components/title.md level="##" value="Xcode" %}
-{% include components/xcode/installation.md platform="macos" required=false referenced=true %}
+
+{% include components/title.md level="###" value="IDE" anchor="xcode-ide" %}
+{% include components/xcode/ide.md %}
+
+{% include components/title.md level="###" value="SDK" anchor="xcode-sdk" %}
+{% include components/xcode/sdk.md %}
+
+{% include components/title.md level="###" value="Simulator" anchor="xcode-simulator" %}
+{% include components/xcode/simulator.md %}
 
 <!-- Android Studio -->
 {% include components/title.md level="##" value="Android Studio" %}
@@ -71,6 +72,9 @@ title: macOS
 
 {% include components/title.md level="###" value="SDK" anchor="android-sdk" %}
 {% include components/android-studio/sdk.md platform="macos" referenced=true %}
+
+{% include components/title.md level="###" value="Emulator" anchor="android-emulator" %}
+{% include components/android-studio/emulator.md referenced=true %}
 
 {% include components/title.md level="###" value="Android Home" anchor="android-home" %}
 {% include components/android-studio/home-macos.md  referenced=true %}

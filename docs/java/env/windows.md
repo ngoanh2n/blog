@@ -6,15 +6,8 @@ parent: Environment
 title: Windows
 ---
 
-# Install Environment on Windows
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
+{% include components/title.md value="Install Environment on Windows" %}
+{% include components/toc.md %}
 {% include components/note.md %}
 
 ---
@@ -67,6 +60,9 @@ title: Windows
 
 {% include components/title.md level="###" value="SDK" anchor="android-sdk" %}
 {% include components/android-studio/sdk.md platform="windows" referenced=true %}
+
+{% include components/title.md level="###" value="Emulator" anchor="android-emulator" %}
+{% include components/android-studio/emulator.md referenced=true %}
 
 {% include components/title.md level="###" value="Android Home" anchor="android-home" %}
 {% include components/android-studio/home-windows.md  referenced=true %}
