@@ -46,7 +46,7 @@
 > ```
 >
 > {: .warning }
-> Replace `{USER}` by your current username!
+> Replace `{USER}` by your current username
 >
 > <hr>{: .zone-hr }
 >

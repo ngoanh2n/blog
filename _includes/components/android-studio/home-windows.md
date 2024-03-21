@@ -47,7 +47,7 @@
 >
 > {: .warning }
 > ☑️ Open `Command Prompt` with administrator privileges<br>
-> ☑️ Replace `{USER}` by your current username!
+> ☑️ Replace `{USER}` by your current username
 >
 > <hr>{: .zone-hr }
 > 

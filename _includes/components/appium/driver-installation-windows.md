@@ -21,8 +21,8 @@
 {% assign command_install_windows      = "appium driver install --source=npm appium-windows-driver" %}
 {% assign command_doctor_uiautomator2  = "appium driver doctor uiautomator2" %}
 {% assign command_doctor_windows       = "appium driver doctor windows" %}
-{% assign location_uiautomator2        = "C:/Users/{USER}/.appium/node_modules/appium-uiautomator2-driver" %}
-{% assign location_windows             = "C:/Users/{USER}/.appium/node_modules/appium-windows-driver" %}
+{% assign location_uiautomator2        = "C:\Users\{USER}\.appium\node_modules\appium-uiautomator2-driver" %}
+{% assign location_windows             = "C:\Users\{USER}\.appium\node_modules\appium-windows-driver" %}
 {% assign link_ecosystem               = "https://appium.io/docs/en/latest/ecosystem/drivers" %}
 
 

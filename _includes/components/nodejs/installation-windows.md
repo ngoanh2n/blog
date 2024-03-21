@@ -43,7 +43,6 @@
 > {: .note-title .text-epsilon }
 >> 🔘 Chocolatey
 >>
->> Open `Command Prompt` (administrator privileges)
 >> ```shell
 >> {{ command }}
 >> ```
@@ -55,9 +54,10 @@
 >>> setx /m PATH "%PATH%;C:\Program Files\nodejs" & refreshenv
 >>> setx /m PATH "%PATH%;C:\{USER}\AppData\Roaming\npm" & refreshenv
 >>> ```
->>>
->>> {: .warning }
->>> Replace `{USER}` by your current username!
+>>
+>> {: .warning }
+>> ☑️ Open `Command Prompt` with administrator privileges<br>
+>> ☑️ Replace `{USER}` by your current username
 >
 > {: .note-title .text-epsilon }
 >> 🔘 Setup Wizard
