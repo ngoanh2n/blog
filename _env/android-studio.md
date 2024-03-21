@@ -25,9 +25,9 @@ permalink: env/android-studio
 {% include components/title.md level="##" value="SDK" %}
 {% include components/android-studio/sdk.md %}
 
-<!-- CMissed SDK -->
-{% include components/title.md level="##" value="Missed SDK" %}
-{% include components/android-studio/sdk-missed.md %}
+<!-- Emulator -->
+{% include components/title.md level="##" value="Emulator" %}
+{% include components/android-studio/emulator.md %}
 
 <!-- Android Home -->
 {% include components/title.md level="##" value="Android Home" %}

@@ -36,50 +36,56 @@
 
 {: .note-title .text-epsilon }
 > {{ title }}
-> 
-> {: .note-title .text-epsilon }
->> Prerequisites
->>
->> Open `Android Studio`
 >
 > {: .note-title .text-epsilon }
->> ✅ `Welcome` Window
+>> 🔘 Setup Wizard
+>> 
+>> {: .highlight }
+>> When opening for the first time after installed Android Studio.
 >>
->> Click `Next`
+>> 1. Open `Android Studio`
+>> 2. `Welcome` → `Next`
+>> 3. `Install Type` → `Next`
+>> 4. `SDK Components Setup` → `Next`
+>> 5. `Emulator Settings` → `Next`
+>> 6. `Installing Android Emulator hypervisor driver` → `Next`
+>> 7. `Verify Settings` → `Next`
+>> 8. `License Agreement` → `Accept` licenses → `Finish`
+>> 9. `Downloading Components` → `Finish`
 >
 > {: .note-title .text-epsilon }
->> ✅ `Install Type` Window
+>> 🔘 Download
+>> 
+>> {: .highlight }
+>> When missing Android SDK Components. That means, you have NOT installed environment yet as above.
 >>
->> 1. Select `Custom`
->> 2. Click `Next`
->
-> {: .note-title .text-epsilon }
->> ✅ `SDK Components Setup` Window
+>> {: .note-title .text-epsilon }
+>>> ✅ Prerequisites
+>>>
+>>> 1. Open `Android Studio`
+>>> 2. Navigate to `Settings` window by navigating: `Projects` > `More Actions` > `SDK Manager`
 >>
->> Click `Next`
->
-> {: .note-title .text-epsilon }
->> ✅ `Emulator Settings` Window
->>
->> Click `Next`
->
->{: .note-title .text-epsilon }
->> ✅ `Installing Android Emulator hypervisor driver` Window
->>
->> Click `Next`
->
-> {: .note-title .text-epsilon }
->> ✅ `Verify Settings` Window
->>
->> Click `Next`
->
-> {: .note-title .text-epsilon }
->> ✅ `License Agreement` Window
->>
->> 1. Select `Accept` for all licenses
->> 2. Click `Finish`
->
-> {: .note-title .text-epsilon }
->> ✅ `Downloading Components` Window
->>
->> Click `Finish`
+>> {: .note-title .text-epsilon }
+>>> ✅ Settings
+>>>
+>>> You are standing at `Settings` window: `Languages & Frameworks` > `Android SDK`<br>
+>>> And, select the checkboxes as below:
+>>>
+>>> {: .note-title .text-epsilon }
+>>>> ✅ SDK Platforms
+>>>>
+>>>> 1. Select `Show Package Details`
+>>>> 2. Select the components as below:
+>>>>     - ☑️ `Android XX.X`
+>>>>         + ☑️ `Android SDK Platform XX`
+>>>>         + ☑️ `Sources for Android XX`
+>>>
+>>> {: .note-title .text-epsilon }
+>>>> ✅ SDK Tools
+>>>>
+>>>> 1. Select `Show Package Details`
+>>>> 2. Select the components as below:
+>>>>     - ☑️ `Android SDK Build-Tools XX`
+>>>>         + ☑️ `XX.0.0`
+>>>>     - ☑️ `Android Emulator`
+>>>>     - ☑️ `Android SDK Platform-Tools`
