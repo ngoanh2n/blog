@@ -40,21 +40,43 @@
 
 <!-- MAIN CONTENT -->
 
-<!-- macOS & Windows -->
-{% if platform %}
-    {% if platform == "macos" %}
-        {% assign download_link =  download_link_macos %}
-    {% else %}
-        {% assign download_link =  download_link_windows %}
-    {% endif %}
-
-{: .note-title .text-epsilon } 
+<!-- MACOS -->
+{% if platform == "macos" %}
+{: .note-title .text-epsilon }
 > {{ title }}
 >
-> [{{ download_link }}]({{ download_link }}){:target="\_blank"}
+> 1. Visit [{{ download_link_macos }}]({{ download_link_macos }}){:target="\_blank"}
+> 2. Click `Download` at `IntelliJ IDEA Community Edition`
+> 3. Open the `{{ file_download_macos }}` file in `Downloads`
+> 4. Drag `IntelliJ IDEA CE` and drop to `Applications`
+{% endif %}
+
+<!-- WINDOWS -->
+{% if platform == "windows" %}
+{: .note-title .text-epsilon }
+> {{ title }}
+> 
+> {: .note-title .text-epsilon }
+>> 🔘 Chocolatey
+>>
+>> ```shell
+>> choco install intellijidea-community
+>> ```
+>>
+>> {: .warning }
+>> Open `Command Prompt` with administrator privileges
+>
+> {: .note-title .text-epsilon }
+>> 🔘 Setup Wizard
+>>
+>> 1. Visit [{{ download_link_windows }}]({{ download_link_windows }}){:target="\_blank"}
+>> 2. Click `Download` at `IntelliJ IDEA Community Edition`
+>> 3. Open the `{{ file_download_windows }}` file in `Downloads`
+>> 4. Do installation procedures of Setup Wizard
+{% endif %}
 
 <!-- PLATFORMS -->
-{% else %}
+{% if platform == nil %}
 {: .note-title .text-epsilon }
 > {{ title }}
 >
