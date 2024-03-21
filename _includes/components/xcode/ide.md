@@ -2,11 +2,10 @@
 <!-- _includes/components/xcode/ -->
 
 <!-- INCLUDE -->
-<!-- components/xcode/installation.md -->
+<!-- components/xcode/ide.md -->
 
 <!-- VARIABLES -->
 <!-- platform:      [macos, windows], default to ALL -->
-<!-- required:      [true, false], default to true -->
 <!-- referenced:    [true, false], default to false -->
 
 
@@ -17,6 +16,7 @@
 
 <!-- ASSIGN CONSTANTS -->
 {% assign reference = "/env/xcode" %}
+{% assign link_download = "https://xcodereleases.com/?scope=release" %}
 
 
 <!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
@@ -38,4 +38,15 @@
 {: .note-title .text-epsilon } 
 > {{ title }}
 >
-> TODO
+> {: .note-title .text-epsilon }
+>> ℹ️ Prerequisites
+>> - macOS machine with version 10.15.4 or upper
+>> - Minimum space requirement for Xcode download and installation
+>> - An Apple ID
+>> - Membership in the Apple Developer Program (For Real Devices)
+>
+>
+> 1. Visit [https://xcodereleases.com]({{ link_download }}){:target="\_blank"}
+> 2. Open `Xcode_XX.X.xip`
+> 3. Wait for expanding of Archive Utility
+> 4. Move `Xcode` to `Applications`
