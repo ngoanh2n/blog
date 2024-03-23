@@ -39,12 +39,12 @@
 > {{ title }}
 >
 > 1. Open `Xcode`
-> 2. Open `Settings`<br>
-> _Navigation route:_ `Xcode` > `Settings...`
-> 3. Switch to `Platforms` tab ![](../assets/xcode/simulator_01.png)
-> 4. Open simulator picker: _Add_ icon > `iOS...` ![](../assets/xcode/simulator_02.png)
-> 5. Select simulators > `Download & Install` ![](../assets/xcode/simulator_03.png)
-> 6. Open a siumlator
+> 2. Open `Platforms`<br>
+> _Navigation route:_ `Xcode` > `Settings...` > `Platforms` ![](../assets/xcode/simulator_01.png)
+> 3. Open simulator picker: _Add_ icon > `iOS...` ![](../assets/xcode/simulator_02.png)
+> 4. Select desired simulators > `Download & Install` ![](../assets/xcode/simulator_03.png)
+> 5. Open a siumlator
 > ```shell
 > opem -a simulator
 > ```
+> ![](../assets/xcode/simulator_04.png)

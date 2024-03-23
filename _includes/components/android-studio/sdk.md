@@ -44,14 +44,13 @@
 >> When opening for the first time after installed Android Studio.
 >>
 >> 1. Open `Android Studio`
->> 2. `Welcome` → `Next`
->> 3. `Install Type` → `Next`
->> 4. `SDK Components Setup` → `Next`
->> 5. `Emulator Settings` → `Next`
->> 6. `Installing Android Emulator hypervisor driver` → `Next`
->> 7. `Verify Settings` → `Next`
->> 8. `License Agreement` → `Accept` licenses → `Finish`
->> 9. `Downloading Components` → `Finish`
+>> 2. `Welcome` → `Next` ![](../assets/android-studio/sdk_wizard_01.png)
+>> 3. `Install Type` → `Next` ![](../assets/android-studio/sdk_wizard_02.png)
+>> 7. `Verify Settings` → `Next` ![](../assets/android-studio/sdk_wizard_03.png)
+>> 8. `License Agreement` → `Accept` licenses → `Finish` 
+![](../assets/android-studio/sdk_wizard_04.png) 
+![](../assets/android-studio/sdk_wizard_05.png)
+>> 9. `Downloading Components` → `Finish` ![](../assets/android-studio/sdk_wizard_06.png)
 >
 > {: .note-title .text-epsilon }
 >> 🔘 Download

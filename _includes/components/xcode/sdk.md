@@ -40,4 +40,7 @@
 >
 > 1. Open `Xcode`
 > 2. Select the platforms > `Download & Install` ![](../assets/xcode/sdk_01.png)
-> 3. Enter password to acquire admin privileges > `OK` ![](../assets/xcode/sdk_02.png)
+> 3. Enter password to acquire admin privileges > `OK`<br>
+> ![](../assets/xcode/sdk_02.png)
+> 4. Open `Locations`<br>
+> _Navigation route:_ `Xcode` > `Settings...` > `Locations` ![](../assets/xcode/sdk_03.png)
