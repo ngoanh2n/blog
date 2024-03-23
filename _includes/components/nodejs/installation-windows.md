@@ -64,7 +64,7 @@
 >>
 >> 1. Visit [{{ download_link }}]({{ download_link }}){:target="\_blank"}
 >> 2. Click `Windows Installer`
->> 3. Open the {{ download_file }} file in `Downloads`
+>> 3. Open the {{ download_file }} in `Downloads`
 >> 4. Do installation procedures of Setup Wizard
 >
 > <hr>{: .zone-hr }

@@ -37,9 +37,22 @@
 {: .note-title .text-epsilon }
 > {{ title }}
 >
-> 1. Open `Android Studio`
-> 2. Open `Device Manager` window<br>
-> By navigating: `More Actions` > `Virtual Device Manager`
-> 3. Click `Create Virtual Device` icon
-> 4. Choose device name → `Next`
-> TODO
+> {: .note-title .text-epsilon }
+>> ✅ Virtual Device Manager
+>> 
+>> 1. Open `Android Studio`
+>> 2. Open `Device Manager`<br>
+>> _Navigation route: `More Actions` > `Virtual Device Manager`_
+>> ![](../assets/android-studio/emulator_01.png)
+>
+> {: .note-title .text-epsilon }
+>> ✅ Virtual Device Configuration
+>> 
+>> 1. `Create Virtual Device` ![](../assets/android-studio/emulator_02.png)
+>> 2. Select Device > `Next` ![](../assets/android-studio/emulator_03.png)
+>> 3. Download System Image: Click _Download_ icon ![](../assets/android-studio/emulator_04.png)
+>> 4. Agree License: `Accept` > `Next` ![](../assets/android-studio/emulator_05.png)
+>> 5. Complete Requested Actions: `Finish` ![](../assets/android-studio/emulator_06.png)
+>> 6. Select System Image > `Next` ![](../assets/android-studio/emulator_07.png)
+>> 7. Verify Configuration > `Finish` ![](../assets/android-studio/emulator_08.png)
+>> 8. Verify Virtual Devices ![](../assets/android-studio/emulator_09.png)

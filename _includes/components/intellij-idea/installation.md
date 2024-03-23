@@ -47,8 +47,8 @@
 >
 > 1. Visit [{{ download_link_macos }}]({{ download_link_macos }}){:target="\_blank"}
 > 2. Click `Download` at `IntelliJ IDEA Community Edition`
-> 3. Open the `{{ file_download_macos }}` file in `Downloads`
-> 4. Drag `IntelliJ IDEA CE` and drop to `Applications`
+> 3. Open `{{ file_download_macos }}` in `Downloads`
+> 4. Drag `IntelliJ IDEA CE` to the `Applications`
 {% endif %}
 
 <!-- WINDOWS -->
@@ -70,8 +70,8 @@
 >> 🔘 Setup Wizard
 >>
 >> 1. Visit [{{ download_link_windows }}]({{ download_link_windows }}){:target="\_blank"}
->> 2. Click `Download` at `IntelliJ IDEA Community Edition`
->> 3. Open the `{{ file_download_windows }}` file in `Downloads`
+>> 2. Click `Download` at `IntelliJ IDEA Community Edition` section
+>> 3. Open `{{ file_download_windows }}` in `Downloads`
 >> 4. Do installation procedures of Setup Wizard
 {% endif %}
 
@@ -85,8 +85,8 @@
 >> 
 >> 1. Visit [{{ download_link_macos }}]({{ download_link_macos }}){:target="\_blank"}
 >> 2. Click `Download` at `IntelliJ IDEA Community Edition`
->> 3. Open the `{{ file_download_macos }}` file in `Downloads`
->> 4. Drag `IntelliJ IDEA CE` and drop to `Applications`
+>> 3. Open `{{ file_download_macos }}` in `Downloads`
+>> 4. Drag `IntelliJ IDEA CE` to the `Applications`
 >
 > {: .note-title .text-epsilon }
 >> 🔘 Windows
@@ -105,7 +105,7 @@
 >>> 🔘 Setup Wizard
 >>>
 >>> 1. Visit [{{ download_link_windows }}]({{ download_link_windows }}){:target="\_blank"}
->>> 2. Click `Download` at `IntelliJ IDEA Community Edition`
->>> 3. Open the `{{ file_download_windows }}` file in `Downloads`
+>>> 2. Click `Download` at `IntelliJ IDEA Community Edition` section
+>>> 3. Open `{{ file_download_windows }}` in `Downloads`
 >>> 4. Do installation procedures of Setup Wizard
 {% endif %}

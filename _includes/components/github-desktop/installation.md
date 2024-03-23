@@ -47,8 +47,8 @@
 >
 > 1. Visit [{{ download_link }}]({{ download_link }}){:target="\_blank"}
 > 2. Click `Download for macOS`
-> 3. Open the `{{ download_file_macos }}` file in `Downloads` folder
-> 4. After unzipped, move `GitHub Desktop` to `Applications` folder
+> 3. Open `{{ download_file_macos }}` in `Downloads`
+> 4. Move `GitHub Desktop` to the `Applications`
 {% endif %}
 
 <!-- WINDOWS -->
@@ -71,7 +71,7 @@
 >> 
 >> 1. Visit [{{ download_link }}]({{ download_link }}){:target="\_blank"}
 >> 2. Click `Download for Windows`
->> 3. Open the `{{ download_file_windows }}` file in `Downloads`
+>> 3. Open `{{ download_file_windows }}` in `Downloads`
 >> 4. Do installation procedures of Setup Wizard
 {% endif %}
 
@@ -85,8 +85,8 @@
 >> 
 >> 1. Visit [{{ download_link }}]({{ download_link }}){:target="\_blank"}
 >> 2. Click `Download for macOS`
->> 3. Open the `{{ download_file_macos }}` file in `Downloads` folder
->> 4. After unzipped, move `GitHub Desktop` to `Applications` folder
+>> 3. Open `{{ download_file_macos }}` in `Downloads`
+>> 4. Move `GitHub Desktop` to the `Applications`
 >
 > {: .note-title .text-epsilon }
 >> 🔘 Windows
@@ -106,6 +106,6 @@
 >>> 
 >>> 1. Visit [{{ download_link }}]({{ download_link }}){:target="\_blank"}
 >>> 2. Click `Download for Windows`
->>> 3. Open the `{{ download_file_windows }}` file in `Downloads`
+>>> 3. Open `{{ download_file_windows }}` in `Downloads`
 >>> 4. Do installation procedures of Setup Wizard
 {% endif %}

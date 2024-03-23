@@ -60,32 +60,30 @@
 >> When missing Android SDK Components. That means, you have NOT installed environment yet as above.
 >>
 >> {: .note-title .text-epsilon }
->>> ✅ Prerequisites
+>>> ✅ SDK Manager
 >>>
 >>> 1. Open `Android Studio`
->>> 2. Navigate to `Settings` window by navigating: `Projects` > `More Actions` > `SDK Manager`
+>>> 2. Open `Settings`<br>
+>>> _Navigation route: `More Actions` > `SDK Manager`_
 >>
 >> {: .note-title .text-epsilon }
 >>> ✅ Settings
 >>>
->>> You are standing at `Settings` window: `Languages & Frameworks` > `Android SDK`<br>
->>> And, select the checkboxes as below:
->>>
 >>> {: .note-title .text-epsilon }
 >>>> ✅ SDK Platforms
 >>>>
->>>> 1. Select `Show Package Details`
->>>> 2. Select the components as below:
->>>>     - ☑️ `Android XX.X`
->>>>         + ☑️ `Android SDK Platform XX`
->>>>         + ☑️ `Sources for Android XX`
+>>>> ☑️ `Show Package Details`<br>
+>>>> ☑️ `Android XX.X`<br>
+>>>> &nbsp;&nbsp;&nbsp; ☑️ `Android SDK Platform XX`<br>
+>>>> &nbsp;&nbsp;&nbsp; ☑️ `Sources for Android XX`
+>>> ![](../assets/android-studio/sdk_download_01.png)
 >>>
 >>> {: .note-title .text-epsilon }
 >>>> ✅ SDK Tools
 >>>>
->>>> 1. Select `Show Package Details`
->>>> 2. Select the components as below:
->>>>     - ☑️ `Android SDK Build-Tools XX`
->>>>         + ☑️ `XX.0.0`
->>>>     - ☑️ `Android Emulator`
->>>>     - ☑️ `Android SDK Platform-Tools`
+>>>> ☑️ `Show Package Details`<br>
+>>>> ☑️ `Android SDK Build-Tools XX`<br>
+>>>> &nbsp;&nbsp;&nbsp; ☑️ `XX.0.0`<br>
+>>>> ☑️ `Android Emulator`<br>
+>>>> ☑️ `Android SDK Platform-Tools`
+>>> ![](../assets/android-studio/sdk_download_02.png)

@@ -53,15 +53,14 @@
 >>
 >> 1. Visit [{{ link_download }}]({{ link_download }}){:target="\_blank"}
 >> 2. Click `{{ file_download_macos }}`
->> 3. Open the `{{ file_download_macos }}` file in `Downloads`
+>> 3. Open the `{{ file_download_macos }}` in `Downloads`
 >> 4. Drag `Appium Inspector` and drop to `Applications`
 > 
 > {: .note-title .text-epsilon } 
 >> 🔘 Web application
 >>
 >> Appium Inspector is hosted by [Appium Pro]({{ link_appiumpro }}){:target="\_blank"}.
->> You can inspect your app on this site directly.<br>
->> [{{ link_inspector }}]({{ link_inspector }}){:target="\_blank"}
+>> You can inspect your app on this site directly at [{{ link_inspector }}]({{ link_inspector }}){:target="\_blank"}.
 {% endif %}
 
 <!-- WINDOWS -->
@@ -76,15 +75,14 @@
 >>
 >> 1. Visit [{{ link_download }}]({{ link_download }}){:target="\_blank"}
 >> 2. Click `{{ file_download_windows }}`
->> 3. Open the `{{ file_download_windows }}` file in `Downloads`
+>> 3. Open `{{ file_download_windows }}` in `Downloads`
 >> 4. Do installation procedures of Setup Wizard
 > 
 > {: .note-title .text-epsilon } 
 >> 🔘 Web application
 >>
 >> Appium Inspector is hosted by [Appium Pro]({{ link_appiumpro }}){:target="\_blank"}.
->> You can inspect your app on this site directly.<br>
->> [{{ link_inspector }}]({{ link_inspector }}){:target="\_blank"}
+>> You can inspect your app on this site directly at [{{ link_inspector }}]({{ link_inspector }}){:target="\_blank"}.
 {% endif %}
 
 <!-- PLATFORMS -->
@@ -102,21 +100,20 @@
 >>>
 >>> 1. Visit [{{ link_download }}]({{ link_download }}){:target="\_blank"}
 >>> 2. Click `{{ file_download_macos }}`
->>> 3. Open the `{{ file_download_macos }}` file in `Downloads`
->>> 4. Drag `Appium Inspector` and drop to `Applications`
+>>> 3. Open `{{ file_download_macos }}` in `Downloads`
+>>> 4. Drag `Appium Inspector` to the `Applications`
 >>
 >> {: .note-title .text-epsilon }
 >>> 🔘 Windows
 >>>
 >>> 1. Visit [{{ link_download }}]({{ link_download }}){:target="\_blank"}
 >>> 2. Click `{{ file_download_windows }}`
->>> 3. Open the `{{ file_download_windows }}` file in `Downloads`
+>>> 3. Open `{{ file_download_windows }}` in `Downloads`
 >>> 4. Do installation procedures of Setup Wizard
 > 
 > {: .note-title .text-epsilon } 
 >> 🔘 Web application
 >>
 >> Appium Inspector is hosted by [Appium Pro]({{ link_appiumpro }}){:target="\_blank"}.
->> You can inspect your app on this site directly.<br>
->> [{{ link_inspector }}]({{ link_inspector }}){:target="\_blank"}
+>> You can inspect your app on this site directly at [{{ link_inspector }}]({{ link_inspector }}){:target="\_blank"}.
 {% endif %}

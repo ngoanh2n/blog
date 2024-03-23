@@ -15,7 +15,7 @@
 
 
 <!-- ASSIGN CONSTANTS -->
-{% assign reference = "/env/xcode" %}
+{% assign reference = "/env/xcode#sdk" %}
 {% assign link_download = "https://xcodereleases.com/?scope=release" %}
 
 
@@ -39,6 +39,5 @@
 > {{ title }}
 >
 > 1. Open `Xcode`
-> 2. Click `Download & Install`
-> 3. Enter password to acquire admin privileges
-> 4. Press `OK`
+> 2. Select the platforms > `Download & Install` ![](../assets/xcode/sdk_01.png)
+> 3. Enter password to acquire admin privileges > `OK` ![](../assets/xcode/sdk_02.png)

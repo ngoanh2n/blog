@@ -42,7 +42,7 @@
 >
 > 1. Visit [{{ link_download }}]({{ link_download }}){:target="\_blank"}
 > 2. Click `Download Android Studio Xxx`
-> 3. Check `I have read and agree with the above terms and conditions`
+> 3. Select `I have read and agree with the above terms and conditions`
 > 4. Click {{ download_option }}
-> 5. Open the {{ file_download }} file in `Downloads`
-> 6. Drag `Android Studio` and drop to `Applications`
+> 5. Open {{ file_download }} in `Downloads`
+> 6. Drag `Android Studio` to the `Applications`

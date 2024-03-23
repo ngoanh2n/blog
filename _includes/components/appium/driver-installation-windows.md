@@ -47,19 +47,14 @@
 >
 > Suppose I want to setup environment on `Windows` machine for testing `Android app` and `Windows app`.
 > 
-> {: .note-title .text-epsilon }
->> ✅ Android app
->>
->> ```shell
->> {{ command_install_uiautomator2 }}
->> ```
-> 
-> {: .note-title .text-epsilon }
->> ✅ Windows app
->>
->> ```shell
->> {{ command_install_windows }}
->> ```
+> 1. Android app
+> ```shell
+> {{ command_install_uiautomator2 }}
+> ```
+> 2. Windows app
+> ```shell
+> {{ command_install_windows }}
+> ```
 >
 > Or refer to the [Appium Ecosystem's Drivers]({{ link_ecosystem }}){:target="\_blank"} for installing appropriate drivers to your testing environment.
 >

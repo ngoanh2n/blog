@@ -15,7 +15,7 @@
 
 
 <!-- ASSIGN CONSTANTS -->
-{% assign reference = "/env/xcode" %}
+{% assign reference = "/env/xcode#simulator" %}
 {% assign link_download = "https://xcodereleases.com/?scope=release" %}
 
 
@@ -39,6 +39,12 @@
 > {{ title }}
 >
 > 1. Open `Xcode`
-> 2. `Xcode` > `Settings...`
-> 3. Tab `Platforms`
-> TODO
+> 2. Open `Settings`<br>
+> _Navigation route:_ `Xcode` > `Settings...`
+> 3. Switch to `Platforms` tab ![](../assets/xcode/simulator_01.png)
+> 4. Open simulator picker: _Add_ icon > `iOS...` ![](../assets/xcode/simulator_02.png)
+> 5. Select simulators > `Download & Install` ![](../assets/xcode/simulator_03.png)
+> 6. Open a siumlator
+> ```shell
+> opem -a simulator
+> ```

@@ -15,7 +15,7 @@
 
 
 <!-- ASSIGN CONSTANTS -->
-{% assign reference = "/env/xcode" %}
+{% assign reference = "/env/xcode#ide" %}
 {% assign link_download = "https://xcodereleases.com/?scope=release" %}
 
 
@@ -48,5 +48,4 @@
 >
 > 1. Visit [https://xcodereleases.com]({{ link_download }}){:target="\_blank"}
 > 2. Open `Xcode_XX.X.xip`
-> 3. Wait for expanding of Archive Utility
-> 4. Move `Xcode` to `Applications`
+> 3. Move `Xcode` to the `Applications`
