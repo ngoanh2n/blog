@@ -32,8 +32,8 @@ title: macOS
 {% include components/title.md level="##" value="Git" %}
 {% include components/git/installation.md platform="macos" referenced=true %}
 
-<!-- IntelliJ IDEA Community Edition -->
-{% include components/title.md level="##" value="IntelliJ IDEA Community Edition" anchor="intellij-idea" %}
+<!-- IntelliJ IDEA -->
+{% include components/title.md level="##" value="IntelliJ IDEA" anchor="intellij-idea" %}
 {% include components/intellij-idea/installation.md platform="macos" referenced=true %}
 
 <!-- NodeJS -->
@@ -56,13 +56,13 @@ title: macOS
 {% include components/title.md level="##" value="Xcode" %}
 
 {% include components/title.md level="###" value="IDE" anchor="xcode-ide" %}
-{% include components/xcode/ide.md %}
+{% include components/xcode/ide.md referenced=true %}
 
 {% include components/title.md level="###" value="SDK" anchor="xcode-sdk" %}
-{% include components/xcode/sdk.md %}
+{% include components/xcode/sdk.md referenced=true %}
 
 {% include components/title.md level="###" value="Simulator" anchor="xcode-simulator" %}
-{% include components/xcode/simulator.md %}
+{% include components/xcode/simulator.md referenced=true %}
 
 <!-- Android Studio -->
 {% include components/title.md level="##" value="Android Studio" %}

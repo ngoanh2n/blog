@@ -32,8 +32,8 @@ title: Windows
 {% include components/title.md level="##" value="Git" %}
 {% include components/git/installation.md platform="windows" referenced=true %}
 
-<!-- IntelliJ IDEA Community Edition -->
-{% include components/title.md level="##" value="IntelliJ IDEA Community Edition" anchor="intellij-idea" %}
+<!-- IntelliJ IDEA -->
+{% include components/title.md level="##" value="IntelliJ IDEA" anchor="intellij-idea" %}
 {% include components/intellij-idea/installation.md platform="windows" referenced=true %}
 
 <!-- NodeJS -->
