@@ -38,15 +38,27 @@
 {: .note-title .text-epsilon }
 > {{ title }}
 >
-> By default, SDK location is `{{ sdk_location }}`.
+> By default, SDK location is `{{ sdk_location }}`.<br>
+> The environment variables that need to be set in the following:
+> - `ANDROID_HOME`
+> - Tools:
+>   - Platform Tools: `adb`
+>   - Build Tools: `apksigner`
+>   - Command-Line Tools: `avdmanager`, `sdkmanager`, `apkanalyzer`
+>   - Emulator: `emulator`, `mksdcard`
+>
 > ```shell
 > echo "export ANDROID_HOME={{ sdk_location }}" >> ~/.zshrc
 > echo "export PATH=\$PATH:\$ANDROID_HOME/platform-tools" >> ~/.zshrc
-> echo "export PATH=\$PATH:\$ANDROID_HOME/tools" >> ~/.zshrc
+> echo "export PATH=\$PATH:\$ANDROID_HOME/build-tools/{API_LEVEL}" >> ~/.zshrc
+> echo "export PATH=\$PATH:\$ANDROID_HOME/cmdline-tools/{CMD_TOOLS_VERSION}" >> ~/.zshrc
+> echo "export PATH=\$PATH:\$ANDROID_HOME/emulator" >> ~/.zshrc
 > ```
 >
 > {: .warning }
-> Replace `{USER}` by your current username
+> ☑️ Replace `{USER}` by your current username<br>
+> ☑️ Replace `{API_LEVEL}` (E.g. `34.0.0`)<br>
+> ☑️ Replace `{CMD_TOOLS_VERSION}` (E.g. `13.0`)
 >
 > <hr>{: .zone-hr }
 >
@@ -54,6 +66,7 @@
 >> 🔲 Validation
 >>
 >> ```shell
+>> source ~/.zshrc
 >> echo $ANDROID_HOME
 >> adb --version
 >> ```
