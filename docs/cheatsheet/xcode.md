@@ -10,28 +10,41 @@ title: Xcode
 
 ---
 
-## Xcode Select
+## Xcode
+
+##### Check version
 
 {: .note-title .text-epsilon }
-> Check version of Xcode Select
+>
+> ```shell
+> xcodebuild -version
+> ```
+
+## Xcode Select
+
+##### Check version
+
+{: .note-title .text-epsilon }
 >
 > ```shell
 > xcode-select --version
 > ```
 
+##### Check selected directory
+
 {: .note-title .text-epsilon }
-> Check if Xcode is installed
 >
 > ```shell
 > xcode-select --print-path
 > ```
 
+##### Install Command Line Tools
+
 {: .note-title .text-epsilon }
-> Install Command Line Tools (CLT)
 >
 > 1. Open dialog for installation
 > ```shell
-> xcode-select --print-path
+> xcode-select --install
 > ```
 > 2. Click `Install`
 > 3. Click `Argree`
@@ -51,10 +64,35 @@ title: Xcode
 >>
 >> `/Library/Developer/CommandLineTools`
 
-## Simulator
+##### Switch Xcode
 
 {: .note-title .text-epsilon }
-> Open simulator
+>
+> ```shell
+> sudo xcode-select --switch {XCODE_PATH}
+> ```
+>
+> {: .warning}
+> Replace dessired `{XCODE_PATH}`<br>
+> E.g. `/Applications/Xcode_14.3.1.app`
+
+##### Switch Command Line Tools
+
+{: .note-title .text-epsilon }
+>
+> ```shell
+> sudo xcode-select --switch {DEVELOPER_DIRECTORY}
+> ```
+>
+> {: .warning}
+> Replace dessired `{DEVELOPER_DIRECTORY}`<br>
+> E.g. `/Library/Developer/CommandLineTools` or `/Applications/Xcode.app/Contents/Developer`
+
+## Simulator
+
+##### Open simulator
+
+{: .note-title .text-epsilon }
 >
 >```shell
 > open -a simulator

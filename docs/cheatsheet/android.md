@@ -13,26 +13,28 @@ title: Android
 ## ADB
 [`adb`](https://developer.android.com/tools/adb){:target="\_blank"}
 
+##### List attached devices
+
 {: .note-title .text-epsilon }
-> List attached devices
 >
 >```shell
 > adb devices
 >```
 
+##### Wait for booting device completed
+
 {: .note-title .text-epsilon }
-> Wait for booting device completed
 >
 >```shell
 > adb wait-for-device
 >```
 
-
 ## AVD Manager
 [`avdmanager`](https://developer.android.com/tools/avdmanager){:target="\_blank"}
 
+##### Create AVD
+
 {: .note-title .text-epsilon }
-> Create AVD
 >
 >```shell
 > SYSTEM_IMAGES="system-images;android-28;google_apis;x86"
@@ -43,15 +45,17 @@ title: Android
 ## Emulator
 [`emulator`](https://developer.android.com/studio/run/emulator-commandline){:target="\_blank"}
 
+##### List AVD names
+
 {: .note-title .text-epsilon }
-> List AVD names
 >
 >```shell
 > emulator -list-avds
 >```
 
+##### Launch AVD
+
 {: .note-title .text-epsilon }
-> Launch AVD
 >
 >```shell
 > emulator -avd {AVD_NAME}
