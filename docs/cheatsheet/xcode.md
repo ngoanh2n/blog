@@ -1,6 +1,6 @@
 ---
 layout: default
-nav_order: 1
+nav_order: 2
 parent: Cheatsheet
 title: Xcode
 ---
@@ -10,29 +10,28 @@ title: Xcode
 
 ---
 
-### Check Version Of Xcode Select
+## Xcode Select
 
 {: .note-title .text-epsilon }
+> Check version of Xcode Select
 >
 > ```shell
 > xcode-select --version
 > ```
 
-### Check If Xcode Is Installed
-
 {: .note-title .text-epsilon }
+> Check if Xcode is installed
 >
 > ```shell
 > xcode-select --print-path
 > ```
 
-### Install Command Line Tools (CLT)
-
-{: .note-title .text-epsilon } 
+{: .note-title .text-epsilon }
+> Install Command Line Tools (CLT)
 >
-> 1. Open dialog for installation of the command line developer tools
+> 1. Open dialog for installation
 > ```shell
-> xcode-select --install
+> xcode-select --print-path
 > ```
 > 2. Click `Install`
 > 3. Click `Argree`
@@ -51,3 +50,13 @@ title: Xcode
 >> ℹ️ Location
 >>
 >> `/Library/Developer/CommandLineTools`
+
+## Simulator
+
+{: .note-title .text-epsilon }
+> Open simulator
+>
+>```shell
+> open -a simulator
+>```
+> ![](../../../assets/xcode/simulator_04.png)
