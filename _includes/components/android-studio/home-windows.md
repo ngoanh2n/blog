@@ -51,7 +51,7 @@
 > setx /m ANDROID_HOME "{{ sdk_location }}" & refreshenv
 > setx /m PATH "%PATH%;%ANDROID_HOME%\platform-tools" & refreshenv
 > setx /m PATH "%PATH%;%ANDROID_HOME%\build-tools\{API_LEVEL}" & refreshenv
-> setx /m PATH "%PATH%;%ANDROID_HOME%\cmdline-tools\{CMD_TOOLS_VERSION}" & refreshenv
+> setx /m PATH "%PATH%;%ANDROID_HOME%\cmdline-tools\{CMD_TOOLS_VERSION}\bin" & refreshenv
 > setx /m PATH "%PATH%;%ANDROID_HOME%\emulator" & refreshenv
 > ```
 >

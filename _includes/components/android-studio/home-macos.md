@@ -51,7 +51,7 @@
 > echo "export ANDROID_HOME={{ sdk_location }}" >> ~/.zshrc
 > echo "export PATH=\$PATH:\$ANDROID_HOME/platform-tools" >> ~/.zshrc
 > echo "export PATH=\$PATH:\$ANDROID_HOME/build-tools/{API_LEVEL}" >> ~/.zshrc
-> echo "export PATH=\$PATH:\$ANDROID_HOME/cmdline-tools/{CMD_TOOLS_VERSION}" >> ~/.zshrc
+> echo "export PATH=\$PATH:\$ANDROID_HOME/cmdline-tools/{CMD_TOOLS_VERSION}/bin" >> ~/.zshrc
 > echo "export PATH=\$PATH:\$ANDROID_HOME/emulator" >> ~/.zshrc
 > ```
 >
