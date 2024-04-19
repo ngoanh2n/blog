@@ -4,27 +4,15 @@ $purple-200: #662e7d;
 $purple-300: #56176f;
 $link-color: $purple-300;
 
-h1, h2, h3, h4, h5, h6, #toctitle {
+// Override
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+#toctitle {
     font-weight: 350 !important;
-}
-
-.head-hr {
-    height: 1px;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 1rem;
-    background-color: $border-color;
-    border: 0;
-}
-
-.zone-hr {
-    height: 1px;
-    padding: 0;
-    margin: 0;
-    margin-top: 0.75rem;
-    margin-bottom: 0.75rem;
-    background-color: $border-color;
-    border: 0;
 }
 
 ::-moz-selection {
@@ -68,10 +56,52 @@ h1, h2, h3, h4, h5, h6, #toctitle {
 .post_time {
     color: #6f6f6f;
     font-size: 0.7rem;
-    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Segoe UI',
-        'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 
+    'Roboto', 'Segoe UI', 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
 }
 
 .highlighter-rouge {
     margin-bottom: 0 !important;
+}
+
+// Add New
+.head-hr {
+    height: 1px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1rem;
+    background-color: $border-color;
+    border: 0;
+}
+
+.zone-hr {
+    height: 1px;
+    padding: 0;
+    margin: 0;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    background-color: $border-color;
+    border: 0;
+}
+
+blockquote.content {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+p.content,
+blockquote.content {
+    background: rgba(136, 92, 154, 0.2);
+    border-left: 4px solid $purple-300;
+    border-radius: 4px;
+    padding: 0.8rem;
+}
+
+blockquote.content > p:first-child {
+    margin-top: 0;
+    margin-bottom: 0.2rem;
+}
+
+blockquote.content > p:last-child {
+    margin-bottom: 0;
 }
