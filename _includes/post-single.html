@@ -10,13 +10,13 @@
             <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
         </h3>
 
-        <p class="post_time">
+        <p class="post-time">
             <i class="far fa-clock" aria-hidden="true"></i>
             {% include post-time.html %}
         </p>
 
         {% if post.excerpt %}
-            <p style="font-size: 0.8rem;">{{ post.excerpt | markdownify | strip_html | truncate: 200 }}</p>
+            <p class="post-excerpt">{{ post.excerpt | markdownify | strip_html | truncate: 300 }}</p>
         {% endif %}
     </article>
 </div>
