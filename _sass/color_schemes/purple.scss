@@ -53,11 +53,16 @@ h6,
     line-height: 1.8rem;
 }
 
-.post_time {
+.post-time {
     color: #6f6f6f;
     font-size: 0.7rem;
     font-family: -apple-system, BlinkMacSystemFont, 
     'Roboto', 'Segoe UI', 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
+}
+
+.post-excerpt {
+    text-align: justify;
+    font-size: 0.875rem;
 }
 
 .highlighter-rouge {
