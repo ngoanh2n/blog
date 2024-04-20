@@ -3,6 +3,7 @@ layout: default
 published: true
 title: Build a CI/CD workflow with GitHub Actions
 permalink: posts/build-workflow-with-github-actions
+excerpt: "This post introduces how to build a CI/CD workflow for automation testing project that makes the tests run on multiple browsers corresponding to platforms. Such as: `Safari` and `Edge` on `macOS`, `Chrome` and `Firefox` on `Windows`."
 ---
 
 {% include components/title.md value="Build a CI/CD workflow with GitHub Actions" %}
@@ -311,3 +312,9 @@ _Now you can modify somewhere in your project, and push it to repository_.
 {: .content .text-epsilon }
 > ![](../assets/posts/2021-01-01-job-details-steps.png)
 > ![](../assets/posts/2021-01-01-job-details-junit-report.png)
+
+## Recapitulation
+
+{: .content .text-epsilon }
+> Here is full workflow which you can refer or reuse! <br>
+> [ngoanh2n/selenide-junit5-allure-example/.github/workflows/example.yml](https://github.com/ngoanh2n/selenide-junit5-allure-example/blob/master/.github/workflows/example.yml){:target="\_blank"}
