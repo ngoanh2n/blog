@@ -84,11 +84,6 @@ h6,
     border: 0;
 }
 
-blockquote.content {
-    margin-left: 0;
-    margin-right: 0;
-}
-
 p.content,
 blockquote.content {
     background: rgba(136, 92, 154, 0.2);
@@ -97,11 +92,20 @@ blockquote.content {
     padding: 0.8rem;
 }
 
+blockquote.content {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 blockquote.content > p:first-child {
     margin-top: 0;
     margin-bottom: 0.2rem;
 }
 
 blockquote.content > p:last-child {
+    margin-bottom: 0;
+}
+
+blockquote > ol {
     margin-bottom: 0;
 }
