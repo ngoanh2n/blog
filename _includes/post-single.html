@@ -16,7 +16,7 @@
         </p>
 
         {% if post.excerpt %}
-            <p>{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>
+            <p style="font-size: 0.8rem;">{{ post.excerpt | markdownify | strip_html | truncate: 200 }}</p>
         {% endif %}
     </article>
 </div>
