@@ -45,8 +45,8 @@
 > ```
 >
 > {: .warning }
-> ☑️ Open `Command Prompt` with administrator privileges<br>
-> ☑️ Replace `{LOCATION}` by your installation directory
+> ☑ Open `Command Prompt` with administrator privileges<br>
+> ☑ Replace `{LOCATION}` by your installation directory
 >
 > <hr>{: .zone-hr }
 >

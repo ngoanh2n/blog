@@ -56,9 +56,9 @@
 > ```
 >
 > {: .warning }
-> ☑️ Replace `{USER}` by your current username<br>
-> ☑️ Replace `{API_LEVEL}` (E.g. `34.0.0`)<br>
-> ☑️ Replace `{CMD_TOOLS_VERSION}` (E.g. `13.0`)
+> ☑ Replace `{USER}` by your current username<br>
+> ☑ Replace `{API_LEVEL}` (E.g. `34.0.0`)<br>
+> ☑ Replace `{CMD_TOOLS_VERSION}` (E.g. `13.0`)
 >
 > <hr>{: .zone-hr }
 >

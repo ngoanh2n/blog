@@ -56,8 +56,8 @@
 >>> ```
 >>
 >> {: .warning }
->> ☑️ Open `Command Prompt` with administrator privileges<br>
->> ☑️ Replace `{USER}` by your current username
+>> ☑ Open `Command Prompt` with administrator privileges<br>
+>> ☑ Replace `{USER}` by your current username
 >
 > {: .note-title .text-epsilon }
 >> 🔘 Setup Wizard

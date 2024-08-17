@@ -71,18 +71,18 @@
 >>> {: .note-title .text-epsilon }
 >>>> ✅ SDK Platforms
 >>>>
->>>> ☑️ `Show Package Details`<br>
->>>> ☑️ `Android XX.X`<br>
->>>> &nbsp;&nbsp;&nbsp; ☑️ `Android SDK Platform XX`<br>
->>>> &nbsp;&nbsp;&nbsp; ☑️ `Sources for Android XX`
+>>>> ☑ `Show Package Details`<br>
+>>>> ☑ `Android XX.X`<br>
+>>>> &nbsp;&nbsp;&nbsp; ☑ `Android SDK Platform XX`<br>
+>>>> &nbsp;&nbsp;&nbsp; ☑ `Sources for Android XX`
 >>> ![](../assets/android-studio/sdk_download_01.png)
 >>>
 >>> {: .note-title .text-epsilon }
 >>>> ✅ SDK Tools
 >>>>
->>>> ☑️ `Show Package Details`<br>
->>>> ☑️ `Android SDK Build-Tools XX`<br>
->>>> &nbsp;&nbsp;&nbsp; ☑️ `XX.0.0`<br>
->>>> ☑️ `Android Emulator`<br>
->>>> ☑️ `Android SDK Platform-Tools`
+>>>> ☑ `Show Package Details`<br>
+>>>> ☑ `Android SDK Build-Tools XX`<br>
+>>>> &nbsp;&nbsp;&nbsp; ☑ `XX.0.0`<br>
+>>>> ☑ `Android Emulator`<br>
+>>>> ☑ `Android SDK Platform-Tools`
 >>> ![](../assets/android-studio/sdk_download_02.png)
