@@ -16,6 +16,8 @@
 
 <!-- ASSIGN CONSTANTS -->
 {% assign reference = "/env/java#macos-java-home" %}
+{% assign location_temurin  = "/Library/Java/JavaVirtualMachines/temurin-XX.jdk" %}
+{% assign location_corretto = "/Library/Java/JavaVirtualMachines/amazon-corretto-XX.jdk" %}
 
 
 <!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
@@ -60,3 +62,16 @@
 >> echo $JAVA_HOME
 >> java --version
 >> ```
+>
+> {: .note-title .text-epsilon }
+>> ℹ️ Location
+>>
+>> {: .note-title .text-epsilon } 
+>>> 🔘 Eclipse Temurin
+>>>
+>>> `{{ location_temurin }}`
+>>
+>> {: .note-title .text-epsilon } 
+>>> 🔘 Amazon Corretto
+>>>
+>>> `{{ location_corretto }}`

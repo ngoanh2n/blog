@@ -38,17 +38,17 @@
 > {{ title }}
 >
 > {: .note-title .text-epsilon } 
->> 🔘 [Temurin](https://adoptium.net){:target="\_blank"}
+>> 🔘 [Eclipse Temurin](https://adoptium.net){:target="\_blank"}
 >>
 >> ```shell
->> choco install temurin17
+>> choco install temurin21
 >> ```
 >
 > {: .note-title .text-epsilon }
->> 🔘 [Oracle](https://openjdk.org){:target="\_blank"}
+>> 🔘 [Amazon Corretto](https://aws.amazon.com/corretto){:target="\_blank"}
 >>
 >> ```shell
->> choco install openjdk17
+>> choco install corretto21jdk
 >> ```
 >
 > {: .warning }

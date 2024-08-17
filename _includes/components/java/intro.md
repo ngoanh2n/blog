@@ -13,4 +13,4 @@
 > {: .note-title .text-epsilon }
 >> LTS: 8, 11, 17, 21
 >> 
->> For example, I install Java `17`!
+>> For example, I install Java `21`!

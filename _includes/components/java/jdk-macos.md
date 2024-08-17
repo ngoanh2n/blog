@@ -38,35 +38,15 @@
 > {{ title }}
 >
 > {: .note-title .text-epsilon } 
->> 🔘 [Temurin](https://adoptium.net){:target="\_blank"}
+>> 🔘 [Eclipse Temurin](https://adoptium.net){:target="\_blank"}
 >>
->> {: .note-title .text-epsilon } 
->>> ✅ Install Cask
->>>
->>> ```shell
->>> brew tap homebrew/cask-versions
->>> ```
->>
->> {: .note-title .text-epsilon } 
->>> ✅ Install Specific Verion
->>>
->>> ```shell
->>> brew install --cask temurin17
->>> ```
+>> ```shell
+>> brew install --cask temurin21
+>> ```
 >
 > {: .note-title .text-epsilon }
->> 🔘 [Oracle](https://openjdk.org){:target="\_blank"}
+>> 🔘 [Amazon Corretto](https://aws.amazon.com/corretto){:target="\_blank"}
 >>
->> {: .note-title .text-epsilon } 
->>> ✅ Install Specific Verion
->>>
->>> ```shell
->>> brew install openjdk@17
->>> ```
->>
->> {: .note-title .text-epsilon } 
->>> ✅ Symlink For Finding JDK
->>>
->>> ```shell
->>> sudo ln -sfn /usr/local/opt/openjdk@17/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-17.jdk
->>> ```
+>> ```shell
+>> brew install --cask corretto21
+>> ```

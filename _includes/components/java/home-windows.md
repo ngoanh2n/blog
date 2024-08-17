@@ -16,8 +16,8 @@
 
 <!-- ASSIGN CONSTANTS -->
 {% assign reference        = "/env/java#windows-java-home" %}
-{% assign location_temurin = "C:\Program Files\Eclipse Adoptium\jdk-17.X.X.X-hotspot" %}
-{% assign location_oracle  = "C:\Program Files\OpenJDK\jdk-17.X.X" %}
+{% assign location_temurin = "C:\Program Files\Eclipse Adoptium\jdk-XX-hotspot" %}
+{% assign location_corretto  = "C:\Program Files\Amazon Corretto\jdkXX" %}
 
 
 <!-- DECIDE TO DISPLAY THE NECESSITY OF THE INSTALLATION -->
@@ -40,13 +40,13 @@
 > {{ title }}
 >
 > ```shell
-> setx /m JAVA_HOME "{JDK_LOCATION}" & refreshenv
+> setx /m JAVA_HOME "{LOCATION}" & refreshenv
 > setx /m PATH "%PATH%;%JAVA_HOME%\bin" & refreshenv
 > ```
 >
 > {: .warning }
 > ☑️ Open `Command Prompt` with administrator privileges<br>
-> ☑️ Replace `{JDK_LOCATION}` by your installation directory
+> ☑️ Replace `{LOCATION}` by your installation directory
 >
 > <hr>{: .zone-hr }
 >
@@ -59,14 +59,14 @@
 >> ```
 >
 > {: .note-title .text-epsilon }
->> ℹ️ JDK Location
+>> ℹ️ Location
 >>
 >> {: .note-title .text-epsilon } 
->>> 🔘 Temurin
+>>> 🔘 Eclipse Temurin
 >>>
 >>> `{{ location_temurin }}`
 >>
 >> {: .note-title .text-epsilon } 
->>> 🔘 Oracle
+>>> 🔘 Amazon Corretto
 >>>
->>> `{{ location_oracle }}`
+>>> `{{ location_corretto }}`
