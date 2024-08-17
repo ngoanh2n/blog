@@ -5,9 +5,7 @@
 <!-- components/note.md -->
 
 
-{: .note-title .text-zeta }
-> Notes
-> 
+{: .content .text-zeta }
 > 🔲 → Optional<br>
 > ✅ → Required<br>
 > 🔘 → Pick One<br>
